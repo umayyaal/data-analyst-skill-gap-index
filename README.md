@@ -1,235 +1,256 @@
-# Data Analyst Skill Gap Index
+# 📊 Data Analyst Skill Gap Index — Python + SQL + Power BI
 
-Analyzing live job postings across India, US, and UK to answer: 
-**"What do employers actually want from a Data Analyst — and what does it pay?"**
+## 📖 Project Overview
 
-## Tech Stack
-- **Python** — data collection (API), cleaning, skill extraction (regex-based), EDA
-- **SQL (SQLite)** — normalized relational schema, analytical queries
-- **Power BI** — interactive two-page dashboard with custom DAX measures
+This project analyzes live "Data Analyst" job postings pulled directly from the 
+Adzuna Jobs API across three markets — India, the United States, and the United 
+Kingdom — to answer a question every job seeker actually has: **what do employers 
+really want, and what does it pay?**
 
-## Data Source
-Live job postings pulled from the **Adzuna Jobs API** (developer.adzuna.com), 
-covering India (`in`), United States (`us`), and United Kingdom (`gb`), searched 
-with the query "data analyst". 450 postings collected (150 per country, 3 pages × 
-50 results/page per country — an equal sample size by collection design, not a 
-reflection of real-world market share).
+Rather than starting from a pre-cleaned Kaggle dataset, this project begins with a 
+live API pull of raw, unstructured job posting data (nested JSON, nulls, truncated 
+descriptions, mixed currencies) and builds a complete pipeline from there — 
+extraction, regex-based skill parsing, a normalized SQLite schema, SQL analysis, 
+Python EDA (including a caught-and-corrected currency methodology error), and a 
+two-page interactive Power BI dashboard built on custom DAX measures.
 
-## Pipeline Overview
-1. **Extraction** (`scripts/fetch_jobs.py`) — pulls job postings via Adzuna API, 
-   saves raw JSON per country/page to `data/raw/`
-2. **Cleaning + Skill Extraction** (`scripts/clean_data.py`) — flattens nested JSON 
-   into a tabular structure, extracts mentioned skills (SQL, Python, Power BI, etc.) 
-   from job titles/descriptions via regex pattern matching, saves to 
-   `data/processed/jobs_clean.csv`
-3. **Database Load** (`scripts/load_to_db.py`) — loads cleaned data into a normalized 
-   SQLite database (`db/jobs.db`) with two tables:
-   - `jobs` — one row per job posting (450 rows)
-   - `job_skills` — one row per (job, skill) pair, normalized for easy skill-level 
-     querying (275 rows)
-4. **SQL Analysis** (`notebooks/01_sql_queries.ipynb`) — analytical queries: skill 
-   demand ranking (aggregation/GROUP BY), salary by skill and country (JOINs), 
-   top skill per country (CTEs + window functions/DENSE_RANK)
-5. **Python EDA** (`notebooks/02_eda.ipynb`) — missingness analysis, distribution 
-   analysis, currency normalization, skill co-occurrence analysis
-6. **Power BI Dashboard** — two-page interactive report with custom DAX measures, 
-   built on data exported from the Python EDA stage
+Throughout the project, particular emphasis was placed on **not trusting a number 
+until its sample size was checked** — a habit that surfaced several real, 
+counterintuitive findings, most of them tracing back to structural differences in 
+how India's job market data is reported compared to the US and UK.
 
-## Key Findings
+**Project Scale**
+- 450 live job postings collected (150 per country)
+- 3 countries: India, United States, United Kingdom
+- 17 tracked skills, extracted via regex from titles/descriptions
+- 2-page interactive Power BI dashboard with 5 custom DAX measures
 
-### Skill Demand
-- **SQL is the most in-demand skill overall** (66 mentions across all postings), 
-  ahead of Power BI (44), Python (35), Excel (33), Tableau (26), Statistics (22).
-- **By country's top skill:** SQL leads in India (38 postings) and United States 
-  (21 postings); **Power BI leads in United Kingdom** (11 postings) — a genuine 
-  cross-country difference.
-- Only **~26% of postings (117/450)** had at least one skill detected via regex — 
-  see Data Limitations for why.
+## 📑 Table of Contents
+- [Project Overview](#-project-overview)
+- [Dashboard Preview](#-dashboard-preview)
+- [Project Story](#-project-story)
+- [Key Findings](#-key-findings)
+- [Architecture](#️-architecture)
+- [Tech Stack](#️-tech-stack)
+- [Repository Structure](#-repository-structure)
+- [Notable Problems Solved](#-notable-problems-solved)
+- [Data Limitations](#️-data-limitations)
+- [About](#-about)
 
-### Salary by Skill — Interpretation Caveats
-- Skill-wise average salary must always be interpreted **alongside its posting 
-  count**, never alone — a skill mentioned in only 1-2 postings produces an 
-  "average" that's really just that single posting's salary, not a reliable 
-  market signal (e.g., India's Azure: ₹700,000 avg but only 1 posting).
-- Skill-wise average salary is **correlational, not causal/attributive**: since most 
-  postings require multiple skills simultaneously, one job's full salary contributes 
-  to the average of *every* skill it lists (confirmed via SQL JOIN behavior — a 
-  job's salary "fans out" to all its listed skills). A high average for a skill may 
-  reflect co-occurrence with other high-paying skills, not its individual value.
+## 📊 Dashboard Preview
 
-### Missing Salary Data — Root Cause Analysis
-- **~24% of all postings (109/450)** are missing salary data entirely.
-- This missingness is **not random and not category-driven** — it's a **country-level 
-  pattern, specifically concentrated in India**:
-  - India: **72.7% of postings** missing salary
-  - United States: **0% missing**
-  - United Kingdom: **0% missing**
-- Initial category-level analysis appeared to implicate "IT Jobs" (25.2% missing), 
-  since IT Jobs is the dominant category across all countries (401/450 postings). 
-  A combined `country + category` breakdown revealed this was a **confound**: 
-  India's IT postings are 71.6% missing (141 postings), while UK's IT postings are 
-  0% missing (127 postings) — same category, opposite outcome, entirely explained 
-  by country, not category.
-- **Interpretation:** likely reflects real-world hiring norms — Indian job platforms/
-  employers appear to disclose salary far less consistently than US/UK ones.
-- **Implication:** India-based salary analysis operates on a much smaller effective 
-  sample (~27%, 41/150 postings) than its full posting count suggests. This is 
-  called out directly on the Power BI dashboard, not just in this document.
+This report was built and tested in Power BI Desktop. Due to a Power BI sign-in/
+licensing issue encountered during this project, I wasn't able to publish it live 
+to the Power BI Service — the screenshots below show both report pages, and the 
+full interactive `.pbix` file is included in this repo 
+(`dashboard/dashboard.pbix`) and can be opened for free in Power BI Desktop.
 
-### Posting Date Range — A Third India-Specific Pattern
-- Investigation while building the dashboard's date-context header revealed that 
-  **India's postings span a much wider historical range (2019–2026)**, while **US 
-  and UK postings are tightly clustered around recent dates only**.
-- This is a third distinct India-specific data characteristic (alongside missing 
-  salary and general data standardization), reinforcing that Adzuna's India index 
-  behaves structurally differently from its US/UK indices — likely regional 
-  differences in how job platforms manage/expire listings, not a pipeline flaw.
-- **Implication:** India and US/UK postings are not fully "apples to apples" in 
-  recency; India's dataset mixes years of potentially stale listings with current 
-  ones, while US/UK reflect a narrow, current snapshot.
+**Page 1 — Overview**
+![Overview page](dashboard/screenshots/01_overview.png)
 
-### Currency Normalization — A Methodology Correction
-- Initial cross-country salary comparisons used raw local-currency values 
-  (INR/GBP/USD) directly, which visually made India appear to have the highest 
-  salaries — this was **misleading**, purely an artifact of currency magnitude 
-  (₹1 ≠ $1), not real pay differences.
-- **Fix:** converted all salaries to USD using documented, dated snapshot exchange 
-  rates (INR→USD: 0.0105, GBP→USD: 1.3610, as of Aug 20, 2026 mid-market rates). 
-  Static rates, explicitly noted as a simplification — not live-converted.
-- **Corrected finding:** once normalized, **United States shows the highest typical 
-  salary range, United Kingdom is meaningfully lower, and India is the lowest** — 
-  the opposite impression from the uncorrected view.
-- Even after normalization, real magnitude differences between countries required 
-  a **log scale** in the Python boxplot to keep all three countries visible without 
-  one collapsing — India's real-dollar spread is genuinely much smaller than US/UK's.
+**Page 2 — Skills & Salary Deep Dive**
+![Skills & Salary](dashboard/screenshots/02_skills_salary.png)
 
-### Skill Co-occurrence
-- SQL, Python, Power BI, Excel, and Tableau form a **tightly interconnected core 
-  cluster** — each pairs strongly with the others (e.g., SQL↔Python: 30 co-
-  occurrences, Power BI↔SQL: 28, Power BI↔Excel: 22) — the modern Data Analyst 
-  toolkit isn't isolated skills, it's a bundle.
-- Rarer skills (Azure, SAS, Looker, Big Query, Machine Learning) show low 
-  co-occurrence counts with everything — but per the sample-size principle applied 
-  throughout this project, these counts are too small (often 1-6) to be trusted as 
-  real patterns rather than coincidence.
+## 🧭 Project Story
 
-### Skill Demand vs. Salary (the "reliability" lens)
-- **SQL, Power BI, and Python** are the most reliably in-demand skills (35-66 
-  postings each), with average USD-normalized pay roughly $65K-77K.
-- **Excel** is similarly high-demand (33 postings) but shows notably lower average 
-  pay (~$52K) than the other three core skills.
-- **Tableau and Statistics** show moderate, still-reasonably-reliable demand 
-  (22-26 postings), with pay in the low-to-mid $60Ks.
-- **ETL** stands out with unusually high average pay (~$100K+) despite modest 
-  demand (15 postings) — an interesting signal, but not statistically confirmed 
-  given the smaller sample size.
-- The remaining skills (AWS, Alteryx, Machine Learning, Looker, Azure, Spark, 
-  Big Query, R) each appear in only a handful of postings (roughly 2-6) — their 
-  salary figures are not reliable market signals.
-- All skill-based findings are limited by the ~26% skill-detection coverage rate 
-  due to truncated job descriptions.
+The dashboard is built around one central question, unpacked across two pages:
 
-## Known Data Limitations
-- **Skill detection coverage: ~26%** of postings had at least one skill detected 
-  via regex. The remaining ~74% likely have truncated descriptions from the API. 
-  Not corrected via scraping (out of scope / respects API terms of service).
-- **Salary currency is not live-converted** — a static, dated exchange-rate snapshot 
-  is used (see Currency Normalization above).
-- **"Data Analyst" search results skew heavily toward "IT Jobs"** (401/450, ~89%) 
-  across all three countries — category is not a useful analytical dimension here; 
-  country and skill are the meaningful axes.
-- **India's salary statistics rest on a smaller effective sample** (~27%) than its 
-  raw posting count suggests, due to the 72.7% missing-salary rate.
-- **India's postings span a much wider date range (2019-2026)** than US/UK's 
-  recent-only postings — see Posting Date Range above.
-- **Missing salary values are intentionally preserved (not imputed) throughout 
-  Python EDA** — pandas' native NaN-exclusion in aggregations is relied upon, 
-  rather than fabricating estimated values. Handling for dashboard display was 
-  deferred to and addressed at the Power BI stage (explicit "27% coverage" callout).
+> **"What do employers actually want from a Data Analyst — and what does it pay?"**
 
-## SQL Highlights (`notebooks/01_sql_queries.ipynb`)
-- Skill demand ranking via `GROUP BY` + `COUNT`
-- Salary by skill and country via `INNER JOIN` + `GROUP BY`
-- Top skill per country via **CTE + `DENSE_RANK() OVER (PARTITION BY ... ORDER BY ...)`**
+- **Overview** — Which skills are most in demand, right now, across which markets?
+- **Skills & Salary Deep Dive** — Which skills travel together, what do they 
+  actually pay once currencies are normalized fairly, and how reliable is any of 
+  this given real gaps in the underlying data?
 
-## Power BI Dashboard
+## 🔑 Key Findings
 
-### Design Approach
-- Dark, neutral-charcoal custom theme (JSON-based) built around the project's 
-  Python color palette (`#2A9D8F`, `#E9C46A`, `#856576`, `#264653`) for visual 
-  consistency with the EDA charts.
-- Data model: `jobs` and `jobs_skills` tables connected via a one-to-many 
-  relationship on `job_id` (cross-filter direction set to "Both" to support 
-  bidirectional filtering needed for skill-level aggregation).
-- Data exported from Python (`jobs.csv`, `jobs_skills.csv`); DAX handles all 
-  in-dashboard calculations (deliberate choice, for hands-on DAX practice).
+- **SQL is the most in-demand skill overall** (66 mentions), ahead of Power BI (44), 
+  Python (35), Excel (33), Tableau (26), and Statistics (22) — and it's also the 
+  top skill in both India and the US individually. **Power BI leads instead in the 
+  UK** — a genuine cross-country difference, not noise.
+- **SQL, Python, Power BI, Excel, and Tableau form a tightly interconnected core 
+  skill cluster** (e.g., SQL↔Python co-occur in 30 postings, Power BI↔SQL in 28) — 
+  the modern Data Analyst toolkit is a bundle, not a checklist of isolated skills.
+- **A naive cross-country salary comparison was actively misleading.** Comparing 
+  raw local-currency salaries made India *appear* highest-paying — purely a 
+  currency-magnitude artifact (₹1 ≠ $1), not a real pattern. After converting to 
+  USD, the corrected picture reverses: **US > UK > India**.
+- **~73% of India's job postings are missing salary data entirely**, versus 0% for 
+  the US and UK. Initial analysis wrongly implicated the "IT Jobs" category as the 
+  cause — a `country + category` breakdown revealed this was a confound: it's a 
+  country-level pattern (likely reflecting real regional disclosure norms), not a 
+  category effect. India's salary statistics rest on a much smaller effective 
+  sample (41 of 150 postings) as a result — surfaced directly on the dashboard, 
+  not buried in a footnote.
+- **Skill-wise average salary must always be read alongside its posting count.** A 
+  skill mentioned in 1–2 postings (e.g., India's Azure) can show an inflated 
+  average purely by chance — the dashboard's demand-vs-salary scatter chart makes 
+  this distinction visible at a glance rather than letting a misleading number 
+  stand alone.
 
-### Page 1 — Overview
-- Header with title, subtitle, and data-extraction date
-- Country slicer (India / UK / US) — filters all visuals on the page
-- KPI cards: Total Job Postings, Top Skill (dynamic DAX measure), Countries Covered, 
-  Count of Skills Tracked
-- **Most In-Demand Skills** — horizontal bar chart
-- **Skill Demand vs. Salary** — scatter chart pairing demand (count) against average 
-  pay, solving the "small sample size looks impressive" trap directly in-dashboard
-- **Job Listing Distribution by Country** — donut chart, captioned to clarify equal 
-  sample size is by design, not organic market share
-- **Top 10 Companies by DA Job Listings** — bar chart
+*(Full findings and caveats for every insight are documented inline in this README 
+and in the notebooks themselves.)*
 
-### Page 2 — Skills & Salary Deep Dive
-- **Skill Co-occurrence Heatmap** — Matrix visual with conditional background-color 
-  formatting; diagonal (self-pairs) masked via DAX `IF()` check
-- **Salary Ranges Across Markets (USD-Normalized)** — table with Min/Q1/Median/Q3/Max 
-  per country, computed via `PERCENTILE.INC()` DAX measures, cross-validated against 
-  Python's `.describe()` output (values matched exactly)
-- **Average Salary by Country (USD)** — bar chart with data labels (to keep India's 
-  real-dollar value readable despite its visually small bar)
-- **Salary Data Coverage callout** — explicit "27% / 41 of 150" note on India's 
-  effective salary sample size
+## 🏗️ Architecture
 
-### Debugging Notes (real issues encountered and resolved)
-1. **Relationship cross-filter direction bug** — per-skill average salary initially 
-   showed an identical value for every skill; traced to the relationship's cross-
-   filter direction being set to "Single" instead of "Both," which prevented 
-   filtering `jobs` based on `jobs_skills[skill]`. Verified via a standalone 
-   unfiltered Card comparison before applying the fix.
-2. **DAX context transition** — a `SkillCount` column computed inside `ADDCOLUMNS` 
-   returned the same (unfiltered) total for every row until wrapped in `CALCULATE()`, 
-   which performs the row-context-to-filter-context conversion DAX requires.
-3. **`SUMMARIZE` reliability trap** — building an aggregate column inline within 
-   `SUMMARIZE` produced unreliable results when later sorted by `TOPN`; fixed by 
-   separating into `SUMMARIZE` (grouping only) + `ADDCOLUMNS` (aggregation) as two 
-   distinct steps.
-4. **Quotes vs. brackets in DAX** — a `TOPN` sort argument referencing `"SkillCount"` 
-   (a literal string) instead of `[SkillCount]` (a column reference) caused every 
-   row to tie for "top," returning all 17 rows instead of 1.
-5. **Calculated table vs. measure** — a Card visual initially pointed to a 
-   calculated table (`TopSkillTable`), which is computed once at refresh and does 
-   **not** respond to slicer filtering. Switching the Card to reference the 
-   equivalent DAX **measure** (which recalculates per filter context) restored 
-   correct slicer interactivity.
+```text
+Adzuna Jobs API (live, per country)
+│
+▼
+Python — requests + regex-based skill extraction
+│
+▼
+SQLite (db/jobs.db)
+├── jobs table
+│   └── One row per posting (450 rows)
+│
+└── job_skills table
+    └── One row per job–skill pair (normalized, 275 rows)
+│
+▼
+Python EDA
+├── Missingness analysis
+├── Currency normalization
+├── Skill co-occurrence
+└── Distribution analysis
+│
+▼
+Power BI Desktop
+├── jobs ↔ job_skills relationship
+│   └── 1:many, bidirectional cross-filter
+│
+├── DAX measures
+│   ├── CALCULATE
+│   ├── MAXX / TOPN
+│   ├── PERCENTILE.INC
+│   └── Context transition
+│
+└── 2-page interactive report
+```
 
-### Access Note
-This dashboard was built and is fully functional in Power BI Desktop, including 
-interactive slicers, dynamic DAX measures, and cross-filtering across two pages. 
-Due to a Power BI sign-in/licensing issue encountered during this project, it was 
-not possible to publish the report to Power BI Service for a live shareable link.
 
-To view/interact with the dashboard:
-- **Screenshots**: see `dashboard/screenshots/` for full-page captures of both 
-  report pages
-- **Live file**: the complete `.pbix` file is included at 
-  `dashboard/skill_gap_dashboard.pbix` — open in Power BI Desktop (free) to 
-  interact with slicers, drill into visuals, and inspect the DAX measures directly
+**Why SQL and Python do the heavy lifting, not Power BI:** cleaning, skill 
+extraction, and currency normalization all happen before the data reaches Power 
+BI. Power BI's role is deliberately scoped to relational modeling, DAX-driven 
+aggregation, and visualization/storytelling — mirroring how this kind of pipeline 
+is typically split in practice.
 
-## Progress Log
-- [x] Step 1: Project setup, API credentials
-- [x] Step 2: Data collection pipeline
-- [x] Step 3: Cleaning, skill extraction, SQLite load
-- [x] Step 4: SQL analytical queries
-- [x] Step 5: Python EDA (missingness, distributions, currency normalization, 
-      co-occurrence)
-- [x] Step 6: Power BI dashboard (2 pages, custom theme, DAX measures)
-- [ ] Step 7: Statistical hypothesis testing (deferred — e.g., does Python 
-      requirement significantly affect salary, controlling for country)
-- [ ] Step 8: Final packaging (screenshots, GitHub README polish, resume bullets)
+## 🛠️ Tech Stack
+
+- **Data source:** Adzuna Jobs API (live, free-tier)
+- **Collection & cleaning:** Python (`requests`, `pandas`, `re`)
+- **Database:** SQLite
+- **Analysis:** Python (`pandas`, `matplotlib`, `seaborn`), SQL
+- **BI/Visualization:** Power BI Desktop (custom DAX, custom JSON theme)
+- **SQL concepts demonstrated:** `GROUP BY` + aggregation, `INNER JOIN`, CTEs, 
+  window functions (`DENSE_RANK() OVER (PARTITION BY ...)`)
+- **DAX concepts demonstrated:** `CALCULATE` and context transition, `SUMMARIZE` + 
+  `ADDCOLUMNS`, `TOPN`/`MAXX` for dynamic top-item measures, `PERCENTILE.INC`, 
+  relationship cross-filter direction, calculated tables vs. measures
+
+## 📁 Project Structure
+
+```text
+├── README.md
+│
+├── scripts/
+│   ├── 01_fetch_jobs.py
+│   │   └── Adzuna API extraction
+│   │
+│   ├── 02_clean_data.py
+│   │   └── Skill extraction and data cleaning
+│   │
+│   └── 03_load_to_db.py
+│       └── SQLite load and schema creation
+│
+├── notebooks/
+│   ├── 01_sql_queries.ipynb
+│   │   └── SQL analysis (joins, CTEs, window functions)
+│   │
+│   └── 02_eda.ipynb
+│       └── Python EDA, currency normalization,
+│           and skill co-occurrence analysis
+│
+├── db/
+│   └── jobs.db
+│       └── SQLite database
+│
+├── data/
+│   └── processed/
+│       └── jobs_clean.csv
+│
+└── dashboard/
+    ├── dashboard.pbix
+    │   └── Full interactive Power BI report
+    │
+    ├── jobs.csv
+    │   └── Power BI data source
+    │
+    ├── jobs_skills.csv
+    │   └── Power BI data source
+    │
+    ├── skill_gap_theme.json
+    │   └── Custom Power BI theme
+    │
+    ├── screenshots/
+    │   └── Dashboard page captures
+    │
+    └── images/
+        └── KPI card icons
+```
+
+
+## 🐛 Notable Problems Solved
+
+- **A misleading cross-country salary chart.** Comparing raw local-currency 
+  salaries made India appear highest-paying purely due to currency magnitude. 
+  Diagnosed by re-examining the boxplot's axis units, fixed with documented, dated 
+  USD conversion rates — and even after conversion, a log scale was still required, 
+  since real (not just currency-driven) magnitude differences between countries 
+  otherwise collapsed India's data to near-invisibility on a linear axis.
+- **A silently confounded root-cause finding.** India's missing-salary rate 
+  initially looked like it might be a category effect ("IT Jobs" showing 25% 
+  missing). A combined `country + category` breakdown revealed the true driver was 
+  country alone — same category, 0% missing in the UK vs. 72% in India.
+- **A Power BI relationship silently returning the same value for every group.** A 
+  per-skill average salary table showed one identical number for all 17 skills. 
+  Traced to the `jobs ↔ job_skills` relationship's cross-filter direction being set 
+  to "Single" instead of "Both," verified via a standalone unfiltered baseline 
+  comparison before fixing.
+- **A DAX context-transition bug.** An aggregate column built inside `ADDCOLUMNS` 
+  returned the unfiltered table total for every row until wrapped in `CALCULATE()` 
+  — a non-obvious but fundamental DAX rule.
+- **A quotes-vs-brackets typo that silently broke a ranking function.** A `TOPN` 
+  sort argument referencing `"SkillCount"` (a literal string) instead of 
+  `[SkillCount]` (a column reference) caused every row to tie for "top," returning 
+  17 rows instead of 1.
+- **A KPI card that wouldn't respond to slicer filtering.** Traced to the card 
+  pointing at a calculated table (computed once, filter-blind) rather than the 
+  equivalent DAX measure (which recalculates per filter context) — a good concrete 
+  lesson in when each object type is appropriate.
+
+## ⚠️ Data Limitations
+
+- **Skill detection coverage is ~26%** (117/450 postings had at least one skill 
+  detected via regex) — the Adzuna API returns truncated job descriptions, so the 
+  true skill mention rate is likely higher than what's captured here.
+- **Currency conversion uses a static, dated snapshot rate** (INR→USD, GBP→USD), 
+  not live conversion — appropriate for a point-in-time analysis, not for tracking 
+  currency-driven salary trends over time.
+- **India's postings span a much wider historical date range (2019–2026)** than 
+  the US/UK's recent-only postings — likely reflecting differences in how regional 
+  job platforms expire/re-index listings, meaning India and US/UK data aren't 
+  fully "apples to apples" on recency.
+- **India's salary statistics rest on a smaller effective sample** (~27% of its 
+  postings) due to its high missing-salary rate — called out explicitly on the 
+  dashboard itself.
+- **The three countries were sampled at equal size by design** (150 postings each) 
+  — the dashboard's country distribution chart reflects collection method, not 
+  real-world market share, and is captioned accordingly.
+
+## 📬 About
+
+Built as a portfolio project to demonstrate end-to-end data analyst skills — live 
+API data collection, SQL-based analysis, Python EDA and statistical reasoning, and 
+Power BI dashboard design with custom DAX — using real, messy, live data rather 
+than a pre-cleaned dataset.
