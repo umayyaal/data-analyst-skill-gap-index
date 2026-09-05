@@ -1,0 +1,9 @@
+In CMD 
+Step -1
+D:
+cd data-analyst-skill-gap
+Step - 2
+venv\Scripts\activate
+
+Step - 3
+jupyter notebook

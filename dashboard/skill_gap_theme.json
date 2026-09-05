@@ -1,0 +1,24 @@
+{
+  "name": "Skill Gap Index Theme",
+  "dataColors": [
+    "#2A9D8F",
+    "#E9C46A",
+    "#856576",
+    "#264653",
+    "#F4A261",
+    "#8AB0AB",
+    "#E76F51",
+    "#457B9D"
+  ],
+  "background": "#2B2B33",
+  "foreground": "#F5F5F5",
+  "tableAccent": "#2A9D8F",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#26262E" } } }],
+        "border": [{ "show": false }]
+      }
+    }
+  }
+}
