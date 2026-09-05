@@ -92,6 +92,8 @@ The dashboard is built around one central question, unpacked across two pages:
 and in the notebooks themselves.)*
 
 ## 🏗️ Architecture
+
+```text
 Adzuna Jobs API (live, per country)
 │
 ▼
@@ -99,18 +101,32 @@ Python — requests + regex-based skill extraction
 │
 ▼
 SQLite (db/jobs.db)
-├─ jobs table (one row per posting, 450 rows)
-└─ job_skills table (one row per job–skill pair, normalized, 275 rows)
+├── jobs table
+│   └── One row per posting (450 rows)
+│
+└── job_skills table
+    └── One row per job–skill pair (normalized, 275 rows)
 │
 ▼
-Python EDA — missingness analysis, currency normalization,
-skill co-occurrence, distribution analysis
+Python EDA
+├── Missingness analysis
+├── Currency normalization
+├── Skill co-occurrence
+└── Distribution analysis
 │
 ▼
 Power BI Desktop
-├─ jobs ↔ job_skills relationship (1:many, bidirectional cross-filter)
-├─ DAX measures (CALCULATE, MAXX/TOPN, PERCENTILE.INC, context transition)
-└─ 2-page interactive report
+├── jobs ↔ job_skills relationship
+│   └── 1:many, bidirectional cross-filter
+│
+├── DAX measures
+│   ├── CALCULATE
+│   ├── MAXX / TOPN
+│   ├── PERCENTILE.INC
+│   └── Context transition
+│
+└── 2-page interactive report
+```
 
 
 **Why SQL and Python do the heavy lifting, not Power BI:** cleaning, skill 
