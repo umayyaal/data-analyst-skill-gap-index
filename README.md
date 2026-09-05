@@ -49,7 +49,7 @@ full interactive `.pbix` file is included in this repo
 ![Overview page](dashboard/screenshots/01_overview.png)
 
 **Page 2 — Skills & Salary Deep Dive**
-*(screenshot: `dashboard/screenshots/02_skills_salary.png`)*
+![Skills & Salary](dashboard/screenshots/02_skills_salary.png)
 
 ## 🧭 Project Story
 
