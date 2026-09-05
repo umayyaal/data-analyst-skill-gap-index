@@ -46,7 +46,7 @@ full interactive `.pbix` file is included in this repo
 (`dashboard/dashboard.pbix`) and can be opened for free in Power BI Desktop.
 
 **Page 1 — Overview**
-*(screenshot: `dashboard/screenshots/01_overview.png`)*
+dashboard/screenshots/01_overview.png
 
 **Page 2 — Skills & Salary Deep Dive**
 *(screenshot: `dashboard/screenshots/02_skills_salary.png`)*
