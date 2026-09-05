@@ -148,26 +148,56 @@ is typically split in practice.
   `ADDCOLUMNS`, `TOPN`/`MAXX` for dynamic top-item measures, `PERCENTILE.INC`, 
   relationship cross-filter direction, calculated tables vs. measures
 
-## 📁 Repository Structure
+## 📁 Project Structure
+
+```text
 ├── README.md
-├── scripts/ → pipeline scripts, in run order
-│ ├── 01_fetch_jobs.py → Adzuna API extraction
-│ ├── 02_clean_data.py → skill extraction, cleaning
-│ └── 03_load_to_db.py → SQLite load, schema creation
+│
+├── scripts/
+│   ├── 01_fetch_jobs.py
+│   │   └── Adzuna API extraction
+│   │
+│   ├── 02_clean_data.py
+│   │   └── Skill extraction and data cleaning
+│   │
+│   └── 03_load_to_db.py
+│       └── SQLite load and schema creation
+│
 ├── notebooks/
-│ ├── 01_sql_queries.ipynb → SQL analysis (joins, CTEs, window fns)
-│ └── 02_eda.ipynb → Python EDA, currency normalization,
-│ co-occurrence analysis
+│   ├── 01_sql_queries.ipynb
+│   │   └── SQL analysis (joins, CTEs, window functions)
+│   │
+│   └── 02_eda.ipynb
+│       └── Python EDA, currency normalization,
+│           and skill co-occurrence analysis
+│
 ├── db/
-│ └── jobs.db → SQLite database
-├── data/processed/
-│ └── jobs_clean.csv
+│   └── jobs.db
+│       └── SQLite database
+│
+├── data/
+│   └── processed/
+│       └── jobs_clean.csv
+│
 └── dashboard/
-├── dashboard.pbix → full interactive report file
-├── jobs.csv / jobs_skills.csv → Power BI data source
-├── skill_gap_theme.json → custom Power BI theme
-├── screenshots/ → dashboard page captures
-└── images/ → KPI card icons
+    ├── dashboard.pbix
+    │   └── Full interactive Power BI report
+    │
+    ├── jobs.csv
+    │   └── Power BI data source
+    │
+    ├── jobs_skills.csv
+    │   └── Power BI data source
+    │
+    ├── skill_gap_theme.json
+    │   └── Custom Power BI theme
+    │
+    ├── screenshots/
+    │   └── Dashboard page captures
+    │
+    └── images/
+        └── KPI card icons
+```
 
 
 ## 🐛 Notable Problems Solved
