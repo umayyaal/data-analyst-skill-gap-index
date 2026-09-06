@@ -1,6 +1,7 @@
 import sqlite3
 import pandas as pd
 import numpy as np
+from datetime import date
 
 DB_PATH = "db/jobs.db"
 
@@ -29,6 +30,8 @@ def main():
     jobs_df["salary_missing"] = jobs_df["avg_salary"].isna()
 
     conn.close()
+    
+    jobs_df["data_extracted_date"] = date.today().isoformat()
 
     jobs_df.to_csv("dashboard/jobs.csv", index=False)
     skills_df.to_csv("dashboard/jobs_skills.csv", index=False)
