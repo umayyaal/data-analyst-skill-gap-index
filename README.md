@@ -248,6 +248,30 @@ is typically split in practice.
   — the dashboard's country distribution chart reflects collection method, not 
   real-world market share, and is captioned accordingly.
 
+### Data Pipeline Automation
+
+This project doesn't just analyze a one-time data pull — it **refreshes itself**.
+
+A scheduled **GitHub Actions workflow** (`.github/workflows/refresh_data.yml`) 
+runs the entire pipeline end-to-end every Monday, with zero manual intervention: 
+pulling fresh postings from the Adzuna API, re-extracting skills, rebuilding the 
+SQLite database, and re-exporting the dashboard-ready CSVs — then committing the 
+updated data straight back to this repo. It can also be triggered on demand from 
+the repo's **Actions** tab.
+
+The Power BI dashboard is wired directly to these CSVs via their GitHub raw file 
+URLs, rather than local file paths. This means the dashboard doesn't just sit on 
+a static snapshot — a single **Refresh** in Power BI Desktop pulls whatever the 
+most recent automated run produced, no manual file copying or syncing required. 
+The "Data Extracted On" and salary-coverage figures shown in the dashboard are 
+themselves computed live from this data via DAX, so they update automatically 
+alongside everything else.
+
+**The one manual step left** is opening Power BI Desktop and clicking Refresh. 
+Fully scheduled, hands-off dashboard refresh would require Power BI Service, 
+which wasn't reachable due to a sign-in/licensing issue hit during this project 
+(see *Dashboard Preview* above) — everything up to that final click is automated.
+
 ## 📬 About
 
 Built as a portfolio project to demonstrate end-to-end data analyst skills — live 
