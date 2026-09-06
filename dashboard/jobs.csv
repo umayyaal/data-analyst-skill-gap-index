@@ -1,451 +1,449 @@
-job_id,title,company,location,country,category,salary_min,salary_max,salary_is_predicted,contract_time,created,num_skills,avg_salary,salary_missing,avg_salary_usd
-5808180305,Data Analyst Trainee,ITOL Recruit,UK,United Kingdom,IT Jobs,30000.0,50000.0,0,full_time,2026-07-20 16:02:13+00:00,0,40000.0,False,54440.0
-5829131501,Data Analyst,MCS Group,"Banbridge, County Down",United Kingdom,IT Jobs,30000.0,30000.0,0,Unknown,2026-08-05 15:10:55+00:00,0,30000.0,False,40830.0
-5822628736,Data Analyst,HAYS Specialist Recruitment,"Belfast, Northern Ireland",United Kingdom,IT Jobs,40000.0,40000.0,0,Unknown,2026-07-31 20:30:56+00:00,0,40000.0,False,54440.0
-5823507727,Data Analyst,Ofcom,"Belfast, Northern Ireland",United Kingdom,IT Jobs,26645.01,26645.01,1,part_time,2026-08-01 08:33:20+00:00,0,26645.01,False,36263.858609999996
-5832274608,Data Analyst,Workshop Recruitment,"Portsmouth, Hampshire",United Kingdom,IT Jobs,32000.0,40000.0,0,full_time,2026-08-07 19:00:11+00:00,1,36000.0,False,48996.0
-5822591752,Data Analyst,Harnham - Data & Analytics Recruitment,"London, UK",United Kingdom,IT Jobs,45000.0,45000.0,0,full_time,2026-07-31 18:39:54+00:00,0,45000.0,False,61245.0
-5822589021,Data Analyst,Harnham - Data & Analytics Recruitment,"London, UK",United Kingdom,Consultancy Jobs,50000.0,54000.0,0,full_time,2026-07-31 18:37:07+00:00,0,52000.0,False,70772.0
-5817419816,Data Analyst,G-Research,"London, UK",United Kingdom,IT Jobs,51993.86,51993.86,1,full_time,2026-07-27 14:39:20+00:00,0,51993.86,False,70763.64346
-5818756002,Master Data Analyst,MCS Group,"Belfast, Northern Ireland",United Kingdom,Accounting & Finance Jobs,40000.0,40000.0,0,Unknown,2026-07-28 21:04:53+00:00,0,40000.0,False,54440.0
-5818755973,Data Analyst - Manufacturing,VANRATH,"Banbridge, County Down",United Kingdom,IT Jobs,30000.0,30000.0,0,Unknown,2026-07-28 21:04:53+00:00,0,30000.0,False,40830.0
-5821891822,Finance Data Analyst,Northern Ireland Housing Executive,"Craigavon, Northern Ireland",United Kingdom,Admin Jobs,30000.0,30000.0,0,Unknown,2026-07-31 03:20:56+00:00,0,30000.0,False,40830.0
-5829374055,Data Analyst,red recruitment,"Bristol, South West England",United Kingdom,IT Jobs,31200.0,31200.0,0,Unknown,2026-08-05 19:21:02+00:00,0,31200.0,False,42463.2
-5818783088,Data Analyst,Sphere Digital Recruitment,"London, UK",United Kingdom,IT Jobs,50000.0,50000.0,0,full_time,2026-07-28 22:24:11+00:00,0,50000.0,False,68050.0
-5828166797,Data Analyst,Opencast Software,"Newcastle Upon Tyne, Tyne & Wear",United Kingdom,IT Jobs,53910.09,53910.09,1,Unknown,2026-08-04 21:16:45+00:00,0,53910.09,False,73371.63248999999
-5823562275,Data Analyst,Solirius Reply,"London, UK",United Kingdom,IT Jobs,59407.18,59407.18,1,Unknown,2026-08-01 09:17:06+00:00,0,59407.18,False,80853.17198
-5789988738,Data Analyst,Opencast Software,"Newcastle Upon Tyne, Tyne & Wear",United Kingdom,IT Jobs,49983.61,49983.61,1,Unknown,2026-07-06 16:39:35+00:00,0,49983.61,False,68027.69321
-5827608653,Trainee Data Analyst,ITOL Recruit,"Croydon, London",United Kingdom,IT Jobs,30000.0,50000.0,0,full_time,2026-08-04 10:48:52+00:00,0,40000.0,False,54440.0
-5829370202,Logistics Data Analyst,Outsource UK,"Leicester, Leicestershire",United Kingdom,IT Jobs,37440.0,37440.0,0,full_time,2026-08-05 18:55:04+00:00,0,37440.0,False,50955.84
-5809724157,Senior Data Analyst,Harnham - Data & Analytics Recruitment,"London, UK",United Kingdom,IT Jobs,70000.0,72000.0,0,full_time,2026-07-21 22:01:23+00:00,0,71000.0,False,96631.0
-5814310276,Finance Data Analyst,Marc Daniels,"London, UK",United Kingdom,Accounting & Finance Jobs,60000.0,70000.0,0,full_time,2026-07-24 22:11:10+00:00,0,65000.0,False,88465.0
-5822590327,Commissions Data Analyst,Santander Consumer Finance,"Redhill, Surrey",United Kingdom,IT Jobs,38267.85,38267.85,1,full_time,2026-07-31 18:38:25+00:00,0,38267.85,False,52082.543849999995
-5820342708,Data Analyst,Elevate Recruitment Limited,"London, UK",United Kingdom,IT Jobs,30000.0,39000.0,0,full_time,2026-07-29 22:56:18+00:00,0,34500.0,False,46954.5
-5807302172,DATA ANALYST,EverIT Solutions Limited,"Solihull, West Midlands",United Kingdom,IT Jobs,31000.0,31000.0,0,full_time,2026-07-19 19:31:59+00:00,1,31000.0,False,42191.0
-5828117185,Finance Data Analyst,Gibson Hollyhomes,"Leeds, West Yorkshire",United Kingdom,IT Jobs,30000.0,40000.0,0,full_time,2026-08-04 18:53:12+00:00,0,35000.0,False,47635.0
-5822588610,Product Data Analyst,one2one Recruitment,"Northampton, Northamptonshire",United Kingdom,IT Jobs,33000.0,41000.0,0,full_time,2026-07-31 18:36:54+00:00,0,37000.0,False,50357.0
-5829585484,Finance Data Analyst,Orka Financial,"Bracknell, Berkshire",United Kingdom,Accounting & Finance Jobs,30000.0,35000.0,0,Unknown,2026-08-05 22:55:25+00:00,1,32500.0,False,44232.5
-5822591452,Graduate Data Analyst,Consula Group LTD,"London, UK",United Kingdom,Graduate Jobs,45000.0,45000.0,0,full_time,2026-07-31 18:39:36+00:00,0,45000.0,False,61245.0
-5822590694,Graduate Data Analyst,Consula Group LTD,"Manchester, Greater Manchester",United Kingdom,Graduate Jobs,45000.0,45000.0,0,full_time,2026-07-31 18:38:48+00:00,0,45000.0,False,61245.0
-5829131575,Supply Chain Data Analyst,Airbus,"Belfast, Northern Ireland",United Kingdom,Accounting & Finance Jobs,37059.11,37059.11,1,part_time,2026-08-05 15:10:55+00:00,0,37059.11,False,50437.44871
-5811205837,Data Analyst,Harnham - Data & Analytics Recruitment,"London, UK",United Kingdom,IT Jobs,50000.0,55000.0,0,full_time,2026-07-22 22:24:50+00:00,0,52500.0,False,71452.5
-5814229171,Data Analyst,AWD online,"West Bromwich, West Midlands",United Kingdom,IT Jobs,28505.0,34613.0,0,full_time,2026-07-24 18:34:37+00:00,0,31559.0,False,42951.799
-5810670554,Trainee Data Analyst,ITOL Recruit,"Sittingbourne, Kent",United Kingdom,IT Jobs,30000.0,50000.0,0,full_time,2026-07-22 10:21:08+00:00,0,40000.0,False,54440.0
-5810671047,Data Analyst Trainee,ITOL Recruit,"St. Helens, Merseyside",United Kingdom,IT Jobs,30000.0,50000.0,0,full_time,2026-07-22 10:21:45+00:00,0,40000.0,False,54440.0
-5807960992,Data Analyst Trainee,ITOL Recruit,"Northampton, Northamptonshire",United Kingdom,IT Jobs,30000.0,50000.0,0,full_time,2026-07-20 10:22:20+00:00,0,40000.0,False,54440.0
-5807966369,Data Analyst Trainee,ITOL Recruit,"Stevenage, Hertfordshire",United Kingdom,IT Jobs,30000.0,50000.0,0,full_time,2026-07-20 10:31:10+00:00,0,40000.0,False,54440.0
-5809349019,Data Analyst Trainee,ITOL Recruit,"Woking, Surrey",United Kingdom,IT Jobs,30000.0,50000.0,0,full_time,2026-07-21 14:13:26+00:00,0,40000.0,False,54440.0
-5807960989,Data Analyst Trainee,ITOL Recruit,"Nottingham, Nottinghamshire",United Kingdom,IT Jobs,30000.0,50000.0,0,full_time,2026-07-20 10:22:16+00:00,0,40000.0,False,54440.0
-5808132277,Trainee Data Analyst,ITOL Recruit,"Leeds, West Yorkshire",United Kingdom,IT Jobs,30000.0,50000.0,0,full_time,2026-07-20 13:59:18+00:00,0,40000.0,False,54440.0
-5809135959,Data Analyst Trainee,ITOL Recruit,"Harrow, London",United Kingdom,IT Jobs,30000.0,50000.0,0,full_time,2026-07-21 10:17:30+00:00,0,40000.0,False,54440.0
-5811205530,Senior Data Analyst,Tenth Revolution Group,"London, UK",United Kingdom,IT Jobs,70000.0,80000.0,0,full_time,2026-07-22 22:24:28+00:00,0,75000.0,False,102075.0
-5789988119,Ecommerce Data Analyst,Next Ltd,"Enderby, Leicester",United Kingdom,IT Jobs,41782.03,41782.03,1,Unknown,2026-07-06 16:39:27+00:00,0,41782.03,False,56865.34283
-5789989162,Lead Data Analyst,MAG ,"Manchester, Greater Manchester",United Kingdom,IT Jobs,57429.48,57429.48,1,Unknown,2026-07-06 16:39:39+00:00,0,57429.48,False,78161.52228
-5814254977,Senior Data Analyst,Admiral Group Plc,"Cardiff, Cardiff County",United Kingdom,IT Jobs,40569.47,40569.47,1,Unknown,2026-07-24 20:48:31+00:00,0,40569.47,False,55215.048670000004
-5832285695,Junior Business Systems & Data Analyst,Connected Health,"Belfast, Northern Ireland",United Kingdom,IT Jobs,35000.0,35000.0,0,Unknown,2026-08-07 20:28:53+00:00,0,35000.0,False,47635.0
-5832939686,Data Analyst (SC Cleared),Sanderson Government and Defence,"South East London, London",United Kingdom,IT Jobs,145600.0,148200.0,0,Unknown,2026-08-08 05:13:05+00:00,0,146900.0,False,199930.9
-5817550729,Senior Commercial Data Analyst,Pavilion Recruitment Solutions,"Surrey, South East England",United Kingdom,Accounting & Finance Jobs,40000.0,45000.0,0,full_time,2026-07-27 18:19:11+00:00,0,42500.0,False,57842.5
-5831512576,Data Analyst Placement Programme No Experience Needed,IT Online Learning,"Glasgow, Scotland",United Kingdom,IT Jobs,65000.0,65000.0,0,Unknown,2026-08-07 05:10:33+00:00,0,65000.0,False,88465.0
-5831512579,Data Analyst Placement Programme No Experience Needed,IT Online Learning,"Liverpool, Merseyside",United Kingdom,IT Jobs,65000.0,65000.0,0,Unknown,2026-08-07 05:10:33+00:00,0,65000.0,False,88465.0
-5832939237,Data Analyst Placement Programme No Experience Needed,IT Online Learning,"Leeds, West Yorkshire",United Kingdom,IT Jobs,65000.0,65000.0,0,Unknown,2026-08-08 05:12:18+00:00,0,65000.0,False,88465.0
-5831512580,Data Analyst Placement Programme No Experience Needed,IT Online Learning,"Cardiff County, Wales",United Kingdom,IT Jobs,65000.0,65000.0,0,Unknown,2026-08-07 05:10:33+00:00,0,65000.0,False,88465.0
-5831512577,Data Analyst Placement Programme No Experience Needed,IT Online Learning,"Edinburgh, Scotland",United Kingdom,IT Jobs,65000.0,65000.0,0,Unknown,2026-08-07 05:10:33+00:00,0,65000.0,False,88465.0
-5830780047,Landfill Gas Compliance Data Analyst,FCC Environment,"Lincoln, Lincolnshire",United Kingdom,Admin Jobs,40000.0,40000.0,0,full_time,2026-08-06 17:20:13+00:00,0,40000.0,False,54440.0
-5760045095,Lead Data Analyst - Pricing,Wise,"London, UK",United Kingdom,Accounting & Finance Jobs,63048.26,63048.26,1,full_time,2026-06-11 16:17:34+00:00,0,63048.26,False,85808.68186
-5760045039,"Staff Data Analyst, Operations",Wise,"London, UK",United Kingdom,IT Jobs,88466.81,88466.81,1,full_time,2026-06-11 16:17:09+00:00,0,88466.81,False,120403.32841
-5827851507,Data Analyst with MMM & Consumption Data,Lorien,"London, UK",United Kingdom,IT Jobs,54771.06,54771.06,1,Unknown,2026-08-04 14:51:49+00:00,0,54771.06,False,74543.41266
-5819806247,Trainee Data Analyst,Recruitment Solutions,"Westerham, Kent",United Kingdom,IT Jobs,27000.0,27000.0,0,full_time,2026-07-29 14:55:46+00:00,0,27000.0,False,36747.0
-5826636937,Senior Data Analyst,FDM Group,"London, UK",United Kingdom,IT Jobs,48177.81,48177.81,1,full_time,2026-08-03 15:10:14+00:00,0,48177.81,False,65569.99940999999
-5812978791,Data Analyst - Vendor Licensing,VIQU IT Recruitment,"London, UK",United Kingdom,IT Jobs,40000.0,50000.0,0,full_time,2026-07-24 00:33:39+00:00,0,45000.0,False,61245.0
-5823562666,Credit Risk Data Analyst,Barclays,"Glasgow, Scotland",United Kingdom,IT Jobs,49088.41,49088.41,1,Unknown,2026-08-01 09:17:13+00:00,0,49088.41,False,66809.32601
-5800186360,Senior Data Analyst - Growth,Wise,"London, UK",United Kingdom,IT Jobs,75090.34,75090.34,1,Unknown,2026-07-14 20:06:45+00:00,0,75090.34,False,102197.95274
-5823562464,Senior Data Analyst I,LexisNexis,"London, UK",United Kingdom,IT Jobs,53634.4,53634.4,1,Unknown,2026-08-01 09:17:09+00:00,0,53634.4,False,72996.4184
-5789989654,"Staff Data Analyst, Operations",Wise,"London, UK",United Kingdom,IT Jobs,71454.22,71454.22,1,Unknown,2026-07-06 16:39:44+00:00,0,71454.22,False,97249.19342
-5801491979,Senior Strategy and Data Analyst,Lendable,"London, UK",United Kingdom,Accounting & Finance Jobs,45883.99,45883.99,1,Unknown,2026-07-15 20:10:23+00:00,0,45883.99,False,62448.110389999994
-5820128713,SAP Ariba Master Data Analyst,Yorkshire Water,"Bradford, West Yorkshire",United Kingdom,IT Jobs,43267.61,43267.61,1,Unknown,2026-07-29 19:09:30+00:00,0,43267.61,False,58887.21721
-5831512567,Data Analyst Placement Programme No Experience Needed,IT Online Learning,"Sheffield, South Yorkshire",United Kingdom,IT Jobs,65000.0,65000.0,0,Unknown,2026-08-07 05:10:31+00:00,0,65000.0,False,88465.0
-5830868210,Data Analyst Placement Programme No Experience Needed,IT Online Learning,"Manchester, Greater Manchester",United Kingdom,IT Jobs,65000.0,65000.0,0,Unknown,2026-08-06 21:10:46+00:00,0,65000.0,False,88465.0
-5832939296,Data Analyst Placement Programme No Experience Needed,IT Online Learning,"Birmingham, West Midlands",United Kingdom,IT Jobs,65000.0,65000.0,0,Unknown,2026-08-08 05:12:21+00:00,0,65000.0,False,88465.0
-5831512568,Data Analyst Placement Programme No Experience Needed,IT Online Learning,"Bristol, South West England",United Kingdom,IT Jobs,65000.0,65000.0,0,Unknown,2026-08-07 05:10:31+00:00,0,65000.0,False,88465.0
-5762642134,Chief Data Office Data Analyst,Barclays,"Glasgow, Scotland",United Kingdom,Accounting & Finance Jobs,55236.97,55236.97,1,full_time,2026-06-13 16:43:00+00:00,0,55236.97,False,75177.51617
-5761450305,Post Market Complaints Data Analyst,ConvaTec,"Paddington, West London",United Kingdom,Scientific & QA Jobs,51953.62,51953.62,1,full_time,2026-06-12 15:49:25+00:00,1,51953.62,False,70708.87682
-5758563762,Senior Data Analyst - Product Reliability,Wise,"London, UK",United Kingdom,IT Jobs,80952.33,80952.33,1,full_time,2026-06-10 15:32:25+00:00,0,80952.33,False,110176.12113
-5758563849,Senior Data Analyst - Payment Operations,Wise,"London, UK",United Kingdom,IT Jobs,51866.49,51866.49,1,full_time,2026-06-10 15:32:35+00:00,0,51866.49,False,70590.29289
-5821148333,Senior Planning & Data Analyst,Morgan Law,"London, UK",United Kingdom,IT Jobs,43000.0,50000.0,0,full_time,2026-07-30 14:58:47+00:00,0,46500.0,False,63286.5
-5818222177,Data Analyst (AI Training),OneForma,"Furzedown, South West London",United Kingdom,Part time Jobs,22880.0,22880.0,0,part_time,2026-07-28 10:34:58+00:00,0,22880.0,False,31139.68
-5812585590,Data Analyst (Net Asset Value),Robert Half,"London, UK",United Kingdom,Accounting & Finance Jobs,45441.46,45441.46,1,full_time,2026-07-23 18:36:46+00:00,0,45441.46,False,61845.827059999996
-5820898655,Lead Data Analyst - FinCrime Operations,Wise,"London, UK",United Kingdom,IT Jobs,69797.52,69797.52,1,Unknown,2026-07-30 09:12:48+00:00,0,69797.52,False,94994.42472000001
-5806940188,Senior Data Analyst - CRM Analytics,Wise,"London, UK",United Kingdom,IT Jobs,72294.08,72294.08,1,Unknown,2026-07-19 08:24:57+00:00,0,72294.08,False,98392.24288
-5820898710,Senior Data Analyst - Regulatory Reporting,Wise,"London, UK",United Kingdom,IT Jobs,62026.88,62026.88,1,Unknown,2026-07-30 09:12:49+00:00,0,62026.88,False,84418.58368
-5789989546,Senior Data Analyst - Product Reliability,Wise,"London, UK",United Kingdom,IT Jobs,76017.88,76017.88,1,Unknown,2026-07-06 16:39:43+00:00,0,76017.88,False,103460.33468
-5789988789,Senior Data Analyst - Payment Operations,Wise,"London, UK",United Kingdom,IT Jobs,51240.82,51240.82,1,Unknown,2026-07-06 16:39:35+00:00,0,51240.82,False,69738.75602
-5804016410,Asset Data Analyst - Investment Banking,Robert Walters,"London, UK",United Kingdom,IT Jobs,208000.0,230880.0,0,full_time,2026-07-17 01:51:50+00:00,0,219440.0,False,298657.84
-5829136347,Systems Data Analyst – SQL / NoSQL / Data Migration,Precise Placements,"London, UK",United Kingdom,IT Jobs,91000.0,109200.0,0,Unknown,2026-08-05 15:17:56+00:00,1,100100.0,False,136236.1
-5789987969,Lead Data Analyst - Total Service (Operations),Wise,"London, UK",United Kingdom,IT Jobs,79015.18,79015.18,1,Unknown,2026-07-06 16:39:25+00:00,0,79015.18,False,107539.65998
-5806940189,Senior Marketing Data Analyst - Marketing Science,Wise,"London, UK",United Kingdom,"PR, Advertising & Marketing Jobs",77444.92,77444.92,1,Unknown,2026-07-19 08:24:57+00:00,0,77444.92,False,105402.53611999999
-5800186349,Senior Data Analyst - Wise Platform Pricing,Wise,"London, UK",United Kingdom,IT Jobs,65786.23,65786.23,1,Unknown,2026-07-14 20:06:44+00:00,0,65786.23,False,89535.05902999999
-5805057231,Online Data Analyst - English (United Kingdom),TELUS Digital,"Birmingham, West Midlands",United Kingdom,Scientific & QA Jobs,22880.0,26707.0,0,part_time,2026-07-17 18:01:09+00:00,0,24793.5,False,33743.9535
-5812564151,Data Control Analyst,Adecco,"London, UK",United Kingdom,IT Jobs,42556.81,42556.81,1,Unknown,2026-07-23 18:15:38+00:00,0,42556.81,False,57919.81841
-5829120140,Graduate Investment Data Analyst Programme Central London,Regal Brooke Limited,"London, UK",United Kingdom,Graduate Jobs,42000.0,50000.0,0,full_time,2026-08-05 15:00:53+00:00,0,46000.0,False,62606.0
-5765658543,Data Business Analyst,Ntt Data,"London, UK",United Kingdom,IT Jobs,55147.91,55147.91,1,full_time,2026-06-16 16:37:45+00:00,0,55147.91,False,75056.30551
-5829393076,Data Analyst,Red Recruitment,"Redcliffe, Bristol",United Kingdom,IT Jobs,0.0,31200.0,0,full_time,2026-08-05 20:50:33+00:00,0,15600.0,False,21231.6
-5808082048,Data Analyst,Millennium Hotel and Resorts UK,"Kensington, West London",United Kingdom,Admin Jobs,28595.85,28595.85,1,full_time,2026-07-20 12:04:25+00:00,1,28595.85,False,38918.95185
-5805598601,Data Analyst,Robert Half,"London, UK",United Kingdom,IT Jobs,54579.65,54579.65,1,full_time,2026-07-18 02:31:59+00:00,5,54579.65,False,74282.90365000001
-5812149921,Data Analyst,MONY Group,"London, UK",United Kingdom,IT Jobs,45181.41,45181.41,1,full_time,2026-07-23 10:51:55+00:00,0,45181.41,False,61491.89901
-5808338135,Data Analyst,Robert Half,"The City, Central London",United Kingdom,IT Jobs,59359.61,59359.61,1,full_time,2026-07-20 20:34:35+00:00,3,59359.61,False,80788.42921
-5811046598,Data Analyst,interactive investor,"Hulme, Manchester",United Kingdom,IT Jobs,50227.88,50227.88,1,full_time,2026-07-22 16:39:21+00:00,0,50227.88,False,68360.14468
-5817451918,Data Analyst,interactive investor,"Holbeck, Leeds",United Kingdom,IT Jobs,45256.44,45256.44,1,full_time,2026-07-27 15:38:49+00:00,0,45256.44,False,61594.01484
-5798907586,Data Analyst,Arne Clo Ltd,"Birchwood, Chard",United Kingdom,IT Jobs,34857.53,34857.53,1,full_time,2026-07-13 17:25:43+00:00,0,34857.53,False,47441.09833
-5802282434,Data Analyst,Caremark - Franchise Support Centre,UK,United Kingdom,IT Jobs,37000.0,37000.0,0,Unknown,2026-07-16 05:57:31+00:00,0,37000.0,False,50357.0
-5737508609,Data Analyst,Solirius Reply,"London, UK",United Kingdom,IT Jobs,40000.0,85000.0,0,full_time,2026-05-22 11:06:12+00:00,0,62500.0,False,85062.5
-5744690146,Data Analyst,Beyond,"Manchester, Greater Manchester",United Kingdom,IT Jobs,39833.5,39833.5,1,Unknown,2026-05-29 17:49:36+00:00,0,39833.5,False,54213.3935
-5741144130,Data Analyst,Beyond,"London, UK",United Kingdom,IT Jobs,42152.84,42152.84,1,Unknown,2026-05-26 11:53:52+00:00,0,42152.84,False,57370.01523999999
-5829337100,Data Analyst,Alternative Heat,"Seapatrick, Banbridge",United Kingdom,IT Jobs,39784.86,39784.86,1,full_time,2026-08-05 17:44:37+00:00,0,39784.86,False,54147.19446
-5679132312,Data Analyst,G-Research,"London, UK",United Kingdom,IT Jobs,56635.39,56635.39,1,full_time,2026-03-26 10:09:27+00:00,0,56635.39,False,77080.76579
-5780350523,Data Analyst,MWH Treatment,"Broadbottom, Hyde",United Kingdom,IT Jobs,50579.12,50579.12,1,full_time,2026-06-28 16:43:51+00:00,0,50579.12,False,68838.18232
-5810959119,Data Analyst,Hays Technology,"Woolston, Warrington",United Kingdom,IT Jobs,91000.0,104000.0,0,full_time,2026-07-22 16:23:41+00:00,0,97500.0,False,132697.5
-5812354048,Data Analyst,Sellick Partnership,"Newcastle Upon Tyne, Tyne & Wear",United Kingdom,IT Jobs,46500.0,46500.0,0,full_time,2026-07-23 14:28:08+00:00,0,46500.0,False,63286.5
-5810846111,Data Analyst,JIYU People Ltd,"Nether Worton, Chipping Norton",United Kingdom,IT Jobs,40000.0,50000.0,0,full_time,2026-07-22 12:23:59+00:00,2,45000.0,False,61245.0
-5829135139,Data Analyst,Red Recruitment,"Bristol, South West England",United Kingdom,IT Jobs,31200.0,31200.0,0,Unknown,2026-08-05 15:16:57+00:00,0,31200.0,False,42463.2
-5810846267,Data Analyst,Career Concept,"Cliddesden, Basingstoke",United Kingdom,IT Jobs,45000.0,45000.0,0,full_time,2026-07-22 12:24:15+00:00,2,45000.0,False,61245.0
-5809138173,Data Business Analyst,Futures,"Bradford, West Yorkshire",United Kingdom,IT Jobs,45000.0,55000.0,0,full_time,2026-07-21 10:17:49+00:00,0,50000.0,False,68050.0
-5832278871,Data Analyst,Carbon 60,UK,United Kingdom,IT Jobs,42974.89,42974.89,1,part_time,2026-08-07 19:28:05+00:00,0,42974.89,False,58488.82529
-5820158303,Data Analyst,Catalyst,"Gateshead, Tyne & Wear",United Kingdom,IT Jobs,50000.0,80000.0,0,full_time,2026-07-29 20:55:12+00:00,0,65000.0,False,88465.0
-5827877523,Data Analyst,Robert Walters,"Warwick, Warwickshire",United Kingdom,IT Jobs,55193.48,55193.48,1,full_time,2026-08-04 15:16:33+00:00,0,55193.48,False,75118.32628000001
-5818383221,Data Analyst,Robert Walters,"Warwickshire, West Midlands",United Kingdom,IT Jobs,65000.0,78000.0,0,Unknown,2026-07-28 14:50:25+00:00,0,71500.0,False,97311.5
-5832205557,Data Analyst,Hypercreate Ltd,"Stratford, East London",United Kingdom,IT Jobs,29000.0,35000.0,0,full_time,2026-08-07 17:30:54+00:00,0,32000.0,False,43552.0
-5822594087,Data Analyst,Harnham - Data & Analytics Recruitment,"Oxfordshire, South East England",United Kingdom,IT Jobs,50000.0,55000.0,0,full_time,2026-07-31 19:05:55+00:00,0,52500.0,False,71452.5
-5812585194,Data Analyst,Hays Specialist Recruitment Limited,"Oxford, Oxfordshire",United Kingdom,IT Jobs,52000.0,65000.0,0,Unknown,2026-07-23 18:35:31+00:00,4,58500.0,False,79618.5
-5802837235,Data Analyst,Know How Resourcing,"Hyde Park, Leeds",United Kingdom,IT Jobs,40150.66,40150.66,1,full_time,2026-07-16 13:37:54+00:00,1,40150.66,False,54645.04826
-5802838420,Data Analyst,Consula Group LTD,"Glasgow City Centre, Glasgow",United Kingdom,IT Jobs,80000.0,110000.0,0,full_time,2026-07-16 13:40:36+00:00,0,95000.0,False,129295.0
-5808180266,Data Analyst,EXPRESS SOLICITORS,"Civic Centre, Wythenshawe",United Kingdom,IT Jobs,40000.0,45000.0,0,full_time,2026-07-20 16:01:42+00:00,0,42500.0,False,57842.5
-5817554133,Data Analyst,OnetoOne Personnel,"Southend-On-Sea, Essex",United Kingdom,IT Jobs,33365.0,37035.0,0,part_time,2026-07-27 18:44:43+00:00,0,35200.0,False,47907.2
-5819756172,Data Analyst,Segula Technologies,"Gaydon, Warwick",United Kingdom,IT Jobs,49803.41,49803.41,1,full_time,2026-07-29 13:00:11+00:00,0,49803.41,False,67782.44101000001
-5808696348,Data Analyst,Millennium Hotels and Resorts,"London, UK",United Kingdom,Admin Jobs,33920.57,33920.57,1,Unknown,2026-07-21 02:09:13+00:00,0,33920.57,False,46165.89577
-5811535637,Data Analyst,Hays,"Warrington, Cheshire",United Kingdom,IT Jobs,91000.0,104000.0,0,full_time,2026-07-23 00:45:00+00:00,0,97500.0,False,132697.5
-5786373854,Data Analyst,Finlay Jude Associates Ltd,"Horsham, West Sussex",United Kingdom,IT Jobs,26000.0,26000.0,0,Unknown,2026-07-03 05:47:07+00:00,0,26000.0,False,35386.0
-5820418826,Data Analyst,Catalyst,"Gateshead, Tyne & Wear",United Kingdom,IT Jobs,80000.0,80000.0,0,full_time,2026-07-30 00:47:39+00:00,0,80000.0,False,108880.0
-5824430248,Data Analyst,Arrow Global Group,"Manchester Science Park, Manchester",United Kingdom,IT Jobs,52650.02,52650.02,1,full_time,2026-08-01 18:26:14+00:00,2,52650.02,False,71656.67722
-5782407347,Data Analyst,Adria Solutions,"Barnsley, South Yorkshire",United Kingdom,IT Jobs,45000.0,45000.0,0,Unknown,2026-06-30 21:46:30+00:00,0,45000.0,False,61245.0
-5782846879,Data Analyst,Kingdom People,"Fareham, Hampshire",United Kingdom,IT Jobs,41756.18,41756.18,1,Unknown,2026-07-01 05:44:26+00:00,0,41756.18,False,56830.16098
-5781389534,Data Analyst,Omnia Resourcing - Resourcing,"Nottingham, Nottinghamshire",United Kingdom,IT Jobs,45390.18,45390.18,1,Unknown,2026-06-29 21:47:03+00:00,0,45390.18,False,61776.03498
-5827663653,Data Analyst,Bibby Financial Services,"Kings Sutton, Banbury",United Kingdom,IT Jobs,50000.0,60000.0,0,full_time,2026-08-04 11:34:02+00:00,0,55000.0,False,74855.0
-5820422952,Data Analyst,Euro Car Parks,"Central London, London",United Kingdom,IT Jobs,100000.0,100000.0,0,full_time,2026-07-30 00:51:19+00:00,0,100000.0,False,136100.0
-5822581090,Data Analyst,Global Media Group,"Holborn, Central London",United Kingdom,IT Jobs,50650.8,50650.8,1,full_time,2026-07-31 17:55:50+00:00,0,50650.8,False,68935.7388
-5832268378,Data Analyst,Trace,"London, UK",United Kingdom,Accounting & Finance Jobs,68126.71,68126.71,1,Unknown,2026-08-07 18:48:26+00:00,0,68126.71,False,92720.45231000001
-5800473760,Data Analyst,Stott & May Professional Search Limited,"Manchester, Greater Manchester",United Kingdom,IT Jobs,104000.0,110500.0,0,Unknown,2026-07-15 00:41:09+00:00,0,107250.0,False,145967.25
-5830331595,Data Analyst,Sellick Partnership,"Shieldfield, Newcastle Upon Tyne",United Kingdom,IT Jobs,46500.0,46500.0,0,full_time,2026-08-06 11:39:35+00:00,1,46500.0,False,63286.5
-5803783833,Data Analyst,Nomia,"Waterloo, South East London",United Kingdom,IT Jobs,34741.57,34741.57,1,Unknown,2026-07-16 22:46:08+00:00,0,34741.57,False,47283.27677
-5826723271,Data Analyst,Alois Technologies Limited,"Chalvey, Slough",United Kingdom,IT Jobs,117000.0,130000.0,0,Unknown,2026-08-03 17:31:31+00:00,1,123500.0,False,168083.5
-5791368737,Data Analyst,All Response Media,"Holbeck, Leeds",United Kingdom,IT Jobs,31899.24,31899.24,1,Unknown,2026-07-07 22:32:44+00:00,0,31899.24,False,43414.86564
-5804909149,Data Analyst,Lumen Partners,"Shotover Hill, Headington",United Kingdom,"PR, Advertising & Marketing Jobs",32000.0,33994.0,0,full_time,2026-07-17 14:28:13+00:00,0,32997.0,False,44908.917
-5814132404,Data Analyst,AWD online,"West Bromwich, West Midlands",United Kingdom,IT Jobs,28505.0,34613.0,0,full_time,2026-07-24 18:04:15+00:00,0,31559.0,False,42951.799
-5732351949,Data Analyst,Ceox,"Guildford, Surrey",United Kingdom,IT Jobs,44552.86,44552.86,1,Unknown,2026-05-17 12:47:43+00:00,0,44552.86,False,60636.44246
-5795616991,Data Analyst,Autotrader,"Manchester, Greater Manchester",United Kingdom,IT Jobs,35000.0,60000.0,0,Unknown,2026-07-10 13:36:45+00:00,0,47500.0,False,64647.5
-5831200000,Data Analyst,UK Research and Innovation,"Swindon, Wiltshire",United Kingdom,IT Jobs,37634.81,37634.81,1,full_time,2026-08-07 00:10:33+00:00,0,37634.81,False,51220.976409999996
-5812621933,Data Analyst,Hays Technology,"Wytham, Oxford",United Kingdom,IT Jobs,52000.0,65000.0,0,Unknown,2026-07-23 20:43:38+00:00,4,58500.0,False,79618.5
-5830331714,Data Analyst,VIQU IT,"Glynn, Larne",United Kingdom,IT Jobs,40000.0,50000.0,0,full_time,2026-08-06 11:39:36+00:00,4,45000.0,False,61245.0
-5825872855,Data Analyst,Exclusive Networks,"London, UK",United Kingdom,IT Jobs,47435.09,47435.09,1,full_time,2026-08-02 18:22:52+00:00,0,47435.09,False,64559.15749
-5813670595,Data Analyst,Mears Group,UK,United Kingdom,IT Jobs,30891.19,30891.19,1,full_time,2026-07-24 11:02:25+00:00,0,30891.19,False,42042.909589999996
-5820008422,Data Analyst,UCL Partners,"Fitzrovia, West London",United Kingdom,IT Jobs,40000.0,52000.0,0,full_time,2026-07-29 18:08:37+00:00,0,46000.0,False,62606.0
-5830784992,Data Analyst,Likewize,"Bristol, South West England",United Kingdom,IT Jobs,42211.05,42211.05,1,full_time,2026-08-06 17:38:32+00:00,0,42211.05,False,57449.239050000004
-5823897527,Data Analyst-Healthcare,Persistent Systems,India,India,IT Jobs,,,0,full_time,2026-08-01 17:31:37+00:00,2,,True,
-5794153830,Climate Data Analyst,MSCI,"Pune, Maharashtra",India,Scientific & QA Jobs,,,0,full_time,2026-07-09 17:58:48+00:00,0,,True,
-5821999957,Senior Data Analyst II,Elsevier,India,India,IT Jobs,,,0,full_time,2026-07-31 09:50:11+00:00,0,,True,
-5785770935,"Data Analyst II, RM - AMER",Criteo,"Gurgaon, Haryana",India,IT Jobs,,,0,full_time,2026-07-03 00:54:12+00:00,0,,True,
-5830301684,Data Strategy Innovation Analyst,MSD,"Hyderabad, Telangana",India,IT Jobs,,,0,full_time,2026-08-06 16:01:53+00:00,0,,True,
-5785771371,Geospatial Physical Risk - AI Data Operations Analyst,MSCI,"Mumbai, Maharashtra",India,IT Jobs,,,0,full_time,2026-07-03 00:54:15+00:00,0,,True,
-5812528386,S&C GN - Data&AI - Resources - Analyst,Accenture,"Hyderabad, Telangana",India,HR & Recruitment Jobs,,,0,full_time,2026-07-23 22:17:13+00:00,0,,True,
-5821999967,"Senior Analyst, Data Governance (Corp Functions)",Invesco,"Hyderabad, Telangana",India,IT Jobs,,,0,full_time,2026-07-31 09:50:12+00:00,0,,True,
-5828130261,"Senior Analyst, Master Data Management (MDM)",Novartis,India,India,IT Jobs,,,0,full_time,2026-08-04 23:54:55+00:00,0,,True,
-5822403302,GBS Senior Quality Analyst I (Data Team),RX Global,"Chennai, Tamil Nadu",India,IT Jobs,,,0,full_time,2026-07-31 19:50:45+00:00,0,,True,
-5818524420,Case Processing Associate,Aptita,"Mumbai, Maharashtra",India,Healthcare & Nursing Jobs,,,0,Unknown,2026-07-28 21:18:34+00:00,0,,True,
-5826247065,Data Analyst,Inficore Soft,India,India,IT Jobs,264000.0,276000.0,0,full_time,2026-08-03 06:51:53+00:00,0,270000.0,False,2835.0
-4686704238,Data Analyst,Unknown,"Thiruvananthapuram, Kerala",India,IT Jobs,,,0,Unknown,2024-05-10 07:38:46+00:00,0,,True,
-5826795606,Data Analyst,VDart Software Services Pvt. Ltd.,"Richmond Town, Bangalore",India,IT Jobs,,,0,Unknown,2026-08-03 23:31:28+00:00,1,,True,
-5680120020,Data Analyst,SkySun,India,India,IT Jobs,,,0,full_time,2026-03-27 13:39:38+00:00,1,,True,
-5693524382,Data Analyst,LRN Corporation,India,India,IT Jobs,,,0,full_time,2026-04-09 01:03:12+00:00,0,,True,
-5832769936,Data Analyst,Scout Incorporation,"Bangalore, Karnataka",India,IT Jobs,2500000.0,4000000.0,0,full_time,2026-08-08 06:52:26+00:00,0,3250000.0,False,34125.0
-5828120401,Data Analyst,Tekwissen India,India,India,IT Jobs,18000.0,1800000.0,0,Unknown,2026-08-04 23:31:52+00:00,0,909000.0,False,9544.5
-5827861727,Data Analyst,Weekday AI,India,India,IT Jobs,,,0,full_time,2026-08-04 19:35:49+00:00,0,,True,
-5812614536,Data Analyst,Sia,"Mumbai, Maharashtra",India,IT Jobs,,,0,Unknown,2026-07-24 01:04:13+00:00,1,,True,
-5735463452,Data Analyst,Digital Twin,"Pune, Maharashtra",India,IT Jobs,,,0,Unknown,2026-05-21 02:12:34+00:00,0,,True,
-1993882092,Data Analyst,SveltetechTechnologies Pvt Ltd,"Delhi, India",India,IT Jobs,0.0,300000.0,0,full_time,2021-02-15 04:27:43+00:00,1,150000.0,False,1575.0
-4514376622,Data Analyst,Qrata,"Delhi, India",India,IT Jobs,1000000.0,1200000.0,0,full_time,2024-01-07 15:08:07+00:00,0,1100000.0,False,11550.0
-5146507084,Data Analyst,Amicus Therapeutics,"Bangalore, Karnataka",India,IT Jobs,,,0,full_time,2025-04-16 01:41:37+00:00,0,,True,
-5744868780,Data Analyst,Amicus India,"Bangalore, Karnataka",India,IT Jobs,,,0,full_time,2026-05-30 02:27:15+00:00,0,,True,
-4514376189,Data Analyst,Qrata,"Delhi, India",India,IT Jobs,800000.0,1300000.0,0,full_time,2024-01-07 15:07:49+00:00,0,1050000.0,False,11025.0
-5794938967,Data Analyst,Aliqan Services,"Chennai, Tamil Nadu",India,IT Jobs,,,0,Unknown,2026-07-10 07:19:30+00:00,0,,True,
-5794938966,Data Analyst,Aliqan Services,"Gurgaon, Haryana",India,IT Jobs,,,0,Unknown,2026-07-10 07:19:30+00:00,0,,True,
-5726293535,Data Analyst,Leading Client,"Hyderabad, Telangana",India,IT Jobs,,,0,full_time,2026-05-12 05:45:42+00:00,2,,True,
-5586444744,Data Analyst,InTouch CX,"Hyderabad, Telangana",India,IT Jobs,,,0,Unknown,2026-01-16 00:31:50+00:00,0,,True,
-5690242267,Data Analyst,Careernet,India,India,IT Jobs,,,0,full_time,2026-04-05 03:36:04+00:00,2,,True,
-4966721625,Data Analyst,Fatakpay,India,India,IT Jobs,800000.0,1500000.0,0,full_time,2024-12-07 13:03:54+00:00,0,1150000.0,False,12075.0
-5784727356,Data analyst,Cars24,"Pune, Maharashtra",India,IT Jobs,,,0,Unknown,2026-07-02 07:16:47+00:00,0,,True,
-5812180318,DATA ANALYST,Connect Pro Srl,"Ajmer, Rajasthan",India,IT Jobs,,,0,full_time,2026-07-23 15:54:18+00:00,0,,True,
-5781956391,Data Analyst,Credeau,"Maharashtra, India",India,IT Jobs,,,0,Unknown,2026-06-30 14:52:26+00:00,2,,True,
-5759283741,Data analyst,Cars24 Services Private Limited,"Pune, Maharashtra",India,IT Jobs,,,0,Unknown,2026-06-11 06:50:59+00:00,0,,True,
-1171509680,Data Analyst,Malaysian Global Innovation and Creativity Centre,India,India,IT Jobs,500000.0,1000000.0,0,full_time,2019-06-05 21:12:29+00:00,0,750000.0,False,7875.000000000001
-5727098377,Data Analyst,Navrang HR Solutions,"Surat, Gujarat",India,IT Jobs,,,0,full_time,2026-05-13 01:59:29+00:00,4,,True,
-5586566169,Data Analyst,In Touch,"Hyderabad, Telangana",India,IT Jobs,,,0,Unknown,2026-01-16 00:45:45+00:00,0,,True,
-5724515432,Data Analyst,Techwave,India,India,IT Jobs,,,0,full_time,2026-05-10 02:24:12+00:00,1,,True,
-1712428599,Data Analyst,Namaste Credit,"Bangalore, Karnataka",India,IT Jobs,500000.0,1000000.0,0,full_time,2020-09-19 01:45:32+00:00,0,750000.0,False,7875.000000000001
-5832076904,Data Analyst,Ness Digital Engineering,"Bangalore, Karnataka",India,IT Jobs,,,0,full_time,2026-08-07 20:40:13+00:00,0,,True,
-5503836577,Data Analyst,NAVVYASA CONSULTING PRIVATE LIMITED,India,India,IT Jobs,,,0,full_time,2025-11-20 00:58:08+00:00,2,,True,
-5831395731,Data Analyst,Whisk Software Private Limited,"Pune, Maharashtra",India,IT Jobs,,,0,Unknown,2026-08-07 07:26:13+00:00,3,,True,
-5826508020,Data Analyst,AVI-SPL India,"Mumbai, Maharashtra",India,IT Jobs,,,0,full_time,2026-08-03 15:57:53+00:00,0,,True,
-5586642440,Data Analyst,InTouch CX,"Hyderabad, Telangana",India,IT Jobs,,,0,Unknown,2026-01-16 00:52:21+00:00,0,,True,
-5817333511,Data Analyst,Emotions for Business,"Ajmer, Rajasthan",India,IT Jobs,,,0,full_time,2026-07-27 15:56:33+00:00,1,,True,
-2500155500,Data Analyst,Reality Premedia Services Pvt Ltd,"Pune, Maharashtra",India,IT Jobs,0.0,800000.0,0,full_time,2021-09-29 05:01:45+00:00,4,400000.0,False,4200.0
-5818423330,Data Analyst,Equitas Small Finance Bank,India,India,Manufacturing Jobs,,,0,full_time,2026-07-28 20:53:05+00:00,0,,True,
-5503284671,Data Analyst,Intelliatx Therapeutics,"Bangalore, Karnataka",India,IT Jobs,,,0,full_time,2025-11-19 22:19:09+00:00,0,,True,
-4993547435,Data Analyst,RegisterKaro,India,India,IT Jobs,400000.0,1000000.0,0,full_time,2025-01-01 11:53:10+00:00,1,700000.0,False,7350.000000000001
-5532438214,Data Analyst,Sagility,India,India,IT Jobs,,,0,full_time,2025-12-07 22:44:33+00:00,0,,True,
-5793185629,Data Analyst,Ecolab,India,India,Sales Jobs,,,0,full_time,2026-07-09 03:05:51+00:00,0,,True,
-2247134476,Data Analyst,Indium Software,India,India,IT Jobs,250000.0,800000.0,0,full_time,2021-06-12 12:42:07+00:00,2,525000.0,False,5512.5
-5336689191,Data Analyst,EWU,"Coimbatore, Tamil Nadu",India,IT Jobs,400000.0,700000.0,0,full_time,2025-08-04 05:33:07+00:00,2,550000.0,False,5775.0
-5832798180,Data Analyst,Milestone Online Technology,"Ahmedabad, Gujarat",India,IT Jobs,,,0,Unknown,2026-08-08 07:31:06+00:00,5,,True,
-5832798159,Data Analyst,Milestone Online Technology,"Bangalore, Karnataka",India,IT Jobs,,,0,Unknown,2026-08-08 07:31:05+00:00,5,,True,
-5832798167,Data Analyst,Milestone Online Technology,"Gurgaon, Haryana",India,IT Jobs,,,0,Unknown,2026-08-08 07:31:06+00:00,5,,True,
-5832798187,Data Analyst,Milestone Online Technology,"Lucknow, Uttar Pradesh",India,IT Jobs,,,0,Unknown,2026-08-08 07:31:07+00:00,5,,True,
-5832798181,Data Analyst,Milestone Online Technology,"Patna, Bihar",India,IT Jobs,,,0,Unknown,2026-08-08 07:31:06+00:00,5,,True,
-5832798158,Data Analyst,Milestone Online Technology,"Kolkata, West Bengal",India,IT Jobs,,,0,Unknown,2026-08-08 07:31:05+00:00,5,,True,
-4855397054,data analyst,Epik Solutions,India,India,IT Jobs,50000.0,700000.0,0,full_time,2024-09-07 11:25:36+00:00,0,375000.0,False,3937.5000000000005
-2853927974,Data Analyst,Multi Recruit,"Bangalore, Karnataka",India,IT Jobs,1200000.0,1400000.0,0,full_time,2022-01-30 04:34:26+00:00,0,1300000.0,False,13650.0
-5781956424,Data Analyst,Beworld web services,"Telangana, India",India,IT Jobs,,,0,Unknown,2026-06-30 14:52:26+00:00,1,,True,
-5833030004,Data Analyst,"NTT America, Inc.","Pune, Maharashtra",India,IT Jobs,,,0,Unknown,2026-08-08 10:56:18+00:00,0,,True,
-2433361449,Data Analyst,MSMEx,"Mumbai, Maharashtra",India,IT Jobs,0.0,1200000.0,0,full_time,2021-09-05 02:42:02+00:00,0,600000.0,False,6300.0
-2449398766,Data Analyst,Syrencloud,"Hyderabad, Telangana",India,IT Jobs,0.0,800000.0,0,full_time,2021-09-11 02:17:17+00:00,1,400000.0,False,4200.0
-5728445327,Data Analyst,RECEX,"Delhi, India",India,IT Jobs,,,0,full_time,2026-05-14 02:27:43+00:00,3,,True,
-5761950540,Data Analyst,Kotak Life,"Gurgaon, Haryana",India,IT Jobs,,,0,Unknown,2026-06-13 08:48:32+00:00,3,,True,
-2890608757,Data Analyst,Fragma Data Systems,India,India,IT Jobs,600000.0,800000.0,0,full_time,2022-02-12 04:45:18+00:00,3,700000.0,False,7350.000000000001
-4686704927,Data Analyst,Unknown,"Vadodara, Gujarat",India,IT Jobs,,,0,Unknown,2024-05-10 07:38:51+00:00,1,,True,
-5727239818,Data Analyst,Mantras2Success,"Ahmedabad, Gujarat",India,IT Jobs,,,0,full_time,2026-05-13 02:13:36+00:00,0,,True,
-4715697356,Data analyst,Sadup Softech,"Bangalore, Karnataka",India,IT Jobs,1200000.0,1500000.0,0,full_time,2024-06-01 09:41:50+00:00,5,1350000.0,False,14175.0
-5800765376,Data Analyst,Jetking Technologies Private Limited,"Noida, Ghaziabad",India,IT Jobs,20000.0,25000.0,0,Unknown,2026-07-15 10:21:31+00:00,4,22500.0,False,236.25000000000003
-2403881225,Data Analyst,Multi Recruit,"Bangalore, Karnataka",India,IT Jobs,500000.0,1500000.0,0,full_time,2021-08-24 22:37:13+00:00,1,1000000.0,False,10500.0
-5681009000,Data Analyst,Wissen Technology,"Bangalore, Karnataka",India,IT Jobs,,,0,full_time,2026-03-28 11:28:26+00:00,3,,True,
-2539490267,Data Analyst,Graphene Services Pte Ltd,"Bangalore, Karnataka",India,IT Jobs,,,0,full_time,2021-10-13 05:52:44+00:00,0,,True,
-5828954610,Data Analyst,Indium,"Hyderabad, Telangana",India,IT Jobs,,,0,full_time,2026-08-05 15:58:38+00:00,6,,True,
-5814494533,Data Analyst,EXL,"Pune, Maharashtra",India,IT Jobs,,,0,full_time,2026-07-25 03:27:49+00:00,3,,True,
-5549594782,Data Analyst,Highfly Sourcing,India,India,IT Jobs,1500000.0,2500000.0,0,full_time,2025-12-20 11:07:17+00:00,0,2000000.0,False,21000.0
-5777073838,Data Analyst,Webkit24,"Kolkata, West Bengal",India,IT Jobs,,,0,Unknown,2026-06-26 07:29:41+00:00,8,,True,
-5777073828,Data Analyst,Webkit24,"Pune, Maharashtra",India,IT Jobs,,,0,Unknown,2026-06-26 07:29:41+00:00,8,,True,
-5602825903,Data Analyst,Hunarstreet Technologies Pvt Ltd,"Vadodara, Gujarat",India,IT Jobs,600000.0,800000.0,0,full_time,2026-01-28 11:24:00+00:00,0,700000.0,False,7350.000000000001
-5768623778,Data Analyst,Ecolab,India,India,IT Jobs,,,0,full_time,2026-06-19 02:45:54+00:00,2,,True,
-5706462425,Data Analyst,Cytiva Life Science,"Bangalore, Karnataka",India,IT Jobs,,,0,full_time,2026-04-22 01:59:28+00:00,0,,True,
-4344578568,Data Analyst,Jobdost,"Bangalore, Karnataka",India,IT Jobs,0.0,500000.0,0,full_time,2023-10-02 13:22:30+00:00,0,250000.0,False,2625.0
-5592093935,Data Analyst,Hunarstreet Technologies Pvt Ltd,"Gujarat, India",India,IT Jobs,60000.0,700000.0,0,full_time,2026-01-20 11:16:34+00:00,0,380000.0,False,3990.0000000000005
-5830609951,Data Analyst,DXC Technology,India,India,IT Jobs,,,0,full_time,2026-08-06 20:43:47+00:00,0,,True,
-3337906172,Data Analyst,Mr n Mrs Pet,"Jaipur, Rajasthan",India,IT Jobs,100000.0,300000.0,0,full_time,2022-07-22 06:48:32+00:00,0,200000.0,False,2100.0
-5823107180,Data Analyst,Colan Infotech Private Limited,"Chennai, Tamil Nadu",India,IT Jobs,,,0,Unknown,2026-08-01 06:26:41+00:00,2,,True,
-5800078733,Data Analyst,Stripe,India,India,IT Jobs,,,0,full_time,2026-07-14 21:14:56+00:00,0,,True,
-1762829126,Data Analyst,Awign,"Bangalore, Karnataka",India,IT Jobs,400000.0,700000.0,0,full_time,2020-10-15 02:16:09+00:00,0,550000.0,False,5775.0
-5796414147,Data Analyst,Align Technology,"Delhi, India",India,IT Jobs,,,0,Unknown,2026-07-11 07:20:30+00:00,1,,True,
-5729673732,Data Analyst,Vedita Ventures,"Chennai, Tamil Nadu",India,IT Jobs,,,0,full_time,2026-05-15 02:13:33+00:00,0,,True,
-5762286343,Data Analyst,Wissen Technology,"Bangalore, Karnataka",India,IT Jobs,,,0,full_time,2026-06-13 13:33:59+00:00,4,,True,
-5759289384,Data Analyst,NatWest Markets,"Bangalore, Karnataka",India,IT Jobs,,,0,Unknown,2026-06-11 06:55:22+00:00,0,,True,
-5761947576,Data Analyst,Genisys Information Systems India Private Limited,"Bangalore, Karnataka",India,IT Jobs,,,0,Unknown,2026-06-13 08:43:56+00:00,0,,True,
-4992020344,Data Analyst,Appitsimple infotek Pvt. Ltd.,India,India,IT Jobs,100000.0,300000.0,0,full_time,2024-12-30 12:10:27+00:00,0,200000.0,False,2100.0
-4514376058,Data Analyst,Qrata,"Mumbai, Maharashtra",India,IT Jobs,500000.0,1000000.0,0,full_time,2024-01-07 15:07:43+00:00,0,750000.0,False,7875.000000000001
-2572832371,Data Analyst,BitClass,"Bangalore, Karnataka",India,IT Jobs,0.0,1600000.0,0,full_time,2021-10-24 04:00:25+00:00,1,800000.0,False,8400.0
-5812803832,Data Analyst,Stantec,"Pune, Maharashtra",India,IT Jobs,,,0,full_time,2026-07-24 03:19:37+00:00,0,,True,
-5831397285,Data Analyst,ICE,"Hyderabad, Telangana",India,IT Jobs,,,0,Unknown,2026-08-07 07:27:22+00:00,0,,True,
-2635526340,Data Analyst,Amazon,"Bangalore, Karnataka",India,IT Jobs,0.0,800000.0,0,full_time,2021-11-12 04:18:09+00:00,0,400000.0,False,4200.0
-5796410882,Data Analyst,Novel Office,"Kolkata, West Bengal",India,IT Jobs,,,0,Unknown,2026-07-11 07:19:21+00:00,2,,True,
-5796410881,Data Analyst,Novel Office,"Hyderabad, Telangana",India,IT Jobs,,,0,Unknown,2026-07-11 07:19:21+00:00,2,,True,
-2853928118,Data Analyst,Extramarks,"Noida, Ghaziabad",India,IT Jobs,0.0,1000000.0,0,full_time,2022-01-30 04:34:28+00:00,3,500000.0,False,5250.0
-5600377478,Data Analyst,Arcana Analytics,India,India,IT Jobs,,,0,Unknown,2026-01-26 00:36:10+00:00,0,,True,
-5574398026,Data Analyst,Topcoder,"Noida, Ghaziabad",India,IT Jobs,,,0,Unknown,2026-01-09 00:41:11+00:00,1,,True,
-5211779279,Data Analyst,Wissen Technology,"Mumbai, Maharashtra",India,IT Jobs,,,0,full_time,2025-05-23 06:51:59+00:00,0,,True,
-5819856885,Data Analyst,Cisco,"Bangalore, Karnataka",India,IT Jobs,,,0,full_time,2026-07-29 20:42:05+00:00,1,,True,
-5760748165,Data Analyst,Wipzo Systech Private Limited,"Pune, Maharashtra",India,IT Jobs,,,0,Unknown,2026-06-12 06:50:30+00:00,1,,True,
-5820791979,Data Analyst,Cisco,"Bangalore, Karnataka",India,IT Jobs,,,0,Unknown,2026-07-30 10:54:32+00:00,1,,True,
-5813416108,Data Analyst,Stantec,"Pune, Maharashtra",India,IT Jobs,,,0,Unknown,2026-07-24 10:54:13+00:00,0,,True,
-5833582957,Data Analyst,Amex,"Bangalore, Karnataka",India,IT Jobs,,,0,full_time,2026-08-08 20:43:25+00:00,0,,True,
-5343634247,Data Analyst,Stellaspire,"Bangalore, Karnataka",India,IT Jobs,,,0,full_time,2025-08-08 17:22:09+00:00,0,,True,
-5811736900,Data Analyst,Colruyt IT Consultancy India,"Coimbatore, Tamil Nadu",India,IT Jobs,,,0,Unknown,2026-07-23 07:24:16+00:00,0,,True,
-5811736899,Data Analyst,Colruyt IT Consultancy India,"Hyderabad, Telangana",India,IT Jobs,,,0,Unknown,2026-07-23 07:24:16+00:00,0,,True,
-5379021882,Data Analyst,ICAD school of Learning,"Nagpur, Maharashtra",India,IT Jobs,500000.0,800000.0,0,full_time,2025-09-02 07:56:40+00:00,0,650000.0,False,6825.0
-5808003668,Data Analyst,Gainwell Technologies,"Bangalore, Karnataka",India,IT Jobs,,,0,full_time,2026-07-20 16:01:25+00:00,0,,True,
-5522126592,Data Analyst,Technogen,"Bangalore, Karnataka",India,IT Jobs,,,0,full_time,2025-12-01 22:55:55+00:00,1,,True,
-4988851694,Data Analyst,Clinton Health Access Initiative,"Bhopal, Madhya Pradesh",India,Admin Jobs,300000.0,400000.0,0,full_time,2024-12-25 11:57:39+00:00,0,350000.0,False,3675.0000000000005
-5802675020,Data Analyst,Space Stem,"Ahmedabad, Gujarat",India,IT Jobs,,,0,full_time,2026-07-16 15:11:19+00:00,3,,True,
-5728267279,Data Analyst,Mantras2Success,"Ahmedabad, Gujarat",India,IT Jobs,,,0,full_time,2026-05-14 02:05:21+00:00,1,,True,
-5825770736,Data Analyst,DS Group,India,India,IT Jobs,826000.0,1239000.0,0,full_time,2026-08-02 20:55:27+00:00,2,1032500.0,False,10841.25
-5824128224,Data Analyst,Anaplan,India,India,IT Jobs,,,0,Unknown,2026-08-01 20:49:30+00:00,0,,True,
-4158049546,Data Analyst,DAZN,"Hyderabad, Telangana",India,IT Jobs,,,0,full_time,2023-06-18 16:46:34+00:00,0,,True,
-5817917669,Data Analyst,Michelin,"Pune, Maharashtra",India,IT Jobs,,,0,Unknown,2026-07-28 07:44:35+00:00,0,,True,
-4801558701,Data Analyst,Immunogen Pharmaceutical,"Bangalore, Karnataka",India,IT Jobs,,,0,full_time,2024-07-31 03:15:22+00:00,0,,True,
-5796404047,Data Analyst,Easemytrip com,"Navi Mumbai, Maharashtra",India,IT Jobs,,,0,Unknown,2026-07-11 07:17:33+00:00,0,,True,
-5832090086,Data Analyst,Fortive,India,India,IT Jobs,,,0,full_time,2026-08-07 20:54:37+00:00,0,,True,
-2830210357,Data Analyst,Amagi Media Labs,"Bangalore, Karnataka",India,IT Jobs,1000000.0,2000000.0,0,full_time,2022-01-21 04:29:35+00:00,0,1500000.0,False,15750.000000000002
-5788467735,Data Analyst,Ecolab,India,India,IT Jobs,,,0,full_time,2026-07-05 03:37:53+00:00,0,,True,
-5823802837,Data Analyst,Cognizant,India,India,IT Jobs,,,0,full_time,2026-08-01 15:56:29+00:00,5,,True,
-5782687819,Data Analyst,Delhivery,"Gurgaon, Haryana",India,IT Jobs,,,0,Unknown,2026-07-01 07:15:56+00:00,5,,True,
-2830210287,Data Analyst,Amagi Media Labs,"Bangalore, Karnataka",India,IT Jobs,1000000.0,1400000.0,0,full_time,2022-01-21 04:29:34+00:00,2,1200000.0,False,12600.0
-5823363283,Data Analyst,Cognizant,"Bangalore, Karnataka",India,IT Jobs,,,0,Unknown,2026-08-01 10:50:20+00:00,5,,True,
-5830606128,Data Analyst,HP,India,India,IT Jobs,,,0,full_time,2026-08-06 20:42:20+00:00,1,,True,
-5590143347,Data Analyst,Hudson Data,India,India,IT Jobs,900000.0,1200000.0,0,full_time,2026-01-18 10:53:59+00:00,0,1050000.0,False,11025.0
-5798274842,Data Analyst,TriNet,"Hyderabad, Telangana",India,Accounting & Finance Jobs,,,0,full_time,2026-07-13 03:26:36+00:00,0,,True,
-5759289185,Data Analyst,CONTUS TECH,"Chennai, Tamil Nadu",India,IT Jobs,,,0,Unknown,2026-06-11 06:55:02+00:00,1,,True,
-5797337094,Data Analyst,Cohere Health,"Hyderabad, Telangana",India,Accounting & Finance Jobs,,,0,Unknown,2026-07-12 03:18:11+00:00,0,,True,
-5831602194,Data Analyst,Fortive Corporation,India,India,IT Jobs,,,0,Unknown,2026-08-07 10:54:42+00:00,0,,True,
-5770986895,Data Analyst,Bajaj Finance,India,India,IT Jobs,,,0,full_time,2026-06-21 02:36:21+00:00,1,,True,
-5833592397,Data Analyst,Barracuda Networks,"Bangalore, Karnataka",India,IT Jobs,,,0,Unknown,2026-08-08 20:50:54+00:00,0,,True,
-5815238127,Data Analyst,S&P Global,"Mumbai, Maharashtra",India,Accounting & Finance Jobs,,,0,full_time,2026-07-25 15:55:35+00:00,0,,True,
-1186076365,Data Analyst,The Smart Cube,"Noida, Ghaziabad",India,IT Jobs,200000.0,500000.0,0,full_time,2019-06-20 23:29:15+00:00,0,350000.0,False,3675.0000000000005
-5732584180,Data Analyst,Acura Solution,India,India,IT Jobs,,,0,full_time,2026-05-18 02:08:37+00:00,1,,True,
-5793185846,Data Analyst,Headout,"Bangalore, Karnataka",India,IT Jobs,,,0,Unknown,2026-07-09 03:05:53+00:00,0,,True,
-2953661450,Data Analyst,Falcon Autotech,"Noida, Ghaziabad",India,IT Jobs,400000.0,700000.0,0,full_time,2022-03-08 05:06:27+00:00,4,550000.0,False,5775.0
-2177266370,Data Analyst,Marktine,"Bangalore, Karnataka",India,IT Jobs,0.0,1500000.0,0,full_time,2021-05-11 13:01:41+00:00,4,750000.0,False,7875.000000000001
-5833530113,Contract and Data Analyst (Managed Care),Lancesoft Inc,"Tulsa, Tulsa County",United States,Accounting & Finance Jobs,68390.0,98585.0,0,Unknown,2026-08-08 10:28:04+00:00,0,83487.5,False,83487.5
-5818995855,Contract & Data Analyst (Managed Care),Lancesoft Inc,"Tulsa, Tulsa County",United States,Accounting & Finance Jobs,68390.0,98586.0,0,Unknown,2026-07-28 19:12:55+00:00,0,83488.0,False,83488.0
-5826542901,Data Analyst,Insolation Technology Ltd,"Houston, Harris County",United States,IT Jobs,66546.46,66546.46,1,Unknown,2026-08-03 07:15:20+00:00,0,66546.46,False,66546.46
-5826542916,Data Analyst,"CCU, LLC","Illinois, US",United States,IT Jobs,58429.79,58429.79,1,Unknown,2026-08-03 07:15:20+00:00,0,58429.79,False,58429.79
-5832647121,Data Analyst,Charlotte Radiology,"Charlotte, Mecklenburg County",United States,IT Jobs,81956.03,81956.03,1,Unknown,2026-08-07 19:34:57+00:00,0,81956.03,False,81956.03
-5831229562,Data Analyst,Metrc,Florida,United States,IT Jobs,52625.22,52625.22,1,Unknown,2026-08-06 19:31:04+00:00,0,52625.22,False,52625.22
-5831229395,Data Analyst,NBCUniversal,"New York City, New York",United States,IT Jobs,141801.11,141801.11,1,Unknown,2026-08-06 19:31:02+00:00,0,141801.11,False,141801.11
-5831229415,Data Analyst,Shield California Health,"California, US",United States,Accounting & Finance Jobs,66473.27,66473.27,1,Unknown,2026-08-06 19:31:02+00:00,0,66473.27,False,66473.27
-5823867997,Data Analyst,MANTECH,"Tampa, Hillsborough County",United States,IT Jobs,82150.41,82150.41,1,Unknown,2026-08-01 06:42:49+00:00,0,82150.41,False,82150.41
-5828380478,Big Data Analyst,Vantor,"Herndon, Fairfax County",United States,IT Jobs,122000.0,160000.0,0,Unknown,2026-08-04 19:25:33+00:00,2,141000.0,False,141000.0
-5833208320,AI Operations & Data Analyst,"Canon U.S.A., Inc.","Melville, Suffolk County",United States,IT Jobs,69300.0,103770.0,0,full_time,2026-08-08 04:32:20+00:00,1,86535.0,False,86535.0
-5831229552,Data Analyst I,San Jacinto College,"Texas, US",United States,IT Jobs,75279.34,75279.34,1,Unknown,2026-08-06 19:31:03+00:00,0,75279.34,False,75279.34
-5826542905,Data Analyst III,CorVel Career Site,"Irvine, Orange County",United States,IT Jobs,64602.09,64602.09,1,Unknown,2026-08-03 07:15:20+00:00,0,64602.09,False,64602.09
-5831229706,Data Analyst II,S3,"Raleigh, Wake County",United States,IT Jobs,83563.14,83563.14,1,Unknown,2026-08-06 19:31:06+00:00,2,83563.14,False,83563.14
-5829864297,HR Data Analyst,Job Details,"New York City, New York",United States,HR & Recruitment Jobs,86645.58,86645.58,1,Unknown,2026-08-05 21:30:12+00:00,0,86645.58,False,86645.58
-5832647027,Data Analyst (Hybrid),"CISCO, Inc.","Durham, Durham County",United States,IT Jobs,149636.77,149636.77,1,Unknown,2026-08-07 19:34:56+00:00,0,149636.77,False,149636.77
-5831229529,Sr. Data Analyst,Pinterest,"Los Angeles, Los Angeles County",United States,IT Jobs,134351.17,134351.17,1,Unknown,2026-08-06 19:31:03+00:00,0,134351.17,False,134351.17
-5826542902,Remote Data Analyst,Jobsultant Solutions,"Sacramento, Sacramento County",United States,HR & Recruitment Jobs,73465.89,73465.89,1,Unknown,2026-08-03 07:15:20+00:00,0,73465.89,False,73465.89
-5829017787,Data Analyst,Leidos,"Madison, Madison County",United States,Accounting & Finance Jobs,88159.74,88159.74,1,Unknown,2026-08-05 06:58:59+00:00,0,88159.74,False,88159.74
-5820379113,"Data Analyst, Specialist",Vanguard,"Charlotte, Clinton County",United States,IT Jobs,71369.29,71369.29,1,Unknown,2026-07-29 18:49:12+00:00,0,71369.29,False,71369.29
-5802478131,Financial Data Analyst,CAI,"Miramar, Broward County",United States,IT Jobs,77917.57,77917.57,1,Unknown,2026-07-16 04:37:25+00:00,0,77917.57,False,77917.57
-5815857556,"Data Analyst, Specialist",Vanguard,"Frazer, Chester County",United States,IT Jobs,78604.81,78604.81,1,Unknown,2026-07-25 18:26:36+00:00,0,78604.81,False,78604.81
-5832595587,"Data Analyst, Specialist",Vanguard,"Dallas, Texas",United States,IT Jobs,86223.12,86223.12,1,Unknown,2026-08-07 19:03:58+00:00,0,86223.12,False,86223.12
-5789985328,"Data Analyst, Specialist",Vanguard,"Charlotte, Clinton County",United States,IT Jobs,83889.32,83889.32,1,Unknown,2026-07-06 11:33:04+00:00,0,83889.32,False,83889.32
-5820379088,"Data Analyst, Specialist",Vanguard,"Charlotte, Clinton County",United States,IT Jobs,70474.47,70474.47,1,Unknown,2026-07-29 18:49:11+00:00,0,70474.47,False,70474.47
-5831197638,Senior Data Analyst,Transunion,"Chicago, Cook County",United States,IT Jobs,95487.0,95487.0,1,Unknown,2026-08-06 19:00:11+00:00,0,95487.0,False,95487.0
-5806988189,"Data Analyst, Specialist",Vanguard,"Frazer, Chester County",United States,IT Jobs,76658.02,76658.02,1,Unknown,2026-07-19 04:52:16+00:00,0,76658.02,False,76658.02
-5821666321,Marketing Data Analyst,Transunion,"Chicago, Cook County",United States,Accounting & Finance Jobs,90916.08,90916.08,1,Unknown,2026-07-30 18:49:20+00:00,0,90916.08,False,90916.08
-5809620931,"Data Analyst, Specialist",Vanguard,"Frazer, Chester County",United States,IT Jobs,81335.77,81335.77,1,Unknown,2026-07-21 15:12:31+00:00,1,81335.77,False,81335.77
-5828589324,HR Data Analyst-1,MiQ,"Chicago, Cook County",United States,HR & Recruitment Jobs,103353.25,103353.25,1,Unknown,2026-08-04 21:30:15+00:00,0,103353.25,False,103353.25
-5817616426,Senior Data Analysts,Kforce Technology Staffing,"Tampa Palms, Hillsborough County",United States,IT Jobs,208397.75,208397.75,1,Unknown,2026-07-27 17:15:52+00:00,5,208397.75,False,208397.75
-5828115679,Data Analyst,International Solutions Group,"Pimmit, Fairfax County",United States,IT Jobs,69340.26,69340.26,1,Unknown,2026-08-04 13:50:04+00:00,1,69340.26,False,69340.26
-5821683158,Data Analyst,ETS LLC,"Richmond, Richmond County",United States,IT Jobs,62302.2,62302.2,1,Unknown,2026-07-30 19:15:14+00:00,1,62302.2,False,62302.2
-5792941498,Data Analyst,Futuremindz llc,US,United States,IT Jobs,149980.94,149980.94,1,Unknown,2026-07-08 13:03:32+00:00,2,149980.94,False,149980.94
-5826944936,Data Analyst,System One,"Bloomfield, Allegheny County",United States,IT Jobs,154125.33,154125.33,1,Unknown,2026-08-03 17:38:06+00:00,0,154125.33,False,154125.33
-5831241832,Data Analyst,QUANTUM TECHNOLOGIES LLC,"Brooklyn, Jackson County",United States,IT Jobs,123909.8,123909.8,1,Unknown,2026-08-06 19:55:19+00:00,1,123909.8,False,123909.8
-5821965040,Data analyst,SLK America Inc.,"Wilmington, New Castle County",United States,IT Jobs,72142.22,72142.22,1,Unknown,2026-07-30 23:16:39+00:00,0,72142.22,False,72142.22
-5803823376,Data Analyst,"iTech US, Inc.","Charlotte, Mecklenburg County",United States,IT Jobs,91528.19,91528.19,1,Unknown,2026-07-16 17:52:23+00:00,2,91528.19,False,91528.19
-5813141729,Data Analyst,Na Oiwi Kane,"Mount Rainier, Prince George's County",United States,IT Jobs,148544.22,148544.22,1,Unknown,2026-07-23 21:24:28+00:00,0,148544.22,False,148544.22
-5829293539,DATA ANALYST,AaraTechnologies Inc,"Five Corners, Hudson County",United States,Accounting & Finance Jobs,60778.29,60778.29,1,Unknown,2026-08-05 11:44:00+00:00,0,60778.29,False,60778.29
-5775687128,Data Analyst,"Judge Group, Inc.","Bridgeport, Montgomery County",United States,IT Jobs,107764.72,107764.72,1,Unknown,2026-06-24 22:42:09+00:00,2,107764.72,False,107764.72
-5828602150,Data Analyst,"Motion Recruitment Partners, LLC","Richardson, Dallas",United States,IT Jobs,75578.23,75578.23,1,Unknown,2026-08-04 21:52:42+00:00,0,75578.23,False,75578.23
-5808781969,Data Analyst,Na Oiwi Kane,US,United States,IT Jobs,95673.22,95673.22,1,Unknown,2026-07-20 22:41:53+00:00,0,95673.22,False,95673.22
-5786123800,Data Analyst,Booz Allen Hamilton,"San Diego, San Diego County",United States,IT Jobs,108214.77,108214.77,1,Unknown,2026-07-02 19:13:20+00:00,0,108214.77,False,108214.77
-5821225198,DATA ANALYST,AaraTechnologies Inc,US,United States,IT Jobs,63174.9,63174.9,1,Unknown,2026-07-30 11:27:35+00:00,0,63174.9,False,63174.9
-5822430412,DATA ANALYST,AaraTechnologies Inc,"Chesapeake City, Cecil County",United States,IT Jobs,50370.06,50370.06,1,Unknown,2026-07-31 11:19:40+00:00,0,50370.06,False,50370.06
-5832180704,DATA ANALYST,AaraTechnologies Inc,"Georgiana, Butler County",United States,IT Jobs,55002.06,55002.06,1,Unknown,2026-08-07 11:46:22+00:00,0,55002.06,False,55002.06
-5769854278,Data Analyst,Enterprise Business Solutions Inc,"Virginia Beach, Virginia Beach City",United States,IT Jobs,80000.28,80000.28,1,Unknown,2026-06-19 18:30:50+00:00,4,80000.28,False,80000.28
-5831231459,Data Analyst,Alpha Omega Integration LLC,"Millington, Shelby County",United States,IT Jobs,81978.15,81978.15,1,Unknown,2026-08-06 19:44:50+00:00,0,81978.15,False,81978.15
-5683630339,: Data Analyst,Gov Services Hub,"Richmond, Richmond County",United States,IT Jobs,119611.38,119611.38,1,Unknown,2026-03-30 18:34:44+00:00,0,119611.38,False,119611.38
-5830750196,DATA ANALYST,AaraTechnologies Inc,"Kansas City, Jackson County",United States,IT Jobs,78110.12,78110.12,1,Unknown,2026-08-06 11:45:25+00:00,0,78110.12,False,78110.12
-5826701628,DATA ANALYST,AaraTechnologies Inc,"Texas City, Galveston County",United States,IT Jobs,72534.96,72534.96,1,Unknown,2026-08-03 11:38:00+00:00,0,72534.96,False,72534.96
-5822586053,Data Analyst,RightTalents,"Flatbush, Brooklyn",United States,IT Jobs,132558.17,132558.17,1,Unknown,2026-07-31 13:19:47+00:00,0,132558.17,False,132558.17
-5810313399,Data Analyst,"Belcan, LLC","Country Park Acres, Guilford County",United States,Engineering Jobs,130926.77,130926.77,1,Unknown,2026-07-21 23:00:47+00:00,0,130926.77,False,130926.77
-5803519819,Data Analyst,Staffworks Inc,"Southington, Hartford County",United States,IT Jobs,57367.46,57367.46,1,Unknown,2026-07-16 13:50:25+00:00,0,57367.46,False,57367.46
-5828149799,Data Analyst,Mindlance,"Palm Beach, Palm Beach County",United States,IT Jobs,69014.29,69014.29,1,Unknown,2026-08-04 15:44:11+00:00,0,69014.29,False,69014.29
-5817724288,Data Analyst,Stanley David and Associates,"Phoenix, Maricopa County",United States,IT Jobs,115643.67,115643.67,1,Unknown,2026-07-27 19:18:13+00:00,2,115643.67,False,115643.67
-5809936601,Data Analyst,Booz Allen Hamilton,"Camp Lejeune, Onslow County",United States,IT Jobs,114923.66,114923.66,1,Unknown,2026-07-21 19:00:39+00:00,0,114923.66,False,114923.66
-5798895565,Data Analyst,Cliff Services Inc,"Northlake, DeKalb County",United States,IT Jobs,78824.31,78824.31,1,Unknown,2026-07-13 11:33:02+00:00,0,78824.31,False,78824.31
-5812673893,Data Analyst,GARGI TECHNOLOGIES INC,"Bloomfield, Allegheny County",United States,IT Jobs,91930.85,91930.85,1,Unknown,2026-07-23 17:03:55+00:00,6,91930.85,False,91930.85
-5828399220,Data analyst,Collabera LLC,"Orlando, Orange County",United States,Accounting & Finance Jobs,55416.11,55416.11,1,Unknown,2026-08-04 19:47:02+00:00,0,55416.11,False,55416.11
-5817617648,Data Analyst,ISOFT,"Pimmit, Fairfax County",United States,IT Jobs,67673.49,67673.49,1,Unknown,2026-07-27 17:19:11+00:00,2,67673.49,False,67673.49
-5761867133,Data Analyst,Cherokee Federal,"State Farm, Arlington County",United States,IT Jobs,134388.06,134388.06,1,Unknown,2026-06-12 19:39:28+00:00,0,134388.06,False,134388.06
-5680353927,Data Analyst,Chenega MIOS,"Trade, Alexandria City",United States,IT Jobs,64133.36,64133.36,1,Unknown,2026-03-27 10:10:27+00:00,0,64133.36,False,64133.36
-5826788696,Data Analyst,DivIHN Integration Inc.,"Little Canada, Ramsey County",United States,IT Jobs,50206.81,50206.81,1,Unknown,2026-08-03 13:30:46+00:00,0,50206.81,False,50206.81
-5832647912,Data Analyst,Apetan Consulting,"Bee Cave, Travis County",United States,IT Jobs,83917.96,83917.96,1,Unknown,2026-08-07 19:51:34+00:00,0,83917.96,False,83917.96
-5802894734,Data Analyst,INSPYR Solutions,"Jacks Cabin, Gunnison County",United States,IT Jobs,119795.63,119795.63,1,Unknown,2026-07-16 09:46:29+00:00,2,119795.63,False,119795.63
-5821709060,Data Analyst,Apex Systems,"Florin, Sacramento County",United States,IT Jobs,83539.55,83539.55,1,Unknown,2026-07-30 19:21:16+00:00,1,83539.55,False,83539.55
-5781698387,Data Analyst,Chenega MIOS,"Trade, Alexandria City",United States,IT Jobs,68732.12,68732.12,1,Unknown,2026-06-29 22:55:30+00:00,0,68732.12,False,68732.12
-5800473938,Data Analyst,Eliassen Group,"Jacks Cabin, Gunnison County",United States,IT Jobs,89632.9,89632.9,1,Unknown,2026-07-14 19:43:32+00:00,0,89632.9,False,89632.9
-5832795114,Data Analyst,Robert Half,"Eagan, Dakota County",United States,IT Jobs,70918.38,70918.38,1,Unknown,2026-08-07 21:57:28+00:00,0,70918.38,False,70918.38
-5759191393,Data Analyst,Booz Allen Hamilton,"Oakwood, Montgomery County",United States,IT Jobs,93909.12,93909.12,1,Unknown,2026-06-10 18:38:52+00:00,0,93909.12,False,93909.12
-5827092971,Data Analyst,BizTech Staffing,"Charlotte, Mecklenburg County",United States,IT Jobs,86031.82,86031.82,1,Unknown,2026-08-03 19:45:30+00:00,2,86031.82,False,86031.82
-5819462694,Data Analyst,SAIC,"Heltonville, Lawrence County",United States,IT Jobs,94336.12,94336.12,1,Unknown,2026-07-29 03:19:38+00:00,0,94336.12,False,94336.12
-5814311678,Data Analyst,Randstad Digital,"Daytona Beach Shores, Volusia County",United States,IT Jobs,54799.59,54799.59,1,Unknown,2026-07-24 17:13:42+00:00,0,54799.59,False,54799.59
-5832801150,Data Analyst,Robert Half,"Salt Lake City, Salt Lake County",United States,IT Jobs,106384.56,106384.56,1,Unknown,2026-08-07 22:04:54+00:00,0,106384.56,False,106384.56
-5832673100,Data Analyst,Genesis10,"Charlotte, Mecklenburg County",United States,IT Jobs,100314.98,100314.98,1,Unknown,2026-08-07 20:00:16+00:00,0,100314.98,False,100314.98
-5829292256,Data Analyst,Collabera LLC,"Orlando, Orange County",United States,Accounting & Finance Jobs,71092.06,71092.06,1,Unknown,2026-08-05 11:42:40+00:00,0,71092.06,False,71092.06
-5828700104,Data Analyst,Gainwell Technologies LLC,"Roseville, Placer County",United States,IT Jobs,85684.41,85684.41,1,Unknown,2026-08-04 23:57:44+00:00,0,85684.41,False,85684.41
-5832573134,Data Analyst,Engineering Square,"Richmond, Richmond County",United States,IT Jobs,122508.62,122508.62,1,Unknown,2026-08-07 18:01:40+00:00,3,122508.62,False,122508.62
-5819611432,Data Analyst,CGI,"State Farm, Arlington County",United States,IT Jobs,107725.47,107725.47,1,Unknown,2026-07-29 05:35:34+00:00,0,107725.47,False,107725.47
-5818781463,Data Analyst,Saicon Consultants Inc.,"Rosemont, Cook County",United States,IT Jobs,84018.62,84018.62,1,Unknown,2026-07-28 17:13:18+00:00,1,84018.62,False,84018.62
-5828602152,Data Analyst,Robert Half,"Pittsfield, Somerset County",United States,IT Jobs,119779.18,119779.18,1,Unknown,2026-08-04 21:52:42+00:00,0,119779.18,False,119779.18
-5830859942,Data Analyst,Accentuate IT Solutions,"Flatbush, Brooklyn",United States,IT Jobs,91557.17,91557.17,1,Unknown,2026-08-06 15:47:01+00:00,1,91557.17,False,91557.17
-5832273895,Data Analyst,Randstad Digital,"Pennsylvania, US",United States,IT Jobs,61507.86,61507.86,1,Unknown,2026-08-07 13:57:43+00:00,0,61507.86,False,61507.86
-5826813610,Data Analyst,Brooksource,"New Jersey, US",United States,IT Jobs,76768.27,76768.27,1,Unknown,2026-08-03 15:45:50+00:00,0,76768.27,False,76768.27
-5789985215,"Data Analyst, Senior Specialist",Vanguard,"Charlotte, Clinton County",United States,IT Jobs,104330.68,104330.68,1,Unknown,2026-07-06 11:33:02+00:00,0,104330.68,False,104330.68
-5789984821,"Data Analyst, Senior Specialist",Vanguard,"Dallas, Texas",United States,IT Jobs,92661.07,92661.07,1,Unknown,2026-07-06 11:32:54+00:00,0,92661.07,False,92661.07
-5806988197,"Data Analyst, Senior Specialist",Vanguard,"Frazer, Chester County",United States,IT Jobs,86034.12,86034.12,1,Unknown,2026-07-19 04:52:16+00:00,0,86034.12,False,86034.12
-5806988210,Associate Director - Data Analyst,Moody's Corporation,"New York City, New York",United States,IT Jobs,171285.89,171285.89,1,Unknown,2026-07-19 04:52:16+00:00,0,171285.89,False,171285.89
-5820379093,Junior Investment Data Analyst,Vanguard,"Frazer, Chester County",United States,IT Jobs,81680.98,81680.98,1,Unknown,2026-07-29 18:49:11+00:00,0,81680.98,False,81680.98
-5833023273,Cyber Data Analyst,SkyePoint Decisions,"Arlington, Arlington County",United States,IT Jobs,110019.27,110019.27,1,Unknown,2026-08-08 01:25:19+00:00,0,110019.27,False,110019.27
-5832283792,Fabric Data Analyst,"Arrivia, Inc.","Scottsdale, Maricopa County",United States,IT Jobs,90299.98,90299.98,1,Unknown,2026-08-07 15:12:23+00:00,1,90299.98,False,90299.98
-5735320963,Data Analyst /Data Analytics,"Rayomind Software Solutions LLC, DBA, Hire'in Solutions","Santa Clara, Santa Clara County",United States,IT Jobs,119774.95,119774.95,1,Unknown,2026-05-20 14:13:10+00:00,5,119774.95,False,119774.95
-5825204146,Data Analyst/Senior Data Analyst,Marathon Petroleum Corporation,"Findlay, Hancock County",United States,IT Jobs,150652.97,150652.97,1,Unknown,2026-08-01 22:47:25+00:00,0,150652.97,False,150652.97
-5831197640,"Senior Data Analyst, Strategic Marketing",Vanguard,"Frazer, Chester County",United States,IT Jobs,122898.41,122898.41,1,Unknown,2026-08-06 19:00:11+00:00,0,122898.41,False,122898.41
-5832595505,Product Data Analyst - Payments - Associate,J.P. Morgan,"Boston, Thomas County",United States,IT Jobs,107972.62,107972.62,1,Unknown,2026-08-07 19:03:57+00:00,0,107972.62,False,107972.62
-5693336521,Lead Data Analyst,GovCIO,US,United States,IT Jobs,109374.95,109374.95,1,Unknown,2026-04-08 13:21:20+00:00,0,109374.95,False,109374.95
-5683625494,Guidewire Data Analyst,Excelon Solutions LLC,"Hayes Valley, San Francisco",United States,IT Jobs,128820.13,128820.13,1,Unknown,2026-03-30 18:30:11+00:00,2,128820.13,False,128820.13
-5826789998,Data Analyst – Remote,BMR Infotek,US,United States,IT Jobs,121592.59,121592.59,1,Unknown,2026-08-03 13:37:32+00:00,0,121592.59,False,121592.59
-5820553649,Senior Data Analyst,Spruce Technology Inc.,"Grand Central, Manhattan",United States,IT Jobs,157959.61,157959.61,1,Unknown,2026-07-29 21:31:13+00:00,0,157959.61,False,157959.61
-5810829970,Mid Data Analyst,Booz Allen Hamilton,"Triana, Madison County",United States,IT Jobs,52563.72,52563.72,1,Unknown,2026-07-22 07:03:49+00:00,0,52563.72,False,52563.72
-5829869380,Data Analyst (Python),Software Guidance & Assistance,"Grand Central, Manhattan",United States,IT Jobs,67545.05,67545.05,1,Unknown,2026-08-05 21:46:39+00:00,2,67545.05,False,67545.05
-5819609638,Mid Data Analyst,Booz Allen Hamilton,"Tampa Palms, Hillsborough County",United States,IT Jobs,106214.45,106214.45,1,Unknown,2026-07-29 05:33:00+00:00,0,106214.45,False,106214.45
-5783333855,Senior Data Analyst,Booz Allen Hamilton,"Hurlburt Field, Okaloosa County",United States,IT Jobs,120869.99,120869.99,1,Unknown,2026-07-01 05:06:04+00:00,0,120869.99,False,120869.99
-5721558726,Senior Data Analyst,Booz Allen Hamilton,"Haymount, Cumberland County",United States,IT Jobs,137741.72,137741.72,1,Unknown,2026-05-07 06:05:22+00:00,0,137741.72,False,137741.72
-5805093675,Informatics Data Analyst,"Russell, Tobin & Associates","Alhambra, Los Angeles County",United States,IT Jobs,79605.37,79605.37,1,Unknown,2026-07-17 13:42:00+00:00,1,79605.37,False,79605.37
-5829579577,Junior Data Analyst,Synergie Systems,"Phoenix, Maricopa County",United States,IT Jobs,90925.7,90925.7,1,Unknown,2026-08-05 17:54:32+00:00,1,90925.7,False,90925.7
-5822710143,HL7 Data Analyst,VITL,US,United States,IT Jobs,179244.34,179244.34,1,Unknown,2026-07-31 17:19:27+00:00,0,179244.34,False,179244.34
-5712145516,Business Data Analyst,Software Guidance & Assistance,"Blue Hills, Hartford County",United States,IT Jobs,93070.23,93070.23,1,Unknown,2026-04-27 20:31:38+00:00,0,93070.23,False,93070.23
-5680356732,Lead Data Analyst,Vistra Corp,"Irving, Dallas",United States,IT Jobs,104308.2,104308.2,1,Unknown,2026-03-27 10:11:25+00:00,1,104308.2,False,104308.2
-5764758413,Business Data Analyst,Global Soft Systems,US,United States,IT Jobs,102476.6,102476.6,1,Unknown,2026-06-15 18:17:41+00:00,0,102476.6,False,102476.6
-5683639289,Senior Data Analyst,"iSpace, Inc","Textile Finance, Los Angeles County",United States,IT Jobs,100758.81,100758.81,1,Unknown,2026-03-30 18:40:49+00:00,0,100758.81,False,100758.81
-5820955627,Data Analyst (Reporting),Decisionpoint Corporation,US,United States,IT Jobs,56285.29,56285.29,1,Unknown,2026-07-30 05:28:04+00:00,0,56285.29,False,56285.29
-5768882085,Senior Data Analyst,Gainwell Technologies LLC,"Enterprise, Clark County",United States,IT Jobs,108761.67,108761.67,1,Unknown,2026-06-18 22:44:33+00:00,0,108761.67,False,108761.67
-5830838341,Business Data Analyst,Dale Workforce Solutions,"Newark, Essex County",United States,IT Jobs,114356.12,114356.12,1,Unknown,2026-08-06 13:41:57+00:00,0,114356.12,False,114356.12
-5821431134,Senior Data Analyst,Kforce Technology Staffing,"Northlake, DeKalb County",United States,IT Jobs,112407.69,112407.69,1,Unknown,2026-07-30 15:13:59+00:00,0,112407.69,False,112407.69
-5806307406,Data Analyst Intermediate,BCforward,"Minerva Park, Franklin County",United States,IT Jobs,147542.1,147542.1,1,Unknown,2026-07-18 13:51:34+00:00,0,147542.1,False,147542.1
-5808567541,Senior Data Analyst,Hiring Dreams LLC,"Charlotte, Mecklenburg County",United States,IT Jobs,92145.29,92145.29,1,Unknown,2026-07-20 19:23:26+00:00,0,92145.29,False,92145.29
-5832273605,Data analyst- Remote,"Javen Technologies, Inc",US,United States,IT Jobs,130605.4,130605.4,1,Unknown,2026-08-07 13:55:02+00:00,0,130605.4,False,130605.4
-5820396150,Business Data Analyst,Zillion Technologies,"Staples Mill, Henrico County",United States,IT Jobs,93738.3,93738.3,1,Unknown,2026-07-29 19:17:50+00:00,2,93738.3,False,93738.3
-5831508645,Data Analyst - Onsite,VIVA USA INC,"Saint Paul, Ramsey County",United States,Scientific & QA Jobs,62608.64,62608.64,1,Unknown,2026-08-06 23:56:04+00:00,0,62608.64,False,62608.64
-5811201587,Junior Data Analyst,Dhalite Inc.,"Fountainebleau, Miami-Dade County",United States,IT Jobs,58488.5,58488.5,1,Unknown,2026-07-22 17:05:44+00:00,0,58488.5,False,58488.5
-5773555588,People Data Analyst,Anduril Industries,"South Boston, Suffolk County",United States,HR & Recruitment Jobs,120541.69,120541.69,1,Unknown,2026-06-23 09:17:53+00:00,0,120541.69,False,120541.69
-5831393170,Data Analyst III,SGS Consulting,"San Diego, San Diego County",United States,IT Jobs,85154.01,85154.01,1,Unknown,2026-08-06 21:50:59+00:00,0,85154.01,False,85154.01
-5790373502,Data Analyst II,Medasource,US,United States,IT Jobs,62688.41,62688.41,1,Unknown,2026-07-06 19:09:18+00:00,0,62688.41,False,62688.41
-5832647681,Alteryx Data Analyst,"IDR, Inc.",US,United States,IT Jobs,110409.75,110409.75,1,Unknown,2026-08-07 19:47:35+00:00,3,110409.75,False,110409.75
-5796297051,Data Analyst II,Medasource,US,United States,IT Jobs,56587.72,56587.72,1,Unknown,2026-07-10 19:32:40+00:00,0,56587.72,False,56587.72
-5800072246,Junior Data Analyst,Global Alliant Inc,US,United States,IT Jobs,59437.84,59437.84,1,Unknown,2026-07-14 11:38:54+00:00,2,59437.84,False,59437.84
-5761086112,Facilities Data Analyst,SAIC,"North Springfield, Fairfax County",United States,Engineering Jobs,135809.3,135809.3,1,Unknown,2026-06-12 02:56:41+00:00,0,135809.3,False,135809.3
-5818187011,Data Analyst (Analytics),Decisionpoint Corporation,US,United States,IT Jobs,61929.89,61929.89,1,Unknown,2026-07-28 05:15:27+00:00,0,61929.89,False,61929.89
-5827089886,Mainframe Data Analyst,Spruce Technology Inc.,"Grand Central, Manhattan",United States,IT Jobs,117797.19,117797.19,1,Unknown,2026-08-03 19:32:44+00:00,1,117797.19,False,117797.19
-5829369684,Business Data Analyst,"Innova Solutions, Inc","Charlotte, Mecklenburg County",United States,IT Jobs,56845.23,56845.23,1,Unknown,2026-08-05 13:47:09+00:00,0,56845.23,False,56845.23
-5759747153,Sr Data Analyst,Apex Systems,"Highland Park, Dallas",United States,IT Jobs,88391.0,88391.0,1,Unknown,2026-06-11 05:12:47+00:00,1,88391.0,False,88391.0
-5827089747,IT Data Analyst,Apex Systems,"Fairfax, Fairfax County",United States,IT Jobs,69131.28,69131.28,1,Unknown,2026-08-03 19:32:32+00:00,0,69131.28,False,69131.28
-5831241153,Data Analyst: III,"Talent Software Services, Inc","San Diego, San Diego County",United States,IT Jobs,95673.86,95673.86,1,Unknown,2026-08-06 19:55:11+00:00,0,95673.86,False,95673.86
-5831394870,Data Analyst: III,"Judge Group, Inc.","San Diego, San Diego County",United States,IT Jobs,128266.89,128266.89,1,Unknown,2026-08-06 21:55:38+00:00,0,128266.89,False,128266.89
-5831386657,Business Data Analyst,Robert Half,"White Plains, Westchester County",United States,IT Jobs,86207.91,86207.91,1,Unknown,2026-08-06 21:44:44+00:00,0,86207.91,False,86207.91
-5790520152,Data Analyst - SQL,"Motion Recruitment Partners, LLC","Northfield, Atlantic County",United States,IT Jobs,101264.16,101264.16,1,Unknown,2026-07-06 22:52:41+00:00,2,101264.16,False,101264.16
-5821832049,Technical Data Analyst,"Judge Group, Inc.","South Boston, Suffolk County",United States,IT Jobs,121586.67,121586.67,1,Unknown,2026-07-30 21:27:31+00:00,0,121586.67,False,121586.67
-5742773370,AI/Data Analyst,Kforce Technology Staffing,"Riviera Beach, Palm Beach County",United States,IT Jobs,89764.2,89764.2,1,Unknown,2026-05-27 18:54:33+00:00,0,89764.2,False,89764.2
-5809936641,Product/Data Analyst,Eliassen Group,"Greenwood Village, Arapahoe County",United States,IT Jobs,72068.64,72068.64,1,Unknown,2026-07-21 19:00:45+00:00,0,72068.64,False,72068.64
-5813110234,Data Analyst I,Robert Half,"West Indianapolis, Marion County",United States,Admin Jobs,76710.52,76710.52,1,Unknown,2026-07-23 21:12:39+00:00,0,76710.52,False,76710.52
-5820416854,Data Analyst - Remote,Genesis10,"Five Corners, Hudson County",United States,IT Jobs,101739.16,101739.16,1,Unknown,2026-07-29 19:30:12+00:00,0,101739.16,False,101739.16
-5680356924,Data Analyst II,"Judge Group, Inc.","Bridgewater, Somerset County",United States,IT Jobs,130423.67,130423.67,1,Unknown,2026-03-27 10:11:28+00:00,0,130423.67,False,130423.67
-5780234086,Data Analyst Sr,Lockheed Martin Corporation,"Alabama, US",United States,Engineering Jobs,142301.0,142301.0,1,Unknown,2026-06-28 08:52:59+00:00,0,142301.0,False,142301.0
-5804841497,Data Analyst Senior,Lockheed Martin Corporation,"Lexington, Fayette County",United States,IT Jobs,164803.53,164803.53,1,Unknown,2026-07-17 08:19:54+00:00,1,164803.53,False,164803.53
-5794920580,SQL Data Analyst,"Motion Recruitment Partners, LLC","Charlotte, Mecklenburg County",United States,IT Jobs,152091.8,152091.8,1,Unknown,2026-07-09 21:14:30+00:00,1,152091.8,False,152091.8
-5750803107,Business Data Analyst,Global Soft Systems,US,United States,IT Jobs,127800.83,127800.83,1,Unknown,2026-06-03 13:49:41+00:00,1,127800.83,False,127800.83
-5814147034,Product Data Analyst,Dexian DISYS,"Roanoke, Denton County",United States,IT Jobs,112522.55,112522.55,1,Unknown,2026-07-24 13:10:17+00:00,0,112522.55,False,112522.55
+job_id,title,company,location,country,category,salary_min,salary_max,salary_is_predicted,contract_time,created,num_skills,avg_salary,avg_salary_usd,salary_missing
+5860066671,Data Analyst,We Are Fr Group,"Liverpool, Merseyside",United Kingdom,"PR, Advertising & Marketing Jobs",60000.0,60000.0,0,Unknown,2026-08-28 21:35:47+00:00,0,60000.0,81660.0,False
+5855381462,Data Analyst,Harnham - Data & Analytics Recruitment,"London, UK",United Kingdom,IT Jobs,350.0,400.0,0,full_time,2026-08-25 13:45:29+00:00,0,375.0,510.375,False
+5849616876,Data Analyst,Match Performance,"Farringdon, Central London",United Kingdom,IT Jobs,78000.0,104000.0,0,Unknown,2026-08-20 15:05:10+00:00,0,91000.0,123851.0,False
+5803783833,Data Analyst,Nomia,"Waterloo, South East London",United Kingdom,IT Jobs,34741.57,34741.57,1,Unknown,2026-07-16 22:46:08+00:00,0,34741.57,47283.27677,False
+5867730506,Data Analyst,MCS Group,"Belfast, Northern Ireland",United Kingdom,IT Jobs,40000.0,40000.0,0,Unknown,2026-09-03 00:12:15+00:00,0,40000.0,54440.0,False
+5868767760,Data Analyst,4Recruitment Services,"Nazeing, Waltham Abbey",United Kingdom,IT Jobs,48530.03,48530.03,1,Unknown,2026-09-03 12:05:53+00:00,1,48530.03,66049.37083,False
+5804909149,Data Analyst,Lumen Partners,"Shotover Hill, Headington",United Kingdom,"PR, Advertising & Marketing Jobs",32000.0,33994.0,0,full_time,2026-07-17 14:28:13+00:00,0,32997.0,44908.917,False
+5795616991,Data Analyst,Autotrader,"Manchester, Greater Manchester",United Kingdom,IT Jobs,35000.0,60000.0,0,full_time,2026-07-10 13:36:45+00:00,0,47500.0,64647.5,False
+5868984171,Data Analyst,MCS Group,"Belfast, Northern Ireland",United Kingdom,IT Jobs,40000.0,40000.0,0,Unknown,2026-09-03 15:30:32+00:00,0,40000.0,54440.0,False
+5868804734,Data Analyst,Artis Recruitment,"Redcliffe, Bristol",United Kingdom,IT Jobs,28000.0,35000.0,0,full_time,2026-09-03 12:33:52+00:00,1,31500.0,42871.5,False
+5838679575,Data Analyst,Kingdom People,"Fareham Common, Fareham",United Kingdom,IT Jobs,43000.0,44000.0,0,full_time,2026-08-12 19:57:51+00:00,1,43500.0,59203.5,False
+5855005897,Data Analyst,Vermelo,"Manchester, Greater Manchester",United Kingdom,IT Jobs,25505.99,25505.99,1,Unknown,2026-08-25 05:33:44+00:00,0,25505.99,34713.65239,False
+5855380972,Data Analyst,Consula Group LTD,"Manchester, Greater Manchester",United Kingdom,IT Jobs,65000.0,90000.0,0,full_time,2026-08-25 13:45:22+00:00,0,77500.0,105477.5,False
+5855280840,Data Analyst,MISL,"Manchester Science Park, Manchester",United Kingdom,IT Jobs,30238.6,30238.6,1,full_time,2026-08-25 11:44:36+00:00,0,30238.6,41154.734599999996,False
+5868805902,Data Analyst,CBSbutler Holdings Limited trading as CBSbutler,"Charing Cross, Central London",United Kingdom,IT Jobs,80620.8,80620.8,1,Unknown,2026-09-03 12:34:10+00:00,0,80620.8,109724.9088,False
+5855716764,Data Analyst,Truespeed,"Bath, Bath & N E Somerset",United Kingdom,IT Jobs,35000.0,35000.0,0,full_time,2026-08-25 21:39:08+00:00,0,35000.0,47635.0,False
+5817732432,Data Analyst,Baker Harding Limited,"Leeds, West Yorkshire",United Kingdom,IT Jobs,43284.36,43284.36,1,Unknown,2026-07-28 00:49:32+00:00,0,43284.36,58910.013960000004,False
+5869549719,Data Analyst,Teksystems,"South East London, London",United Kingdom,IT Jobs,71131.2,71131.2,1,Unknown,2026-09-03 21:46:43+00:00,1,71131.2,96809.56319999999,False
+5867249869,Data Analyst,Supernova Technology,"London, UK",United Kingdom,IT Jobs,45669.5,45669.5,1,full_time,2026-09-02 17:11:00+00:00,0,45669.5,62156.1895,False
+5210489672,Data Analyst,idfc first bank,UK,United Kingdom,IT Jobs,37006.62,37006.62,1,full_time,2025-05-22 08:55:30+00:00,0,37006.62,50366.00982000001,False
+5868767174,Data Analyst,Hypercreate Ltd,UK,United Kingdom,IT Jobs,26000.0,30000.0,0,full_time,2026-09-03 12:05:48+00:00,5,28000.0,38108.0,False
+5868804757,Data Analyst,V7 Recruitment,"Collyhurst, Manchester",United Kingdom,IT Jobs,29000.0,30000.0,0,full_time,2026-09-03 12:33:52+00:00,2,29500.0,40149.5,False
+5210480071,Data Analyst,wipro,UK,United Kingdom,IT Jobs,35895.91,35895.91,1,full_time,2025-05-22 08:54:18+00:00,0,35895.91,48854.333510000004,False
+4094618894,Data Analyst,Brakes Group,UK,United Kingdom,IT Jobs,43417.32,43417.32,1,Unknown,2023-05-11 21:03:34+00:00,0,43417.32,59090.972519999996,False
+5856959936,Data Analyst,Truespeed Communications,"Bath, Bath & N E Somerset",United Kingdom,IT Jobs,35000.0,40000.0,0,full_time,2026-08-26 16:21:47+00:00,0,37500.0,51037.5,False
+5860066687,Data Analyst,FBI &TMT,"Fareham, Hampshire",United Kingdom,IT Jobs,65000.0,75400.0,0,Unknown,2026-08-28 21:35:47+00:00,2,70200.0,95542.2,False
+5840389923,Data Analyst,Joynes & Hunt,"Banbridge, County Down",United Kingdom,IT Jobs,37588.11,37588.11,1,full_time,2026-08-13 16:25:41+00:00,0,37588.11,51157.41771,False
+5853705682,Data Analyst,Landsec,UK,United Kingdom,IT Jobs,50000.0,50000.0,0,full_time,2026-08-23 16:26:54+00:00,0,50000.0,68050.0,False
+5855355717,Data Analyst,Centre People Appointments,"Windsor, Windsor & Maidenhead",United Kingdom,IT Jobs,35271.07,35271.07,1,full_time,2026-08-25 13:37:44+00:00,3,35271.07,48003.926269999996,False
+5855354230,Data Analyst,Agility,"Stratford-Upon-Avon, Warwickshire",United Kingdom,IT Jobs,26237.67,26237.67,1,Unknown,2026-08-25 13:37:25+00:00,1,26237.67,35709.46887,False
+5855326053,Data Analyst,Red Sky Personnel Ltd,UK,United Kingdom,IT Jobs,35000.0,45000.0,0,full_time,2026-08-25 13:18:05+00:00,0,40000.0,54440.0,False
+5848122036,Data Analyst,Applause IT Recruitment Ltd,UK,United Kingdom,IT Jobs,45000.0,50000.0,0,full_time,2026-08-19 12:46:31+00:00,1,47500.0,64647.5,False
+5788129967,Data Analyst,Billing Finance,"Northampton, Northamptonshire",United Kingdom,IT Jobs,35000.0,45000.0,0,full_time,2026-07-04 15:35:01+00:00,0,40000.0,54440.0,False
+5858141763,Data Analyst,Verisk,"Manchester, Greater Manchester",United Kingdom,IT Jobs,31723.68,31723.68,1,Unknown,2026-08-27 11:39:33+00:00,0,31723.68,43175.92848,False
+5821314442,Data Analyst,Goodlife Recruitment Solutions Ltd,"Warrington, Cheshire",United Kingdom,IT Jobs,45000.0,45000.0,0,full_time,2026-07-30 16:48:35+00:00,2,45000.0,61245.0,False
+5210480065,Data Analyst,wipro,UK,United Kingdom,IT Jobs,35201.95,35201.95,1,full_time,2025-05-22 08:54:18+00:00,0,35201.95,47909.85395,False
+5210490873,Data Analyst,wipro,UK,United Kingdom,IT Jobs,35965.09,35965.09,1,full_time,2025-05-22 08:55:37+00:00,0,35965.09,48948.48748999999,False
+5868918352,Data Analyst,Chiltern Railways,"Bodicote, Banbury",United Kingdom,Engineering Jobs,35000.0,40000.0,0,full_time,2026-09-03 14:11:46+00:00,0,37500.0,51037.5,False
+5837137751,Data Analyst,Proman,"Derby, Derbyshire",United Kingdom,IT Jobs,30000.0,30000.0,0,full_time,2026-08-11 21:20:30+00:00,0,30000.0,40830.0,False
+5797953476,Data Analyst,AvePoint,"London, UK",United Kingdom,Sales Jobs,48699.99,48699.99,1,Unknown,2026-07-12 13:50:20+00:00,0,48699.99,66280.68639,False
+5868805111,Data Analyst,Experis,"Cowley, Uxbridge",United Kingdom,Accounting & Finance Jobs,49404.25,49404.25,1,Unknown,2026-09-03 12:33:57+00:00,2,49404.25,67239.18425,False
+5837124714,Data Analyst,Connect2Hackney,"Hackney, East London",United Kingdom,IT Jobs,98800.0,104000.0,0,Unknown,2026-08-11 19:54:24+00:00,0,101400.0,138005.4,False
+5865265469,Data Analyst,Morson Edge,"London, UK",United Kingdom,IT Jobs,65000.0,104000.0,0,Unknown,2026-09-01 21:39:02+00:00,0,84500.0,115004.5,False
+5849684639,Data Analyst,Just Eat,UK,United Kingdom,IT Jobs,42332.64,42332.64,1,full_time,2026-08-20 16:22:49+00:00,0,42332.64,57614.72304,False
+5869586939,Data Analyst,PDSA,"Snedshill, Telford",United Kingdom,IT Jobs,42783.0,45350.0,0,Unknown,2026-09-03 23:19:24+00:00,0,44066.5,59974.506499999996,False
+5852091745,Data Analyst,Hackajob Ltd,"South West London, London",United Kingdom,IT Jobs,50000.0,50000.0,0,Unknown,2026-08-22 05:30:16+00:00,0,50000.0,68050.0,False
+5823562275,Data Analyst,Solirius Reply,"London, UK",United Kingdom,IT Jobs,59407.18,59407.18,1,Unknown,2026-08-01 09:17:06+00:00,0,59407.18,80853.17198,False
+5856974719,Data Analyst,CUBE,"London, UK",United Kingdom,IT Jobs,60296.57,60296.57,1,full_time,2026-08-26 16:28:39+00:00,0,60296.57,82063.63176999999,False
+5867282858,Data Analyst,Change Grow Live,"Earlsfield, South West London",United Kingdom,Social work Jobs,32536.81,32536.81,1,part_time,2026-09-02 17:21:39+00:00,0,32536.81,44282.59841,False
+5819014767,Data Analyst,Department for Work and Pensions,"Manchester, Greater Manchester",United Kingdom,Admin Jobs,39324.17,39324.17,1,part_time,2026-07-29 00:34:52+00:00,0,39324.17,53520.195369999994,False
+5867702477,Senior Data Analyst,Develop,"Oxford Circus, Central London",United Kingdom,IT Jobs,70000.0,70000.0,0,Unknown,2026-09-02 23:54:48+00:00,1,70000.0,95270.0,False
+5854221427,Data Analyst,Innoviz Limited,"Milton Keynes, Buckinghamshire",United Kingdom,IT Jobs,34000.0,45000.0,0,full_time,2026-08-24 07:45:02+00:00,5,39500.0,53759.5,False
+5854394670,"Data Analyst, Operations",Brainlabs,UK,United Kingdom,IT Jobs,63044.95,63044.95,1,full_time,2026-08-24 15:08:37+00:00,0,63044.95,85804.17695,False
+5838381458,Lead Data Analyst,Wise,"London, UK",United Kingdom,Accounting & Finance Jobs,71829.23,71829.23,1,full_time,2026-08-12 15:38:55+00:00,0,71829.23,97759.58202999999,False
+5861182353,Risk Technology Data Analyst,BGC Partners,"London, UK",United Kingdom,IT Jobs,46263.4,46263.4,1,full_time,2026-08-29 15:29:41+00:00,0,46263.4,62964.4874,False
+5840355544,Senior Data Analyst - Growth,Wise,"London, UK",United Kingdom,"PR, Advertising & Marketing Jobs",77002.09,77002.09,1,full_time,2026-08-13 15:41:39+00:00,0,77002.09,104799.84448999999,False
+5838383439,"Staff Data Analyst, Operations",Wise,"London, UK",United Kingdom,IT Jobs,88466.81,88466.81,1,full_time,2026-08-12 15:39:11+00:00,0,88466.81,120403.32841,False
+5869622912,Trainee Data Analyst No Experience Required,NEWTO TRAINING LIMITED,"Liverpool, Merseyside",United Kingdom,IT Jobs,65000.0,65000.0,0,Unknown,2026-09-03 23:36:33+00:00,0,65000.0,88465.0,False
+5840355604,Lead Data Analyst - FinCrime Operations,Wise,"London, UK",United Kingdom,IT Jobs,71369.7,71369.7,1,full_time,2026-08-13 15:41:44+00:00,0,71369.7,97134.1617,False
+5762642134,Chief Data Office Data Analyst,Barclays,"Glasgow, Scotland",United Kingdom,Accounting & Finance Jobs,55236.97,55236.97,1,full_time,2026-06-13 16:43:00+00:00,0,55236.97,75177.51617,False
+5840355765,Senior Data Analyst - Platform Pricing,Wise,"London, UK",United Kingdom,Accounting & Finance Jobs,64723.58,64723.58,1,full_time,2026-08-13 15:41:57+00:00,0,64723.58,88088.79238,False
+5840355710,Senior Data Analyst - Regulatory Reporting,Wise,"London, UK",United Kingdom,IT Jobs,64740.31,64740.31,1,full_time,2026-08-13 15:41:53+00:00,0,64740.31,88111.56190999999,False
+5859492510,Data Analyst (AI Training),OneForma,"Furzedown, South West London",United Kingdom,Part time Jobs,22880.0,22880.0,0,part_time,2026-08-28 09:16:41+00:00,0,22880.0,31139.68,False
+5866532943,Data Analyst Placement Programme No Experience Needed,IT Online Learning,"Birmingham, West Midlands",United Kingdom,IT Jobs,65000.0,65000.0,0,Unknown,2026-09-02 05:55:35+00:00,0,65000.0,88465.0,False
+5866532946,Data Analyst Placement Programme No Experience Needed,IT Online Learning,"Manchester, Greater Manchester",United Kingdom,IT Jobs,65000.0,65000.0,0,Unknown,2026-09-02 05:55:35+00:00,0,65000.0,88465.0,False
+5864040627,Senior data analyst,bp,"Sunbury-On-Thames, Surrey",United Kingdom,IT Jobs,44462.53,44462.53,1,Unknown,2026-09-01 08:21:03+00:00,0,44462.53,60513.50333,False
+5863109993,Data Analyst,VIQU IT Recruitment,"Solihull, West Midlands",United Kingdom,IT Jobs,30000.0,35000.0,0,full_time,2026-08-31 20:07:39+00:00,0,32500.0,44232.5,False
+5855380402,Data Analyst,Harnham - Data & Analytics Recruitment,"London, UK",United Kingdom,IT Jobs,350.0,400.0,0,full_time,2026-08-25 13:45:14+00:00,0,375.0,510.375,False
+5858627587,Data Analyst,Hays Specialist Recruitment Limited,"Wakefield, West Yorkshire",United Kingdom,IT Jobs,256.0,293.0,0,full_time,2026-08-27 20:24:08+00:00,1,274.5,373.5945,False
+5855375008,Data Analyst,Rise Technical Recruitment Limited,"Plymouth, South West England",United Kingdom,IT Jobs,36000.0,36000.0,0,full_time,2026-08-25 13:43:53+00:00,1,36000.0,48996.0,False
+5857189171,Data Analyst,Reed,"Birmingham, West Midlands",United Kingdom,IT Jobs,35000.0,45000.0,0,full_time,2026-08-26 17:51:55+00:00,0,40000.0,54440.0,False
+5855621595,Data Analyst,Truespeed,"Bath, Bath & N E Somerset",United Kingdom,IT Jobs,35000.0,40000.0,0,full_time,2026-08-25 17:48:44+00:00,0,37500.0,51037.5,False
+5855380476,Data Analyst,Harnham - Data & Analytics Recruitment,"London, UK",United Kingdom,IT Jobs,350.0,400.0,0,full_time,2026-08-25 13:45:15+00:00,0,375.0,510.375,False
+5869559762,Data Analyst,Michael Page Technology,"London, UK",United Kingdom,IT Jobs,500.0,600.0,0,full_time,2026-09-03 22:06:56+00:00,0,550.0,748.55,False
+5846799328,Lead Data Analyst - Total Service (Operations),Wise,"London, UK",United Kingdom,IT Jobs,81034.05,81034.05,1,full_time,2026-08-18 14:49:48+00:00,0,81034.05,110287.34205,False
+5848186934,Senior Product Data Analyst - Consumer Growth,SumUp,"London, UK",United Kingdom,"PR, Advertising & Marketing Jobs",47855.71,47855.71,1,full_time,2026-08-19 14:54:26+00:00,0,47855.71,65131.621309999995,False
+5850513005,Data Governance Analyst,Reed Technology,"Durham, County Durham",United Kingdom,IT Jobs,39000.0,52000.0,0,Unknown,2026-08-21 05:36:17+00:00,0,45500.0,61925.5,False
+5856595712,Data Governance Analyst,Hackajob Ltd,"Bournemouth, Dorset",United Kingdom,IT Jobs,70000.0,70000.0,0,full_time,2026-08-26 09:47:23+00:00,0,70000.0,95270.0,False
+5855378211,Technical Data Analyst,Adecco,"London, UK",United Kingdom,Accounting & Finance Jobs,500.0,600.0,0,full_time,2026-08-25 13:44:40+00:00,0,550.0,748.55,False
+5859992676,Business & Data Analyst,Exposed Solutions,"Manchester, Greater Manchester",United Kingdom,IT Jobs,30000.0,32000.0,0,full_time,2026-08-28 19:56:23+00:00,2,31000.0,42191.0,False
+5859746013,Trainee Data Analyst,Netcom Online Learning,"Liverpool, Merseyside",United Kingdom,IT Jobs,34094.15,34094.15,1,full_time,2026-08-28 15:56:31+00:00,0,34094.15,46402.13815,False
+5863586463,Data Business Analyst,Ntt Data,"London, UK",United Kingdom,IT Jobs,57140.1,57140.1,1,full_time,2026-09-01 01:36:38+00:00,5,57140.1,77767.6761,False
+5871005544,Data Analyst,MSX International,"Dunton, Biggleswade",United Kingdom,Admin Jobs,39765.82,39765.82,1,Unknown,2026-09-04 21:35:36+00:00,0,39765.82,54121.28102,False
+5854258285,Data Analyst,VIQU Limited,"Fordbridge, Birmingham",United Kingdom,IT Jobs,30000.0,35000.0,0,Unknown,2026-08-24 09:41:32+00:00,0,32500.0,44232.5,False
+5854537338,Data Analyst,Kingdom Security,"Fareham, Hampshire",United Kingdom,IT Jobs,42000.0,44000.0,0,Unknown,2026-08-24 19:32:17+00:00,0,43000.0,58523.0,False
+5854573891,Data Analyst,Robert Half,"London, UK",United Kingdom,IT Jobs,52152.68,52152.68,1,full_time,2026-08-24 21:10:47+00:00,0,52152.68,70979.79748,False
+5871261504,Data Analysts,BDO Recruitment,"London, UK",United Kingdom,IT Jobs,49846.42,49846.42,1,full_time,2026-09-05 02:32:05+00:00,0,49846.42,67840.97761999999,False
+5838674911,Data Analyst,Kingdom Security,"Whiteley, Fareham",United Kingdom,IT Jobs,43000.0,44000.0,0,Unknown,2026-08-12 19:37:45+00:00,1,43500.0,59203.5,False
+5857234851,Data Analyst,Experian,"Nottingham, Nottinghamshire",United Kingdom,IT Jobs,46572.79,46572.79,1,Unknown,2026-08-26 21:10:50+00:00,2,46572.79,63385.56719,False
+5840648792,Data Analyst,Experis UK,"London, UK",United Kingdom,Consultancy Jobs,44228.03,44228.03,1,full_time,2026-08-13 20:57:17+00:00,0,44228.03,60194.348829999995,False
+5867414466,Data Analyst,Workman LLP,"London, UK",United Kingdom,IT Jobs,38000.0,45000.0,0,full_time,2026-09-02 18:33:01+00:00,0,41500.0,56481.5,False
+5837119381,Data Analyst,Proman,"Willington, Derby",United Kingdom,IT Jobs,27000.0,30000.0,0,full_time,2026-08-11 19:35:04+00:00,0,28500.0,38788.5,False
+5841480237,Data Analyst,Sportradar,"London, UK",United Kingdom,IT Jobs,53957.82,53957.82,1,Unknown,2026-08-14 08:57:49+00:00,0,53957.82,73436.59302,False
+5837583637,Data Analyst,Connect2Hackney,"Hackney, East London",United Kingdom,IT Jobs,98800.0,104000.0,0,full_time,2026-08-12 02:56:10+00:00,0,101400.0,138005.4,False
+5737508609,Data Analyst,Solirius Reply,"London, UK",United Kingdom,IT Jobs,40000.0,85000.0,0,full_time,2026-05-22 11:06:12+00:00,0,62500.0,85062.5,False
+5867338630,Data Analyst,Spotlight Sports Group,"London, UK",United Kingdom,Consultancy Jobs,45009.9,45009.9,1,full_time,2026-09-02 17:34:23+00:00,0,45009.9,61258.473900000005,False
+5845316773,Data Analyst,Hulcan,"London, UK",United Kingdom,IT Jobs,50452.18,50452.18,1,full_time,2026-08-17 16:58:53+00:00,0,50452.18,68665.41698,False
+5786752438,Data Analyst,Avara Foods,"Turweston, Brackley",United Kingdom,IT Jobs,35000.0,35000.0,0,full_time,2026-07-03 12:12:16+00:00,0,35000.0,47635.0,False
+5780350523,Data Analyst,MWH Treatment,"Broadbottom, Hyde",United Kingdom,IT Jobs,50579.12,50579.12,1,full_time,2026-06-28 16:43:51+00:00,0,50579.12,68838.18232,False
+5738736752,Data Analyst,MWH Treatment,"Stepps, North Lanarkshire",United Kingdom,IT Jobs,48532.52,48532.52,1,full_time,2026-05-23 13:10:53+00:00,0,48532.52,66052.75972,False
+5854858213,Data Analyst,Full Scope Inc,"Virginia, US",United States,IT Jobs,87873.09,87873.09,1,Unknown,2026-08-24 21:54:14+00:00,1,87873.09,87873.09,False
+5826543098,Data Analyst,E Logic Corp,"New York City, New York",United States,IT Jobs,96723.2,96723.2,1,Unknown,2026-08-03 07:15:23+00:00,0,96723.2,96723.2,False
+5826550009,Data Analyst,Phoenix Healthcare Services,"California, US",United States,IT Jobs,79896.36,79896.36,1,Unknown,2026-08-03 07:17:23+00:00,1,79896.36,79896.36,False
+5826550116,Data Analyst,Recruit Marks,"Scottsdale, Maricopa County",United States,IT Jobs,82310.38,82310.38,1,Unknown,2026-08-03 07:17:24+00:00,0,82310.38,82310.38,False
+5854860783,Data Analyst,Easy Recruiter,"Lexington, Fayette County",United States,IT Jobs,85765.02,85765.02,1,Unknown,2026-08-24 21:55:06+00:00,0,85765.02,85765.02,False
+5871994476,Data Analyst,"Red Cedar Consultancy, LLC","Virginia, US",United States,IT Jobs,73510.04,73510.04,1,Unknown,2026-09-05 09:10:28+00:00,0,73510.04,73510.04,False
+5862744782,Data Analyst,Goody,US,United States,IT Jobs,112175.2,112175.2,1,Unknown,2026-08-31 00:02:43+00:00,0,112175.2,112175.2,False
+5854857207,Data Analyst,DATAECONOMY,"Charlotte, Mecklenburg County",United States,IT Jobs,84035.53,84035.53,1,Unknown,2026-08-24 21:53:59+00:00,1,84035.53,84035.53,False
+5854856059,Data Analyst,Fast Switch,"Michigan, US",United States,IT Jobs,60990.52,60990.52,1,Unknown,2026-08-24 21:53:45+00:00,2,60990.52,60990.52,False
+5826543010,Data Analyst,Orionyx Enginnering,"Dallas, Texas",United States,IT Jobs,84561.3,84561.3,1,Unknown,2026-08-03 07:15:21+00:00,0,84561.3,84561.3,False
+5854855020,Data Analyst,Pds Company,"Atlanta, Fulton County",United States,IT Jobs,62909.34,62909.34,1,Unknown,2026-08-24 21:53:25+00:00,0,62909.34,62909.34,False
+5826549805,Data Analyst,Novul Solutions,"Arlington, Tarrant County",United States,IT Jobs,57787.41,57787.41,1,Unknown,2026-08-03 07:17:20+00:00,0,57787.41,57787.41,False
+5859108647,Data Analyst,1st Dibs,"New York City, New York",United States,Engineering Jobs,109680.69,109680.69,1,Unknown,2026-08-27 21:58:44+00:00,0,109680.69,109680.69,False
+5854854564,Data Analyst,Aerovironment,"Maryland, Anne Arundel County",United States,IT Jobs,150114.02,150114.02,1,Unknown,2026-08-24 21:53:13+00:00,0,150114.02,150114.02,False
+5826549325,Data Analyst,Independence Pet Group,"Scottsdale, Maricopa County",United States,IT Jobs,75451.91,75451.91,1,Unknown,2026-08-03 07:17:10+00:00,0,75451.91,75451.91,False
+5826543158,Data Analyst,Arsenault Inc,"San Antonio, Bexar County",United States,IT Jobs,67797.52,67797.52,1,Unknown,2026-08-03 07:15:24+00:00,0,67797.52,67797.52,False
+5854856051,Data Analyst,Recruit Monitor,"Duncan, Spartanburg County",United States,IT Jobs,67077.67,67077.67,1,Unknown,2026-08-24 21:53:45+00:00,0,67077.67,67077.67,False
+5854860822,Data Analyst,CC Recruitment,"Utah, US",United States,Admin Jobs,58479.74,58479.74,1,Unknown,2026-08-24 21:55:07+00:00,0,58479.74,58479.74,False
+5826550251,Data Analyst,5 Star Recruitment,"Coppell, Dallas",United States,Accounting & Finance Jobs,46507.72,46507.72,1,Unknown,2026-08-03 07:17:27+00:00,0,46507.72,46507.72,False
+5826550003,Data Analyst,Recruit Monitor,"Houston, Harris County",United States,"PR, Advertising & Marketing Jobs",74453.48,74453.48,1,Unknown,2026-08-03 07:17:23+00:00,0,74453.48,74453.48,False
+5854866223,Data Analyst,Meter.,"San Francisco, California",United States,IT Jobs,152819.05,152819.05,1,Unknown,2026-08-24 21:57:15+00:00,0,152819.05,152819.05,False
+5854865290,Data Analyst,THE DENTAL DEPOT,"Oklahoma, US",United States,IT Jobs,59504.7,59504.7,1,Unknown,2026-08-24 21:56:39+00:00,0,59504.7,59504.7,False
+5854860803,Data Analyst,Jobsultant Solutions,"Duncan, Spartanburg County",United States,IT Jobs,81518.96,81518.96,1,Unknown,2026-08-24 21:55:07+00:00,0,81518.96,81518.96,False
+5854859009,Data analyst,RVA ROOFING SERVICES,"Colonial Heights, Colonial Heights City",United States,IT Jobs,54750.64,54750.64,1,Unknown,2026-08-24 21:54:28+00:00,0,54750.64,54750.64,False
+5854859064,Data Analyst,University of Maryland,"Maryland, Anne Arundel County",United States,"PR, Advertising & Marketing Jobs",98416.57,98416.57,1,Unknown,2026-08-24 21:54:31+00:00,3,98416.57,98416.57,False
+5854858519,Data Analyst,Stryker Corporation,"Pennsylvania, US",United States,IT Jobs,75566.48,75566.48,1,Unknown,2026-08-24 21:54:20+00:00,1,75566.48,75566.48,False
+5854858529,Data Analyst,Stryker Corporation,"Dover, Kent County",United States,IT Jobs,63387.75,63387.75,1,Unknown,2026-08-24 21:54:20+00:00,1,63387.75,63387.75,False
+5854858415,Data Analyst,Marriott International,"Michigan, US",United States,IT Jobs,59261.47,59261.47,1,Unknown,2026-08-24 21:54:18+00:00,0,59261.47,59261.47,False
+5826550020,Data Analyst,Voltguard Utilities Limited,"Houston, Harris County",United States,Engineering Jobs,71835.95,71835.95,1,Unknown,2026-08-03 07:17:23+00:00,0,71835.95,71835.95,False
+5826549812,Data Analyst,Arsenault Inc,"Chicago, Cook County",United States,IT Jobs,83850.84,83850.84,1,Unknown,2026-08-03 07:17:20+00:00,0,83850.84,83850.84,False
+5862745021,Data Analyst,Albert Einstein College of Medicine,"New York City, New York",United States,Teaching Jobs,59290.13,59290.13,1,Unknown,2026-08-31 00:02:46+00:00,0,59290.13,59290.13,False
+5859108745,Data Analyst,Inizio Partners,"New York City, New York",United States,IT Jobs,86260.21,86260.21,1,Unknown,2026-08-27 21:58:45+00:00,0,86260.21,86260.21,False
+5868907309,Data Analyst,RAパートナーズ,"New York City, New York",United States,IT Jobs,64857.66,64857.66,1,Unknown,2026-09-03 08:55:50+00:00,0,64857.66,64857.66,False
+5854865311,Data Analyst,Simantea Ltd,Florida,United States,IT Jobs,59104.0,59104.0,1,Unknown,2026-08-24 21:56:40+00:00,0,59104.0,59104.0,False
+5854862907,Data Analyst,Jobsultant Solutions,"Massachusetts, US",United States,IT Jobs,77097.69,77097.69,1,Unknown,2026-08-24 21:55:39+00:00,0,77097.69,77097.69,False
+5826543391,Data Analyst,Inizio Partners,"Jersey City, Hudson County",United States,Accounting & Finance Jobs,109359.72,109359.72,1,Unknown,2026-08-03 07:15:28+00:00,2,109359.72,109359.72,False
+5826550124,Data Analyst,Jobsultant Solutions,"Charlotte, Mecklenburg County",United States,IT Jobs,74172.41,74172.41,1,Unknown,2026-08-03 07:17:24+00:00,0,74172.41,74172.41,False
+5826550095,Data Analyst,Remoten's,"New York City, New York",United States,IT Jobs,81521.68,81521.68,1,Unknown,2026-08-03 07:17:24+00:00,0,81521.68,81521.68,False
+5826543365,Data Analyst,Jobcertify,"Austin, Travis County",United States,IT Jobs,78206.49,78206.49,1,Unknown,2026-08-03 07:15:28+00:00,0,78206.49,78206.49,False
+5826550114,Data Analyst,Jobsultant Solutions,"Atlanta, Fulton County",United States,IT Jobs,74535.75,74535.75,1,Unknown,2026-08-03 07:17:24+00:00,0,74535.75,74535.75,False
+5826550088,Data Analyst,Arsenault Inc,"Los Angeles, Los Angeles County",United States,"PR, Advertising & Marketing Jobs",66285.31,66285.31,1,Unknown,2026-08-03 07:17:24+00:00,0,66285.31,66285.31,False
+5826542931,Data Analyst,Jobsultant Solutions,"Buffalo, Erie County",United States,IT Jobs,82507.65,82507.65,1,Unknown,2026-08-03 07:15:20+00:00,0,82507.65,82507.65,False
+5826543004,Data Analyst,Jobcertify,"El Paso, El Paso County",United States,IT Jobs,75381.14,75381.14,1,Unknown,2026-08-03 07:15:21+00:00,0,75381.14,75381.14,False
+5826542986,Data Analyst,Recruit Monitor,"Arlington, Tarrant County",United States,"PR, Advertising & Marketing Jobs",42229.25,42229.25,1,Unknown,2026-08-03 07:15:21+00:00,0,42229.25,42229.25,False
+5857722654,"Data Analyst, Data Ops",Harris Associates L.P.,"Chicago, Cook County",United States,IT Jobs,91524.87,91524.87,1,Unknown,2026-08-26 22:00:47+00:00,0,91524.87,91524.87,False
+5823867997,Data Analyst,MANTECH,"Tampa, Hillsborough County",United States,IT Jobs,82150.41,82150.41,1,Unknown,2026-08-01 06:42:49+00:00,0,82150.41,82150.41,False
+5854860801,Remote data analyst,IbrokerPower Capital,"Ohio, US",United States,IT Jobs,66318.83,66318.83,1,Unknown,2026-08-24 21:55:06+00:00,1,66318.83,66318.83,False
+5826550334,Remote Data Analyst,Landpoint,"Fremont, Alameda County",United States,IT Jobs,75070.28,75070.28,1,Unknown,2026-08-03 07:17:28+00:00,1,75070.28,75070.28,False
+5826549817,Sr. Data Analyst,"Global Channel Management, Inc.","Pompano Beach, Broward County",United States,IT Jobs,103766.96,103766.96,1,Unknown,2026-08-03 07:17:20+00:00,1,103766.96,103766.96,False
+5854855514,Junior Data analyst,"Global Channel Management, Inc.","Framingham, Middlesex County",United States,IT Jobs,46620.25,46620.25,1,Unknown,2026-08-24 21:53:35+00:00,1,46620.25,46620.25,False
+5864631507,Senior Commercial Data Analyst,Cerapedics Inc,"Superior, Boulder County",United States,Accounting & Finance Jobs,86000.0,124000.0,0,Unknown,2026-09-01 10:05:32+00:00,0,105000.0,105000.0,False
+5866404548,Senior Data Usability Analyst,HCA Healthcare,"Murfreesboro, Rutherford County",United States,Healthcare & Nursing Jobs,92880.48,92880.48,1,part_time,2026-09-01 23:42:32+00:00,0,92880.48,92880.48,False
+5866404449,Senior Data Usability Analyst,HCA Healthcare,"Nashville, Davidson County",United States,Healthcare & Nursing Jobs,106761.63,106761.63,1,part_time,2026-09-01 23:42:26+00:00,0,106761.63,106761.63,False
+5866404461,Senior Data Usability Analyst,HCA Healthcare,"Norene, Wilson County",United States,Healthcare & Nursing Jobs,109578.33,109578.33,1,part_time,2026-09-01 23:42:28+00:00,0,109578.33,109578.33,False
+5866404547,Senior Data Usability Analyst,HCA Healthcare,"Franklin, Williamson County",United States,Healthcare & Nursing Jobs,93573.52,93573.52,1,part_time,2026-09-01 23:42:32+00:00,0,93573.52,93573.52,False
+5826543019,Data Analyst,"Global Channel Management, Inc.","Jacksonville, Duval County",United States,IT Jobs,56428.1,56428.1,1,Unknown,2026-08-03 07:15:21+00:00,3,56428.1,56428.1,False
+5854853420,Data Analyst,Curemed Health,"Jersey City, Hudson County",United States,IT Jobs,87742.04,87742.04,1,Unknown,2026-08-24 21:52:28+00:00,0,87742.04,87742.04,False
+5854853568,Data Analyst,Qusscorp,"Morris Plains, Morris County",United States,IT Jobs,84204.4,84204.4,1,Unknown,2026-08-24 21:52:32+00:00,0,84204.4,84204.4,False
+5854864530,Data Analyst,Ferrovialcompany,"New York City, New York",United States,IT Jobs,88516.1,88516.1,1,Unknown,2026-08-24 21:56:15+00:00,0,88516.1,88516.1,False
+5826550024,Data Analyst,"Global Channel Management, Inc.","Chicago, Cook County",United States,IT Jobs,75102.8,75102.8,1,Unknown,2026-08-03 07:17:23+00:00,1,75102.8,75102.8,False
+5826550350,Data Analyst,"Global Channel Management, Inc.","Dallas, Texas",United States,Accounting & Finance Jobs,72484.07,72484.07,1,Unknown,2026-08-03 07:17:28+00:00,4,72484.07,72484.07,False
+5826543388,Data Analyst,Happy Agencies,"Miami, Miami-Dade County",United States,IT Jobs,93839.47,93839.47,1,Unknown,2026-08-03 07:15:28+00:00,0,93839.47,93839.47,False
+5854856088,Data Analyst,NationMind LLC,US,United States,IT Jobs,125953.44,125953.44,1,Unknown,2026-08-24 21:53:46+00:00,0,125953.44,125953.44,False
+5826550044,Data Analyst,Pds Company,"Houston, Harris County",United States,IT Jobs,111492.09,111492.09,1,Unknown,2026-08-03 07:17:23+00:00,0,111492.09,111492.09,False
+5854854998,Data Analyst,Mater Dei Catholic High School,US,United States,IT Jobs,52321.76,52321.76,1,Unknown,2026-08-24 21:53:24+00:00,1,52321.76,52321.76,False
+5854859093,Data Analyst,Swift,"Maryland, Anne Arundel County",United States,IT Jobs,94110.03,94110.03,1,Unknown,2026-08-24 21:54:32+00:00,0,94110.03,94110.03,False
+5861885219,Data Analyst,NORC at the University of Chicago,"Chicago, Cook County",United States,Scientific & QA Jobs,73815.28,73815.28,1,Unknown,2026-08-30 00:00:11+00:00,1,73815.28,73815.28,False
+5854864149,Data Analyst,Education Strategy Consulting,"Virginia, US",United States,Teaching Jobs,52667.69,52667.69,1,Unknown,2026-08-24 21:56:03+00:00,0,52667.69,52667.69,False
+5854855338,Data Analyst,Padmore Global Connections,US,United States,IT Jobs,70770.95,70770.95,1,Unknown,2026-08-24 21:53:30+00:00,0,70770.95,70770.95,False
+5826542901,Data Analyst,Insolation Technology Ltd,"Houston, Harris County",United States,IT Jobs,66546.46,66546.46,1,Unknown,2026-08-03 07:15:20+00:00,0,66546.46,66546.46,False
+5854858416,Data Analyst,LT Apparel Group,"Milford, New Haven County",United States,IT Jobs,96592.12,96592.12,1,Unknown,2026-08-24 21:54:18+00:00,0,96592.12,96592.12,False
+5854859596,Data Analyst,CACi,"Riverside, Riverside County",United States,IT Jobs,90213.38,90213.38,1,Unknown,2026-08-24 21:54:40+00:00,0,90213.38,90213.38,False
+5826551246,Data Analyst,"Redolent, Inc","California, US",United States,IT Jobs,81274.75,81274.75,1,Unknown,2026-08-03 07:17:45+00:00,0,81274.75,81274.75,False
+5860712196,Data Analyst,CipherStaff,"Washington, Washington, D.C.",United States,IT Jobs,88330.24,88330.24,1,Unknown,2026-08-29 00:01:34+00:00,2,88330.24,88330.24,False
+5826549640,Data Analyst,Easy Recruiter,"Los Altos, Santa Clara County",United States,IT Jobs,139446.2,139446.2,1,Unknown,2026-08-03 07:17:17+00:00,0,139446.2,139446.2,False
+5826543192,Data Analyst,Recruit Monitor,"Rochester, Monroe County",United States,IT Jobs,75289.68,75289.68,1,Unknown,2026-08-03 07:15:25+00:00,2,75289.68,75289.68,False
+5826546257,Data Analyst,Fm Talent Source,"Atlanta, Fulton County",United States,Consultancy Jobs,74461.09,74461.09,1,Unknown,2026-08-03 07:16:15+00:00,0,74461.09,74461.09,False
+5854855010,Data Analyst,OnePoint Partners,"Alabama, US",United States,IT Jobs,62548.55,62548.55,1,Unknown,2026-08-24 21:53:25+00:00,1,62548.55,62548.55,False
+5826543009,Data Analyst,Arsenault Inc,"New York City, New York",United States,IT Jobs,49961.97,49961.97,1,Unknown,2026-08-03 07:15:21+00:00,0,49961.97,49961.97,False
+5854855548,Data Analyst,Ryan Companies,"Minnesota, US",United States,IT Jobs,76293.57,76293.57,1,Unknown,2026-08-24 21:53:36+00:00,0,76293.57,76293.57,False
+5826542916,Data Analyst,"CCU, LLC","Illinois, US",United States,IT Jobs,53363.43,53363.43,1,Unknown,2026-08-03 07:15:20+00:00,0,53363.43,53363.43,False
+5854861267,Data Analyst,Busek,"Natick, Middlesex County",United States,Engineering Jobs,67210.28,67210.28,1,Unknown,2026-08-24 21:55:16+00:00,0,67210.28,67210.28,False
+5854853408,Data Analyst,The Tactical Edge LLC,"Maryland, Anne Arundel County",United States,IT Jobs,43452.36,43452.36,1,Unknown,2026-08-24 21:52:28+00:00,0,43452.36,43452.36,False
+5854865329,Data Analyst,Stryker Corporation,"Atlanta, Fulton County",United States,IT Jobs,52985.79,52985.79,1,Unknown,2026-08-24 21:56:41+00:00,0,52985.79,52985.79,False
+5854855489,Data Analyst,Pds Company,"New York City, New York",United States,"PR, Advertising & Marketing Jobs",87674.78,87674.78,1,Unknown,2026-08-24 21:53:34+00:00,0,87674.78,87674.78,False
+5870625873,Data Analyst,OKLAHOMA MENTAL HEALTH COUNCIL,"Oklahoma, US",United States,Accounting & Finance Jobs,50982.62,50982.62,1,Unknown,2026-09-04 09:01:06+00:00,0,50982.62,50982.62,False
+5856179822,Data Analyst,Iapetus Holdings,"Fort Worth, Tarrant County",United States,IT Jobs,58902.44,58902.44,1,Unknown,2026-08-25 21:55:00+00:00,0,58902.44,58902.44,False
+5854858430,Data Analyst,Cardless,"San Francisco, California",United States,IT Jobs,142532.7,142532.7,1,Unknown,2026-08-24 21:54:18+00:00,0,142532.7,142532.7,False
+5826543353,Data Analyst,NYU Langone Health,"New York City, New York",United States,Healthcare & Nursing Jobs,60403.04,60403.04,1,Unknown,2026-08-03 07:15:28+00:00,0,60403.04,60403.04,False
+5854864975,Data Analyst,Prosum,"Santa Monica, Los Angeles County",United States,IT Jobs,88896.87,88896.87,1,Unknown,2026-08-24 21:56:30+00:00,0,88896.87,88896.87,False
+5870625862,Data Analyst,MP Materials,"Fort Worth, Tarrant County",United States,Engineering Jobs,129383.16,129383.16,1,Unknown,2026-09-04 09:01:06+00:00,0,129383.16,129383.16,False
+5863790238,Data Analyst,CACI,"Chantilly, Fairfax County",United States,IT Jobs,119407.82,119407.82,1,Unknown,2026-09-01 00:05:46+00:00,0,119407.82,119407.82,False
+5860712199,Data Analyst,Jobs for Humanity,"New York City, New York",United States,IT Jobs,82182.69,82182.69,1,Unknown,2026-08-29 00:01:34+00:00,0,82182.69,82182.69,False
+5862744843,Data Analyst,Pharmatek Consulting Inc,"Jersey City, Hudson County",United States,IT Jobs,63688.42,63688.42,1,Unknown,2026-08-31 00:02:44+00:00,0,63688.42,63688.42,False
+5854861226,Data Analyst,"Radiance Technologies, Inc.","Alabama, US",United States,IT Jobs,80494.05,80494.05,1,Unknown,2026-08-24 21:55:15+00:00,0,80494.05,80494.05,False
+5826547649,Data Analyst,Elite Talent Consulting Corp.,"Scottsdale, Maricopa County",United States,IT Jobs,78827.24,78827.24,1,Unknown,2026-08-03 07:16:42+00:00,0,78827.24,78827.24,False
+5826550143,Data Analyst,Arsenault Inc,"Houston, Harris County",United States,IT Jobs,74952.32,74952.32,1,Unknown,2026-08-03 07:17:25+00:00,0,74952.32,74952.32,False
+5826543175,Data Analyst,Infinity Marketing,"Riverside, Riverside County",United States,IT Jobs,59796.48,59796.48,1,Unknown,2026-08-03 07:15:24+00:00,1,59796.48,59796.48,False
+5826545558,Data Analyst,Harper,"San Francisco, California",United States,IT Jobs,107303.03,107303.03,1,Unknown,2026-08-03 07:16:04+00:00,0,107303.03,107303.03,False
+5854855005,Data Analyst,Pds Company,"Colorado, US",United States,IT Jobs,82772.45,82772.45,1,Unknown,2026-08-24 21:53:25+00:00,0,82772.45,82772.45,False
+5855345008,Data Analyst,No1 Legal and Professional,"London, UK",United Kingdom,IT Jobs,52283.45,52283.45,1,Unknown,2026-08-25 13:35:35+00:00,3,52283.45,71157.77545,False
+5867756760,Data Analyst,First Databank,"Exeter, Devon",United Kingdom,IT Jobs,32721.21,32721.21,1,part_time,2026-09-03 00:31:42+00:00,0,32721.21,44533.56681,False
+5867316849,Data Analyst,First Databank,"Devon, South West England",United Kingdom,IT Jobs,33159.05,33159.05,1,part_time,2026-09-02 17:30:11+00:00,0,33159.05,45129.46705000001,False
+5869444098,Data Analyst,Third Nexus Group Limited,"Holcot, Northampton",United Kingdom,IT Jobs,78000.0,91000.0,0,Unknown,2026-09-03 18:00:15+00:00,1,84500.0,115004.5,False
+5854366209,Data Analyst,Reed Technology,"Dickens Heath, Shirley",United Kingdom,IT Jobs,37440.0,47840.0,0,Unknown,2026-08-24 13:12:54+00:00,0,42640.0,58033.04,False
+5849817958,Data Analyst,Experis,"Stirling, County Stirling",United Kingdom,IT Jobs,30000.0,35000.0,0,full_time,2026-08-20 17:02:36+00:00,2,32500.0,44232.5,False
+5849817799,Data Analyst,Experis,"Pound Hill, Crawley",United Kingdom,IT Jobs,30000.0,35000.0,0,full_time,2026-08-20 17:02:28+00:00,2,32500.0,44232.5,False
+5855358769,Data Analyst,Harnham - Data & Analytics Recruitment,"London, UK",United Kingdom,IT Jobs,59280.52,59280.52,1,Unknown,2026-08-25 13:38:22+00:00,0,59280.52,80680.78772,False
+5868913954,Data Analysts,BDO LLP,"Farringdon, Central London",United Kingdom,IT Jobs,49693.11,49693.11,1,Unknown,2026-09-03 14:02:41+00:00,0,49693.11,67632.32271,False
+5835870267,Data Analyst,Hypercreate Ltd,"Thornton Heath, South East London",United Kingdom,IT Jobs,29000.0,35000.0,0,full_time,2026-08-10 19:42:56+00:00,0,32000.0,43552.0,False
+5835870270,Data Analyst,Hypercreate Ltd,"Monument, Central London",United Kingdom,IT Jobs,29000.0,35000.0,0,full_time,2026-08-10 19:42:56+00:00,0,32000.0,43552.0,False
+5835685638,Data Analyst,Hypercreate Ltd,"Covent Garden, Central London",United Kingdom,IT Jobs,29000.0,35000.0,0,full_time,2026-08-10 15:39:06+00:00,0,32000.0,43552.0,False
+5835870322,Data Analyst,Hypercreate Ltd,"Forest Hill, South East London",United Kingdom,IT Jobs,29000.0,35000.0,0,full_time,2026-08-10 19:43:07+00:00,0,32000.0,43552.0,False
+5835798575,Data Analyst,Hypercreate Ltd,"Tooting, South West London",United Kingdom,IT Jobs,29000.0,35000.0,0,full_time,2026-08-10 17:41:48+00:00,0,32000.0,43552.0,False
+5837120909,Data Analyst,Healthtrust Europe,"Balsall Heath, Birmingham",United Kingdom,IT Jobs,39215.82,39215.82,1,full_time,2026-08-11 19:45:01+00:00,0,39215.82,53372.73102,False
+5851404828,Data Analyst,Artis Recruitment,"Easton, Bristol",United Kingdom,IT Jobs,28000.0,35000.0,0,full_time,2026-08-21 18:57:45+00:00,0,31500.0,42871.5,False
+5842061015,Data Analyst,Forward Assist Recruitment,"Marylebone, North West London",United Kingdom,IT Jobs,100000.0,100000.0,0,full_time,2026-08-14 18:09:48+00:00,0,100000.0,136100.0,False
+5858628580,Data Analyst,Hays Technology,"Kirkhamgate, Wakefield",United Kingdom,IT Jobs,66560.0,76180.0,0,Unknown,2026-08-27 20:28:48+00:00,1,71370.0,97134.56999999999,False
+5840635609,Data Analyst,Rise Technical Recruitment,"Pillaton, Saltash",United Kingdom,IT Jobs,36000.0,36000.0,0,full_time,2026-08-13 19:48:22+00:00,1,36000.0,48996.0,False
+5840362130,Data Analyst,CPR,"Euston, Thetford",United Kingdom,IT Jobs,41400.0,48702.0,0,Unknown,2026-08-13 15:50:12+00:00,0,45051.0,61314.411,False
+5840362421,Data Analyst,CPR,"Balsall Heath, Birmingham",United Kingdom,IT Jobs,36857.0,43355.0,0,Unknown,2026-08-13 15:51:07+00:00,0,40106.0,54584.265999999996,False
+5855343476,Data Analyst,Reed,"Cirencester, Gloucestershire",United Kingdom,IT Jobs,33309.6,33309.6,1,Unknown,2026-08-25 13:35:17+00:00,0,33309.6,45334.3656,False
+5871029118,Data Analyst,Harnham - Data & Analytics Recruitment,"London, UK",United Kingdom,IT Jobs,50184.31,50184.31,1,Unknown,2026-09-04 22:18:20+00:00,0,50184.31,68300.84590999999,False
+5851404863,Data Analyst,V7 Recruitment,"Rusholme, Manchester",United Kingdom,IT Jobs,29000.0,30000.0,0,full_time,2026-08-21 18:57:51+00:00,0,29500.0,40149.5,False
+5851404972,Data Analyst,V7 Recruitment,"Newtown, Disley",United Kingdom,IT Jobs,29000.0,30000.0,0,full_time,2026-08-21 18:58:05+00:00,0,29500.0,40149.5,False
+5855604687,Data Analyst,Truespeed,"Stoney Stratton, Shepton Mallet",United Kingdom,IT Jobs,35000.0,40000.0,0,full_time,2026-08-25 17:34:34+00:00,0,37500.0,51037.5,False
+5840524555,Data Analyst,Pertemps Plymouth,"Plymouth, South West England",United Kingdom,IT Jobs,36070.0,36070.0,0,full_time,2026-08-13 17:56:50+00:00,0,36070.0,49091.27,False
+5856892687,Data Analyst,Reed Technology,"Balsall Heath, Birmingham",United Kingdom,IT Jobs,35000.0,45000.0,0,full_time,2026-08-26 15:24:05+00:00,0,40000.0,54440.0,False
+5840293775,Data Analyst,Experis,"Farringdon, Central London",United Kingdom,Consultancy Jobs,45004.92,45004.92,1,Unknown,2026-08-13 14:27:57+00:00,0,45004.92,61251.69612,False
+5846675680,Data Analyst,WeDoData,"Pillaton, Saltash",United Kingdom,IT Jobs,36070.0,36070.0,0,full_time,2026-08-18 12:49:06+00:00,0,36070.0,49091.27,False
+5855344926,Data Analyst,No1 Legal and Professional,"Manchester, Greater Manchester",United Kingdom,IT Jobs,49433.61,49433.61,1,Unknown,2026-08-25 13:35:34+00:00,4,49433.61,67279.14321,False
+5836824788,Data Analyst,Proman,"Burnaston, Derby",United Kingdom,IT Jobs,27000.0,30000.0,0,full_time,2026-08-11 15:50:53+00:00,0,28500.0,38788.5,False
+5867643019,Data Analyst,First Databank,"Exeter, Devon",United Kingdom,IT Jobs,20000.0,20000.0,0,part_time,2026-09-02 23:10:18+00:00,0,20000.0,27220.0,False
+5840374941,Data Analyst,Mars Recruitment,"Buckinghamshire, South East England",United Kingdom,Accounting & Finance Jobs,47840.0,47840.0,0,full_time,2026-08-13 16:14:05+00:00,0,47840.0,65110.24,False
+5855325884,Data Analyst,Experis,"Milton Keynes, Buckinghamshire",United Kingdom,IT Jobs,98800.0,110760.0,0,Unknown,2026-08-25 13:17:19+00:00,0,104780.0,142605.58,False
+5863132806,Data Analyst,VIQU IT Recruitment,"Birmingham, West Midlands",United Kingdom,IT Jobs,35000.0,35000.0,0,Unknown,2026-08-31 21:39:19+00:00,0,35000.0,47635.0,False
+5855381335,Data Analyst,Reed,"Birmingham, West Midlands",United Kingdom,IT Jobs,18.0,23.0,0,full_time,2026-08-25 13:45:27+00:00,0,20.5,27.9005,False
+5849943245,Data Analyst,Experis,"Crawley, West Sussex",United Kingdom,IT Jobs,35000.0,35000.0,0,Unknown,2026-08-20 21:28:56+00:00,2,35000.0,47635.0,False
+5820418826,Data Analyst,Catalyst,"Gateshead, Tyne & Wear",United Kingdom,IT Jobs,80000.0,80000.0,0,full_time,2026-07-30 00:47:39+00:00,0,80000.0,108880.0,False
+5837138213,Data Analyst,Anson Mccade,UK,United Kingdom,IT Jobs,60140.02,60140.02,1,Unknown,2026-08-11 21:21:32+00:00,0,60140.02,81850.56722,False
+5858364990,Data Analyst,Trace,"London, UK",United Kingdom,IT Jobs,45000.0,45000.0,0,full_time,2026-08-27 16:20:13+00:00,0,45000.0,61245.0,False
+5870628588,Data Analyst,MSX International Limited,"Mountnessing, Brentwood",United Kingdom,IT Jobs,37901.23,37901.23,1,full_time,2026-09-04 14:10:27+00:00,0,37901.23,51583.57403,False
+5820422952,Data Analyst,Euro Car Parks,"Central London, London",United Kingdom,IT Jobs,100000.0,100000.0,0,full_time,2026-07-30 00:51:19+00:00,0,100000.0,136100.0,False
+5855716321,Data Analyst,Bright Purple Resourcing,"Glasgow, Scotland",United Kingdom,IT Jobs,45000.0,45000.0,0,Unknown,2026-08-25 21:37:10+00:00,1,45000.0,61245.0,False
+5854595615,Data Analyst,Cambridgeshire & Peterborough Combined Authority,"Godmanchester, Huntingdon",United Kingdom,IT Jobs,39152.0,42839.0,0,Unknown,2026-08-24 22:43:29+00:00,2,40995.5,55794.8755,False
+5855380778,Data Analyst,Harnham - Data & Analytics Recruitment,"London, UK",United Kingdom,IT Jobs,45000.0,55000.0,0,full_time,2026-08-25 13:45:19+00:00,0,50000.0,68050.0,False
+5837136930,Data Analyst,Healthtrust Europe,"Birmingham, West Midlands",United Kingdom,IT Jobs,38763.53,38763.53,1,Unknown,2026-08-11 21:19:14+00:00,0,38763.53,52757.16433,False
+5855375401,Data Analyst,Artis Recruitment,"Bristol, South West England",United Kingdom,IT Jobs,28000.0,35000.0,0,full_time,2026-08-25 13:43:59+00:00,0,31500.0,42871.5,False
+5855379210,Data Analyst,4Recruitment Services,"Harlow, Essex",United Kingdom,IT Jobs,350.0,350.0,0,full_time,2026-08-25 13:44:54+00:00,0,350.0,476.35,False
+5868804972,Data Analyst,Reed Technology,"Fleet Street, Central London",United Kingdom,IT Jobs,39670.07,39670.07,1,Unknown,2026-09-03 12:33:55+00:00,1,39670.07,53990.96527,False
+5846723666,"Group Data Privacy (GDP) – Data Privacy Analyst,AS",Deutsche Bank,"Bangalore, Karnataka",India,IT Jobs,,,0,full_time,2026-08-18 18:03:43+00:00,0,,,True
+5864428505,Senior Data & Market Research Analyst,Proeze,"Chennai, Tamil Nadu",India,Sales Jobs,,,0,Unknown,2026-09-01 16:21:17+00:00,0,,,True
+5872266164,Senior Healthcare Claims Data Validation Analyst (Manual QA)-India(Remote),PEER IT SOL,India,India,IT Jobs,,,0,Unknown,2026-09-06 00:51:19+00:00,0,,,True
+5870857067,Analytics Manager,Kamakhya Analytics Private Limited,"Bangalore, Karnataka",India,"Energy, Oil & Gas Jobs",,,0,Unknown,2026-09-04 22:27:33+00:00,0,,,True
+5864433088,Workiva (WDesk/Wdata & SQL),Coforge,"Hyderabad, Telangana",India,IT Jobs,,,0,full_time,2026-09-01 16:22:00+00:00,1,,,True
+5871993046,Lead Data Engineer,TEKsystems Global Services in India,"Hyderabad, Telangana",India,IT Jobs,,,0,Unknown,2026-09-05 18:32:53+00:00,3,,,True
+5867263507,Data Engineer,Tata Consultancy Services,India,India,IT Jobs,,,0,Unknown,2026-09-02 21:45:17+00:00,5,,,True
+5864425686,Senior Data Engineer,Programmers.io,India,India,IT Jobs,,,0,Unknown,2026-09-01 16:20:36+00:00,2,,,True
+5864423974,SAP Data Migration Functional Analyst EAM/PM,EnQubes,India,India,IT Jobs,,,0,Unknown,2026-09-01 16:20:17+00:00,0,,,True
+5867036131,Azure data engineer - F2F discussion - Chennai,Tata Consultancy Services,"Chennai, Tamil Nadu",India,IT Jobs,,,0,Unknown,2026-09-02 16:42:44+00:00,3,,,True
+5864428383,PHP Developer- Laravel,Progenesis IVF Fertility Center,"Thane, Maharashtra",India,IT Jobs,,,0,Unknown,2026-09-01 16:21:15+00:00,0,,,True
+5870527304,SAP Data Migration Functional Analyst OTC (Order to Cash),EnQubes,India,India,IT Jobs,,,0,Unknown,2026-09-04 16:57:22+00:00,0,,,True
+5864430870,Data Engineer,EXL,India,India,IT Jobs,,,0,Unknown,2026-09-01 16:21:42+00:00,2,,,True
+5864443205,Data Ingestion Engineer,EVERSANA,India,India,IT Jobs,,,0,Unknown,2026-09-01 16:23:20+00:00,3,,,True
+5871991408,Data Engineer,MiraiX,"Bangalore, Karnataka",India,IT Jobs,,,0,Unknown,2026-09-05 18:29:13+00:00,0,,,True
+5864423371,Data Engineer - Databricks,Tata Consultancy Services,"Hyderabad, Telangana",India,IT Jobs,,,0,Unknown,2026-09-01 16:20:10+00:00,1,,,True
+5870527464,Data Engineer,Recro,India,India,IT Jobs,,,0,Unknown,2026-09-04 16:57:28+00:00,2,,,True
+5867037969,Lead Data Engineer,Dautom,India,India,IT Jobs,,,0,Unknown,2026-09-02 16:44:07+00:00,0,,,True
+5864432410,Data Engineer,Data Eminence,India,India,IT Jobs,,,0,Unknown,2026-09-01 16:21:53+00:00,2,,,True
+5871992217,"MIS Executive (CTC 6-8 Lakhs, Mumbai)",CFOSME Corporate Services Pvt. Ltd.,"Mumbai, Maharashtra",India,Accounting & Finance Jobs,,,0,full_time,2026-09-05 18:30:53+00:00,0,,,True
+5846723639,Senior People Analyst,Wise,"Hyderabad, Telangana",India,IT Jobs,,,0,full_time,2026-08-18 18:03:42+00:00,0,,,True
+5864439568,GCP Data Engineer,HTC Global Services,"Chennai, Tamil Nadu",India,IT Jobs,,,0,Unknown,2026-09-01 16:22:57+00:00,2,,,True
+5864435809,Data Engineer,Eloelo,"Bangalore, Karnataka",India,IT Jobs,,,0,Unknown,2026-09-01 16:22:24+00:00,0,,,True
+5859569764,Tech Lead – Data & Analytics,Bandhan Technologies,"Bangalore, Karnataka",India,IT Jobs,,,0,Unknown,2026-08-28 16:02:47+00:00,0,,,True
+5864430306,Data Engineering Lead,IndusInd Bank,"Mumbai, Maharashtra",India,IT Jobs,,,0,Unknown,2026-09-01 16:21:38+00:00,1,,,True
+5864424584,AWS Data Engineer,Tata Consultancy Services,"Noida, Ghaziabad",India,IT Jobs,,,0,Unknown,2026-09-01 16:20:25+00:00,3,,,True
+5864438932,Data Engineer,Mindsprint,"Chennai, Tamil Nadu",India,IT Jobs,,,0,Unknown,2026-09-01 16:22:50+00:00,0,,,True
+5864434823,Data Storage & Warehousing Senior Analyst [T500-28556],Inspire,"Hyderabad, Telangana",India,IT Jobs,,,0,Unknown,2026-09-01 16:22:12+00:00,0,,,True
+5864424975,Azure Data Engineer,EXL,"Noida, Ghaziabad",India,IT Jobs,,,0,Unknown,2026-09-01 16:20:30+00:00,3,,,True
+5867222082,Fivetran Data Engineer,Straive,India,India,IT Jobs,,,0,Unknown,2026-09-02 21:28:08+00:00,0,,,True
+5867265799,Senior Executive - MIS & Analytics,Atain,India,India,IT Jobs,,,0,Unknown,2026-09-02 21:45:54+00:00,1,,,True
+5864439271,Data Engineer-ADF,"Prudent Technologies and Consulting, Inc.","Hyderabad, Telangana",India,IT Jobs,,,0,Unknown,2026-09-01 16:22:54+00:00,2,,,True
+5857168424,Case Processing Associate,Aptita,"Mumbai, Maharashtra",India,Healthcare & Nursing Jobs,,,0,Unknown,2026-08-26 22:01:31+00:00,0,,,True
+5864441497,Data Engineer - Databricks Focus,Allison Transmission,India,India,IT Jobs,,,0,Unknown,2026-09-01 16:23:09+00:00,2,,,True
+5852164425,Senior Analyst - Internal Audit,Wise,"Hyderabad, Telangana",India,Accounting & Finance Jobs,,,0,full_time,2026-08-22 12:06:19+00:00,0,,,True
+5867263603,Content Writer,Collegedunia,India,India,"PR, Advertising & Marketing Jobs",,,0,Unknown,2026-09-02 21:45:19+00:00,0,,,True
+5864427382,Python Technical Lead,JRD Systems,"Bangalore, Karnataka",India,IT Jobs,,,0,Unknown,2026-09-01 16:21:00+00:00,2,,,True
+5846723609,"Product Analyst – Operations Reference Data, AVP",Deutsche Bank,"Bangalore, Karnataka",India,IT Jobs,,,0,full_time,2026-08-18 18:03:42+00:00,0,,,True
+5864439916,LEAD DATA ENGINEER,Eucloid Data Solutions,"Chennai, Tamil Nadu",India,IT Jobs,,,0,Unknown,2026-09-01 16:23:00+00:00,0,,,True
+5870527502,Senior Data Engineer (GCP),Publicis Production,"Bangalore, Karnataka",India,IT Jobs,,,0,full_time,2026-09-04 16:57:28+00:00,0,,,True
+5864437606,Senior / Lead Data Engineer,Eucloid Data Solutions,"Chennai, Tamil Nadu",India,IT Jobs,,,0,Unknown,2026-09-01 16:22:39+00:00,0,,,True
+5864429089,AWS Data Engineer,Persistent Systems,India,India,IT Jobs,,,0,full_time,2026-09-01 16:21:25+00:00,2,,,True
+5864425045,Data Specialist,HighRadius,"Hyderabad, Telangana",India,IT Jobs,,,0,Unknown,2026-09-01 16:20:31+00:00,0,,,True
+5867263656,Technical Content Writer,Collegedunia,India,India,IT Jobs,,,0,Unknown,2026-09-02 21:45:20+00:00,0,,,True
+5864437297,Power BI Consultant,Gantec Corporation,"Chennai, Tamil Nadu",India,IT Jobs,,,0,full_time,2026-09-01 16:22:37+00:00,1,,,True
+5864433680,Data Integration Specialist,TEKsystems Global Services in India,"Hyderabad, Telangana",India,IT Jobs,,,0,Unknown,2026-09-01 16:22:05+00:00,2,,,True
+5869803335,Data Analyst,Zorba Consulting India,"Hyderabad, Telangana",India,IT Jobs,700000.0,2200000.0,0,full_time,2026-09-04 07:00:55+00:00,4,1450000.0,15225.000000000002,False
+5826247065,Data Analyst,Inficore Soft,India,India,IT Jobs,264000.0,276000.0,0,full_time,2026-08-03 06:51:53+00:00,0,270000.0,2835.0,False
+4686704238,Data Analyst,Unknown,"Thiruvananthapuram, Kerala",India,IT Jobs,,,0,Unknown,2024-05-10 07:38:46+00:00,0,,,True
+5680120020,Data Analyst,SkySun,India,India,IT Jobs,,,0,full_time,2026-03-27 13:39:38+00:00,1,,,True
+5857251181,Data Analyst - Data Remediation - Mumbai,Capco,"Mumbai, Maharashtra",India,IT Jobs,,,0,full_time,2026-08-27 02:10:36+00:00,0,,,True
+5870528287,Freelance Data Analyst Mentor,IIM SKILLS,"Noida, Ghaziabad",India,Teaching Jobs,,,0,Unknown,2026-09-04 16:58:14+00:00,0,,,True
+5867270213,SAP PLM Data Analyst,PranaTree,India,India,IT Jobs,,,0,Unknown,2026-09-02 21:46:17+00:00,0,,,True
+5864432450,Credit Risk Data Analyst,Etenico Technologies,India,India,IT Jobs,,,0,Unknown,2026-09-01 16:21:54+00:00,2,,,True
+5857251154,Liquidity Reporting- data analyst,Capco,India,India,Accounting & Finance Jobs,,,0,full_time,2026-08-27 02:10:30+00:00,0,,,True
+5846723089,Product Marketing Data Analyst,Danaher,"Maharashtra, India",India,IT Jobs,,,0,full_time,2026-08-18 18:03:33+00:00,0,,,True
+5864427059,Online Data Analyst - Punjabi,TELUS Digital,India,India,Scientific & QA Jobs,,,0,part_time,2026-09-01 16:20:55+00:00,0,,,True
+5864435864,Senior Researcher & Data Analyst,Brainware University,"Barasat, North 24 Parganas",India,IT Jobs,,,0,full_time,2026-09-01 16:22:25+00:00,0,,,True
+5868794827,Data Analyst – AI Consulting,TailorFlow AI,India,India,IT Jobs,,,0,Unknown,2026-09-03 16:51:18+00:00,0,,,True
+5869559140,Data Analyst - Team Lead,Aceolution,"Hyderabad, Telangana",India,IT Jobs,,,0,Unknown,2026-09-04 02:34:28+00:00,0,,,True
+5871991986,Data Analyst – Power Platform,Innover Digital,"Bangalore, Karnataka",India,Engineering Jobs,,,0,Unknown,2026-09-05 18:30:29+00:00,0,,,True
+5867263635,Senior Data Analyst- 18891,EXL,India,India,IT Jobs,,,0,Unknown,2026-09-02 21:45:19+00:00,0,,,True
+5870693437,Senior Financial Data Analyst,Moody's,"Bangalore, Karnataka",India,Accounting & Finance Jobs,,,0,full_time,2026-09-04 20:32:50+00:00,0,,,True
+5864436028,Data Analyst – Transport MIS & Data Analytics,Pahlé India Foundation ,India,India,IT Jobs,,,0,full_time,2026-09-01 16:22:27+00:00,0,,,True
+5871992153,Data Analyst – SQL/Power BI,Innover Digital,"Bangalore, Karnataka",India,IT Jobs,,,0,Unknown,2026-09-05 18:30:45+00:00,2,,,True
+5871991935,Data Analyst – Microsoft Fabric/Pyspark,Innover Digital,"Bangalore, Karnataka",India,IT Jobs,,,0,Unknown,2026-09-05 18:30:24+00:00,0,,,True
+5864442476,Online Data Analyst - Odia Language.,TELUS,India,India,IT Jobs,,,0,part_time,2026-09-01 16:23:14+00:00,0,,,True
+5870859811,Online Data Analyst - Odia Language,TELUS Digital AI Data Solutions,"Bangalore, Karnataka",India,IT Jobs,,,0,part_time,2026-09-04 22:29:34+00:00,0,,,True
+5864431974,Online Data Analyst Urdu _India,TELUS Digital AI Data Solutions,India,India,Scientific & QA Jobs,,,0,part_time,2026-09-01 16:21:49+00:00,0,,,True
+5854537719,"Sr Manager, Senior Data Analyst",Standard Chartered Bank,"Bangalore, Karnataka",India,Accounting & Finance Jobs,,,0,full_time,2026-08-25 00:07:28+00:00,0,,,True
+5864426170,"Senior Data Analyst (SQL, ETL, Python)",Health Catalyst,"Hyderabad, Telangana",India,IT Jobs,,,0,Unknown,2026-09-01 16:20:43+00:00,3,,,True
+5864437348,"Senior Marketing Data Analyst (Python, SQL)",Blend,"Hyderabad, Telangana",India,"PR, Advertising & Marketing Jobs",,,0,Unknown,2026-09-01 16:22:37+00:00,2,,,True
+5864442886,Data Quality Analyst,Sambodhi Research and Communications Pvt. Ltd.,India,India,IT Jobs,,,0,full_time,2026-09-01 16:23:17+00:00,0,,,True
+5864440835,Data Privacy Analyst,NTT DATA Business Solutions,India,India,IT Jobs,,,0,Unknown,2026-09-01 16:23:06+00:00,0,,,True
+5864421910,Data Extraction Analyst,Computacenter,"Noida, Ghaziabad",India,IT Jobs,,,0,full_time,2026-09-01 16:19:48+00:00,0,,,True
+5867270200,Data Security Analyst,Thakral One,India,India,IT Jobs,,,0,Unknown,2026-09-02 21:46:17+00:00,0,,,True
+5864443271,Data & Insights Analyst,Ecomm-Inroads,India,India,IT Jobs,,,0,Unknown,2026-09-01 16:23:20+00:00,0,,,True
+5843766762,IS Data Security - Analyst,ABB,"Bangalore, Karnataka",India,IT Jobs,,,0,full_time,2026-08-16 06:19:46+00:00,0,,,True
+5867115068,Data Management Analyst,Moody's,"Bangalore, Karnataka",India,IT Jobs,,,0,full_time,2026-09-02 18:15:33+00:00,0,,,True
+5871991638,Data Quality Analyst,Andor Tech,"Bangalore, Karnataka",India,IT Jobs,,,0,Unknown,2026-09-05 18:29:39+00:00,0,,,True
+5870527967,Senior Data Analyst (Advanced Excel with PowerBI) - Gurgaon Location,Sonata Software,India,India,IT Jobs,,,0,Unknown,2026-09-04 16:57:53+00:00,2,,,True
+5864422819,Electronic Data Interchange Analyst,ValueLabs,"Hyderabad, Telangana",India,IT Jobs,,,0,Unknown,2026-09-01 16:20:00+00:00,0,,,True
+5864431325,Sr. Data & Reporting Analyst,iShare Inc.,India,India,IT Jobs,,,0,Unknown,2026-09-01 16:21:45+00:00,1,,,True
+5864441282,Senior Data & Insights Analyst,Linemate,India,India,IT Jobs,,,0,Unknown,2026-09-01 16:23:08+00:00,0,,,True
+5869558783,Lead Data Insight Analyst - Data warehousing [T500-29065],Albertsons Companies India,"Bangalore, Karnataka",India,IT Jobs,,,0,Unknown,2026-09-04 02:33:14+00:00,0,,,True
+5870527956,Data Analyst (B.Tech from Tier-1 or Tier-2 College),Collegedunia,India,India,IT Jobs,,,0,Unknown,2026-09-04 16:57:53+00:00,0,,,True
+5864431703,Data Analytics Analyst ( Life Sciences),IQVIA India,"Bangalore, Karnataka",India,IT Jobs,,,0,Unknown,2026-09-01 16:21:47+00:00,1,,,True
+5864426422,SAP MM data migration analyst,Zora Technology Inc,India,India,IT Jobs,,,0,full_time,2026-09-01 16:20:48+00:00,0,,,True
+5864442750,Data Quality Analyst – AI/ML,Innodata India Private Limited,India,India,IT Jobs,,,0,Unknown,2026-09-01 16:23:16+00:00,0,,,True
+5864427018,Analyst - Data Science,bluCognition,India,India,IT Jobs,,,0,Unknown,2026-09-01 16:20:55+00:00,0,,,True
+5864429416,Lead Data Insight Analyst [T500-28720],Albertsons Companies India,"Bangalore, Karnataka",India,IT Jobs,,,0,Unknown,2026-09-01 16:21:28+00:00,0,,,True
+5864442505,Senior Data Engineer (Analyst/Scientist) - Remote,Kake,"Bangalore, Karnataka",India,IT Jobs,,,0,Unknown,2026-09-01 16:23:14+00:00,0,,,True
+5864431152,Senior Data Engineer (Analyst/Scientist) - Remote,Kake,"Hyderabad, Telangana",India,IT Jobs,,,0,Unknown,2026-09-01 16:21:43+00:00,0,,,True
+5864436325,Senior Data Insight Analyst [T500-27798],Albertsons Companies India,"Bangalore, Karnataka",India,IT Jobs,,,0,Unknown,2026-09-01 16:22:29+00:00,0,,,True
+5870857069,Lead Data Insight Analyst [T500-29084],Albertsons Companies India,"Bangalore, Karnataka",India,IT Jobs,,,0,Unknown,2026-09-04 22:27:33+00:00,0,,,True
+5843766857,IS Data Security - Senior Analyst,ABB,"Bangalore, Karnataka",India,IT Jobs,,,0,full_time,2026-08-16 06:19:54+00:00,0,,,True
+5870693506,Business Analyst - Data & Privacy,Standard Chartered Bank,"Bangalore, Karnataka",India,IT Jobs,,,0,full_time,2026-09-04 20:33:07+00:00,0,,,True
+5870527917,Data Quality Assurance Analyst,9NEXUS,India,India,IT Jobs,,,0,Unknown,2026-09-04 16:57:52+00:00,1,,,True
+5870527270,Data Analyst,LuLu Group India,"Kochi, Ernakulam",India,IT Jobs,,,0,Unknown,2026-09-04 16:57:21+00:00,1,,,True
+5867038166,Data Analyst,Edwagon,"Bangalore, Karnataka",India,IT Jobs,,,0,full_time,2026-09-02 16:44:13+00:00,0,,,True
+5864442719,Data Analyst,HCLTech,"Hyderabad, Telangana",India,IT Jobs,,,0,Unknown,2026-09-01 16:23:16+00:00,2,,,True
+5868794225,Data Analyst,Indofast Energy,India,India,IT Jobs,,,0,Unknown,2026-09-03 16:50:23+00:00,1,,,True
+5864443196,Data Analyst,Nians,India,India,IT Jobs,,,0,Unknown,2026-09-01 16:23:20+00:00,0,,,True
+5864432449,Data Analyst,EXL,"Chennai, Tamil Nadu",India,IT Jobs,,,0,Unknown,2026-09-01 16:21:54+00:00,1,,,True
+5864427756,Data Analyst,Mastek,"Noida, Ghaziabad",India,IT Jobs,,,0,Unknown,2026-09-01 16:21:11+00:00,6,,,True
+5864425207,Data Analyst,StoryTV App ,"Bangalore, Karnataka",India,"PR, Advertising & Marketing Jobs",,,0,Unknown,2026-09-01 16:20:32+00:00,0,,,True
+5864426421,Data Analyst,WhiteLotus Talent Partners,"Hyderabad, Telangana",India,IT Jobs,,,0,full_time,2026-09-01 16:20:48+00:00,1,,,True
+5864437490,Data Analyst,Netraon,India,India,IT Jobs,,,0,full_time,2026-09-01 16:22:38+00:00,0,,,True
+5864431866,Data Analyst,AGOS Aviation,"Mumbai, Maharashtra",India,IT Jobs,,,0,full_time,2026-09-01 16:21:48+00:00,0,,,True
+5867036037,Data Analyst,Daice Labs,India,India,IT Jobs,,,0,full_time,2026-09-02 16:42:41+00:00,1,,,True
+5871991896,Data Analyst,Persistent Systems,"Hyderabad, Telangana",India,IT Jobs,,,0,full_time,2026-09-05 18:30:21+00:00,0,,,True
+5870527827,Data Analyst,Gowitek | Agentic AI + Digital Transformation Partner,India,India,IT Jobs,,,0,Unknown,2026-09-04 16:57:51+00:00,0,,,True
+5867036109,Data Analyst,Pharmanovia,"Mumbai, Maharashtra",India,IT Jobs,,,0,Unknown,2026-09-02 16:42:43+00:00,0,,,True
+5864436500,Data Analyst,MS CLINICAL RESEARCH,"Bangalore, Karnataka",India,IT Jobs,,,0,full_time,2026-09-01 16:22:30+00:00,1,,,True
+5864431843,Data Analyst,Arcana,"Coimbatore, Tamil Nadu",India,IT Jobs,,,0,Unknown,2026-09-01 16:21:48+00:00,0,,,True
+5864437276,Data Analyst,Navneet Education Limited,"Mumbai, Maharashtra",India,IT Jobs,,,0,Unknown,2026-09-01 16:22:36+00:00,2,,,True
+5868791758,Data Analyst,EaseMyTrip.com,India,India,IT Jobs,,,0,Unknown,2026-09-03 16:48:56+00:00,0,,,True
+5868903776,Data Analyst,She Starts,India,India,IT Jobs,,,0,Unknown,2026-09-03 18:21:51+00:00,0,,,True
+5870527563,Data Analyst,Innodata Inc.,India,India,IT Jobs,,,0,Unknown,2026-09-04 16:57:30+00:00,2,,,True
+5864594008,Data Analyst,ShrinQ Consulting Group Inc,India,India,IT Jobs,,,0,Unknown,2026-09-01 18:21:19+00:00,0,,,True
+5867036118,Data Analyst,Mobily Infotech,India,India,Sales Jobs,,,0,Unknown,2026-09-02 16:42:44+00:00,0,,,True
+5864437013,Data Analyst,Midtown Software,"Chandigarh, India",India,Consultancy Jobs,,,0,Unknown,2026-09-01 16:22:33+00:00,0,,,True
+5864431665,Data Analyst,Mastek,"Noida, Ghaziabad",India,IT Jobs,,,0,Unknown,2026-09-01 16:21:47+00:00,2,,,True
+5864426729,Data Analyst,Straive,India,India,Scientific & QA Jobs,,,0,Unknown,2026-09-01 16:20:52+00:00,0,,,True
+5864422728,Data Analyst / Data Engineer,DocOnline,"Hyderabad, Telangana",India,IT Jobs,,,0,full_time,2026-09-01 16:19:58+00:00,0,,,True
+5868789197,Data Analyst Trainer,Techchampp technologies,"Vijayawada, Krishna",India,IT Jobs,,,0,Unknown,2026-09-03 16:48:18+00:00,5,,,True
+5870528406,Sr. Data Analyst,Prudent Insurance Brokers Pvt Ltd.,India,India,IT Jobs,,,0,Unknown,2026-09-04 16:58:16+00:00,0,,,True
+5837139892,Senior Data Analyst,Capco,India,India,IT Jobs,,,0,full_time,2026-08-12 01:59:43+00:00,1,,,True
+5867037378,Lead Data Analyst,Nexus Corporation,India,India,IT Jobs,,,0,Unknown,2026-09-02 16:43:29+00:00,0,,,True
+5867264943,Lead Data Analyst,Airtel Digital,India,India,IT Jobs,,,0,Unknown,2026-09-02 21:45:47+00:00,0,,,True
+5864426328,Senior Data Analyst,Epsilon,"Bangalore, Karnataka",India,Consultancy Jobs,,,0,Unknown,2026-09-01 16:20:46+00:00,0,,,True
+5865065103,Senior Data Analyst,Morningstar,"Mumbai, Maharashtra",India,Accounting & Finance Jobs,,,0,full_time,2026-09-01 22:16:27+00:00,0,,,True
+5867263586,Senior Data Analyst,EXL,India,India,IT Jobs,,,0,Unknown,2026-09-02 21:45:19+00:00,2,,,True
+5871992907,GCP Data Analyst,Persistent Systems,"Hyderabad, Telangana",India,IT Jobs,,,0,full_time,2026-09-05 18:32:38+00:00,2,,,True
+5869558747,Senior Data Analyst,Appnext,India,India,IT Jobs,,,0,Unknown,2026-09-04 02:33:04+00:00,0,,,True
+5864436751,Lead Data Analyst,Dyson,"Bangalore, Karnataka",India,IT Jobs,,,0,Unknown,2026-09-01 16:22:32+00:00,0,,,True
+5864436299,Growth & Data Analyst,Lascade,"Kochi, Ernakulam",India,IT Jobs,,,0,Unknown,2026-09-01 16:22:28+00:00,0,,,True
+5837139431,Business Data Analyst,Capco,India,India,IT Jobs,,,0,full_time,2026-08-12 01:59:37+00:00,0,,,True
+5864437239,Senior Data Analyst,Walmart Global Tech India,"Chennai, Tamil Nadu",India,IT Jobs,,,0,Unknown,2026-09-01 16:22:36+00:00,0,,,True
+5864435853,Senior Data Analyst,Chubb,"Hyderabad, Telangana",India,IT Jobs,,,0,full_time,2026-09-01 16:22:25+00:00,0,,,True
+5855007053,Data Analyst / Engineer,Kyndryl,"Bangalore, Karnataka",India,Accounting & Finance Jobs,,,0,full_time,2026-08-25 10:08:09+00:00,0,,,True
+5872825731,Data Analyst / Engineer,Kyndryl,"Bangalore, Karnataka",India,Accounting & Finance Jobs,,,0,full_time,2026-09-06 12:17:19+00:00,0,,,True
+5864423408,Data Analyst - Fenergo,eClerx,"Mumbai, Maharashtra",India,IT Jobs,,,0,Unknown,2026-09-01 16:20:10+00:00,2,,,True
+5864430403,Senior Data Analyst,Magma General Insurance Limited,"Mumbai, Maharashtra",India,IT Jobs,,,0,Unknown,2026-09-01 16:21:39+00:00,1,,,True
+5867263523,Senior Data Analyst,airtel,India,India,IT Jobs,,,0,Unknown,2026-09-02 21:45:18+00:00,0,,,True
+5864427373,Senior Data Analyst,Prescience Decision Solutions ,"Bangalore, Karnataka",India,IT Jobs,,,0,full_time,2026-09-01 16:21:00+00:00,1,,,True
+5837139895,Liquidity - Data Analyst,Capco,India,India,Accounting & Finance Jobs,,,0,full_time,2026-08-12 01:59:43+00:00,0,,,True
+5870857169,Marketing Data Analyst,FREED,India,India,Accounting & Finance Jobs,,,0,Unknown,2026-09-04 22:27:47+00:00,0,,,True
+5854862184,Junior Data Analyst,PrimCorp,"Reston, Fairfax County",United States,IT Jobs,69048.52,69048.52,1,Unknown,2026-08-24 21:55:27+00:00,0,69048.52,69048.52,False
+5826550099,Remote Data Analyst,Easy Recruiter,"Chicago, Cook County",United States,Accounting & Finance Jobs,64537.68,64537.68,1,Unknown,2026-08-03 07:17:24+00:00,1,64537.68,64537.68,False
+5856179750,Data Analyst Lead,Resource Innovations,"Chicago, Cook County",United States,IT Jobs,96369.73,96369.73,1,Unknown,2026-08-25 21:54:59+00:00,0,96369.73,96369.73,False
+5854862181,Senior Data Analyst,Allo Communications LLC,US,United States,IT Jobs,94748.25,94748.25,1,Unknown,2026-08-24 21:55:27+00:00,0,94748.25,94748.25,False
+5854859046,Senior Data Analyst,Jobcertify,"Pennsylvania, US",United States,IT Jobs,82029.38,82029.38,1,Unknown,2026-08-24 21:54:31+00:00,0,82029.38,82029.38,False
+5854863157,Junior Data Analyst,Jobsultant Solutions,"Iowa, Johnson County",United States,IT Jobs,35350.52,35350.52,1,Unknown,2026-08-24 21:55:43+00:00,0,35350.52,35350.52,False
+5858290426,Data Analyst IV,Texas Health and Human Services Commission,"Austin, Travis County",United States,IT Jobs,91094.17,91094.17,1,Unknown,2026-08-27 09:57:08+00:00,0,91094.17,91094.17,False
+5826550081,Sr. Data Analyst,Remote Career,"New York City, New York",United States,IT Jobs,102738.06,102738.06,1,Unknown,2026-08-03 07:17:24+00:00,1,102738.06,102738.06,False
+5826549793,Senior Data Analyst,Philip Morris,"Tampa, Hillsborough County",United States,IT Jobs,152946.77,152946.77,1,Unknown,2026-08-03 07:17:19+00:00,0,152946.77,152946.77,False
+5826550111,Senior Data Analyst,Arsenault Inc,"San Diego, San Diego County",United States,IT Jobs,113519.13,113519.13,1,Unknown,2026-08-03 07:17:24+00:00,0,113519.13,113519.13,False
+5826543397,JR. Data Analyst,Remote Career,"Dallas, Texas",United States,IT Jobs,85438.23,85438.23,1,Unknown,2026-08-03 07:15:28+00:00,1,85438.23,85438.23,False
+5854862185,Senior Data Analyst,University of Colorado,"Colorado, US",United States,IT Jobs,78815.44,78815.44,1,Unknown,2026-08-24 21:55:27+00:00,1,78815.44,78815.44,False
+5862744785,Senior Data Analyst,"Smarter HR Solutions, LLC","Houston, Harris County",United States,IT Jobs,92495.35,92495.35,1,Unknown,2026-08-31 00:02:43+00:00,0,92495.35,92495.35,False
+5826550055,HR Data Analyst,Workoo Technologies,"San Jose, Santa Clara County",United States,Admin Jobs,79411.33,79411.33,1,Unknown,2026-08-03 07:17:23+00:00,1,79411.33,79411.33,False
+5826547250,Data Analyst II,Shirley Ryan Ability Lab,"Chicago, Cook County",United States,IT Jobs,76509.97,76509.97,1,Unknown,2026-08-03 07:16:33+00:00,0,76509.97,76509.97,False
+5826546297,Data Analyst- MAT,"New Horizons of the Treasure Coast, Inc.","Fort Pierce, St. Lucie County",United States,Healthcare & Nursing Jobs,33691.86,33691.86,1,Unknown,2026-08-03 07:16:16+00:00,0,33691.86,33691.86,False
+5854853243,Senior Data Analyst,The University of Oklahoma,"Oklahoma, US",United States,IT Jobs,91553.85,91553.85,1,Unknown,2026-08-24 21:52:22+00:00,0,91553.85,91553.85,False
+5826545790,Senior Data Analyst,K2 Space Corporation,"Los Angeles, Los Angeles County",United States,IT Jobs,163847.6,163847.6,1,Unknown,2026-08-03 07:16:07+00:00,0,163847.6,163847.6,False
+5854861336,Senior Data Analyst,OneMagnify,"Michigan, US",United States,IT Jobs,81238.71,81238.71,1,Unknown,2026-08-24 21:55:17+00:00,0,81238.71,81238.71,False
+5826542905,Data Analyst III,CorVel Career Site,"Irvine, Orange County",United States,IT Jobs,64602.09,64602.09,1,Unknown,2026-08-03 07:15:20+00:00,0,64602.09,64602.09,False
+5826546305,Data Analyst (NY),Excellence Community Schools,"New York City, New York",United States,IT Jobs,59702.46,59702.46,1,Unknown,2026-08-03 07:16:16+00:00,0,59702.46,59702.46,False
+5826550040,Remote Data Analyst,Jobsultant Solutions,"Lewisville, Denton County",United States,IT Jobs,85362.56,85362.56,1,Unknown,2026-08-03 07:17:23+00:00,0,85362.56,85362.56,False
+5854862570,Senior Data Analyst,Bart,"Alabama, US",United States,IT Jobs,101741.59,101741.59,1,Unknown,2026-08-24 21:55:33+00:00,0,101741.59,101741.59,False
+5826550940,Senior Data Analyst,World S Finest Chocolate,"Chicago, Cook County",United States,IT Jobs,128682.37,128682.37,1,Unknown,2026-08-03 07:17:39+00:00,0,128682.37,128682.37,False
+5854865379,Senior Data Analyst,ASRC Federal,"Moorestown, Burlington County",United States,IT Jobs,132517.98,132517.98,1,Unknown,2026-08-24 21:56:43+00:00,0,132517.98,132517.98,False
+5826545580,Senior Data Analyst,Tremendous,"New York City, New York",United States,IT Jobs,249439.44,249439.44,1,Unknown,2026-08-03 07:16:04+00:00,0,249439.44,249439.44,False
+5854853149,Senior Data Analyst,Ansible Government Solutions,"Virginia, US",United States,IT Jobs,83194.9,83194.9,1,Unknown,2026-08-24 21:52:20+00:00,0,83194.9,83194.9,False
+5860712156,Senior Data Analyst,Tive,"Massachusetts, US",United States,IT Jobs,88796.8,88796.8,1,Unknown,2026-08-29 00:01:33+00:00,0,88796.8,88796.8,False
+5826550151,Senior Data Analyst,thatgamecompany,"Los Angeles, Los Angeles County",United States,IT Jobs,158485.78,158485.78,1,Unknown,2026-08-03 07:17:25+00:00,0,158485.78,158485.78,False
+5826543442,Senior Data Analyst,Confido,"New York City, New York",United States,IT Jobs,131906.97,131906.97,1,Unknown,2026-08-03 07:15:29+00:00,0,131906.97,131906.97,False
+5826551006,Junior Data Analyst,Sparks Wiz Limited,"Los Angeles, Los Angeles County",United States,IT Jobs,56659.16,56659.16,1,Unknown,2026-08-03 07:17:40+00:00,0,56659.16,56659.16,False
+5854858125,Senior Data Analyst,Job On Remote Online USA,"New York City, New York",United States,IT Jobs,143182.84,143182.84,1,Unknown,2026-08-24 21:54:12+00:00,0,143182.84,143182.84,False
+5854852584,Data Analyst (On-site),Palmetto Infusion Careers,"South Carolina, US",United States,IT Jobs,76179.93,76179.93,1,Unknown,2026-08-24 21:52:02+00:00,0,76179.93,76179.93,False
+5862744795,Senior Data Analyst,SKIMS,"Los Angeles, Los Angeles County",United States,Scientific & QA Jobs,125129.97,125129.97,1,Unknown,2026-08-31 00:02:43+00:00,0,125129.97,125129.97,False
+5854863707,Data Analyst I,Tanaq Management Services LLC,US,United States,IT Jobs,98668.99,98668.99,1,Unknown,2026-08-24 21:55:53+00:00,0,98668.99,98668.99,False
+5854862614,Data Analyst Lead,Benchmark Analytics,"Chicago, Cook County",United States,IT Jobs,154227.38,154227.38,1,Unknown,2026-08-24 21:55:34+00:00,1,154227.38,154227.38,False
+5860712188,Data Analyst II,Vets Hired,"California, US",United States,IT Jobs,45308.18,45308.18,1,Unknown,2026-08-29 00:01:34+00:00,0,45308.18,45308.18,False
+5854857034,Data Analyst III,NCMIC,"Clive, Polk County",United States,IT Jobs,71676.51,71676.51,1,Unknown,2026-08-24 21:53:57+00:00,0,71676.51,71676.51,False
+5862744994,APS6 Data Analyst,Softtest pays pty,"Virginia, US",United States,IT Jobs,62849.97,62849.97,1,Unknown,2026-08-31 00:02:46+00:00,0,62849.97,62849.97,False
+5857723061,Senior Data Analyst,Highmark Health,"Pennsylvania, US",United States,IT Jobs,69841.2,69841.2,1,Unknown,2026-08-26 22:00:50+00:00,0,69841.2,69841.2,False
+5857722999,Senior Data Analyst,QuinStreet,US,United States,IT Jobs,125121.5,125121.5,1,Unknown,2026-08-26 22:00:49+00:00,0,125121.5,125121.5,False
+5862744770,Senior Data Analyst,Bank of America Corporation,"Charlotte, Mecklenburg County",United States,IT Jobs,93785.25,93785.25,1,Unknown,2026-08-31 00:02:43+00:00,0,93785.25,93785.25,False
+5854864369,Data Analyst I,Augment,"Virginia, US",United States,Admin Jobs,64411.69,64411.69,1,Unknown,2026-08-24 21:56:10+00:00,1,64411.69,64411.69,False
+5854855100,Remote Data Analyst,Jobsultant Solutions,"Pennsylvania, US",United States,HR & Recruitment Jobs,69581.85,69581.85,1,Unknown,2026-08-24 21:53:26+00:00,0,69581.85,69581.85,False
+5854853027,Senior Data Analyst,Narwal,"Ohio, US",United States,IT Jobs,113911.92,113911.92,1,Unknown,2026-08-24 21:52:15+00:00,0,113911.92,113911.92,False
+5854863816,Remote Data Analyst,Jobsultant Solutions,"Colorado, US",United States,IT Jobs,65315.87,65315.87,1,Unknown,2026-08-24 21:55:56+00:00,0,65315.87,65315.87,False
+5854854999,JUNIOR Data Analyst,Job On Remote Online USA,"Pennsylvania, US",United States,IT Jobs,51537.66,51537.66,1,Unknown,2026-08-24 21:53:24+00:00,1,51537.66,51537.66,False
+5854857246,Remote Data Analyst,Recruit Monitor,"Phoenix, Maricopa County",United States,"PR, Advertising & Marketing Jobs",42469.88,42469.88,1,Unknown,2026-08-24 21:54:00+00:00,0,42469.88,42469.88,False
+5826550046,Data Analyst (REMOTE),Arsenault Inc,"Phoenix, Maricopa County",United States,IT Jobs,66073.26,66073.26,1,Unknown,2026-08-03 07:17:23+00:00,0,66073.26,66073.26,False
+5826550109,Remote Data Analyst,Jobsultant Solutions,"Roswell, Fulton County",United States,HR & Recruitment Jobs,68245.52,68245.52,1,Unknown,2026-08-03 07:17:24+00:00,0,68245.52,68245.52,False
