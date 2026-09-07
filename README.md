@@ -120,6 +120,18 @@ Power BI Desktop — connected via live GitHub raw file URLs (Web.Contents)
   └─ 2-page interactive report
 ```
 
+Automation layer (runs independently of the above, on a schedule):
+```text
+GitHub Actions (.github/workflows/refresh_data.yml)
+  ├─ Trigger: every Monday 06:00 UTC, or manual dispatch
+  ├─ Runs: 01_fetch_jobs.py → 02_clean_data.py → 03_load_to_db.py 
+  │        → 04_export_for_dashboard.py
+  └─ Commits refreshed data/, db/, and dashboard/*.csv back to the repo
+        │
+        ▼
+Power BI Desktop reads live from GitHub — a single Refresh always reflects
+the most recent automated run, with no manual file syncing required.
+```
 
 **Why SQL and Python do the heavy lifting, not Power BI:** cleaning, skill 
 extraction, and currency normalization all happen before the data reaches Power 
