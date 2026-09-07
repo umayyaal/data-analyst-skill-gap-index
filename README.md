@@ -14,6 +14,12 @@ extraction, regex-based skill parsing, a normalized SQLite schema, SQL analysis,
 Python EDA (including a caught-and-corrected currency methodology error), and a 
 two-page interactive Power BI dashboard built on custom DAX measures.
 
+The pipeline doesn't stop at a one-time analysis, either — it **refreshes itself**. 
+A scheduled GitHub Actions workflow re-runs the entire extraction-to-export chain 
+every week, with the Power BI dashboard connected directly to the live GitHub-
+hosted output, so a single Refresh always reflects current data rather than a 
+frozen snapshot.
+
 Throughout the project, particular emphasis was placed on **not trusting a number 
 until its sample size was checked** — a habit that surfaced several real, 
 counterintuitive findings, most of them tracing back to structural differences in 
@@ -24,6 +30,7 @@ how India's job market data is reported compared to the US and UK.
 - 3 countries: India, United States, United Kingdom
 - 17 tracked skills, extracted via regex from titles/descriptions
 - 2-page interactive Power BI dashboard with 5 custom DAX measures
+- Fully automated weekly data refresh via GitHub Actions
 
 ## 📑 Table of Contents
 - [Project Overview](#-project-overview)
@@ -88,6 +95,29 @@ The dashboard is built around one central question, unpacked across two pages:
   this distinction visible at a glance rather than letting a misleading number 
   stand alone.
 
+  ### Data Pipeline Automation
+
+This project doesn't just analyze a one-time data pull — it **refreshes itself**.
+
+A scheduled **GitHub Actions workflow** (`.github/workflows/refresh_data.yml`) 
+runs the entire pipeline end-to-end every Monday, with zero manual intervention: 
+pulling fresh postings from the Adzuna API, re-extracting skills, rebuilding the 
+SQLite database, and re-exporting the dashboard-ready CSVs — then committing the 
+updated data straight back to this repo. It can also be triggered on demand from 
+the repo's **Actions** tab.
+
+The Power BI dashboard is wired directly to these CSVs via their GitHub raw file 
+URLs, rather than local file paths. This means a single **Refresh** in Power BI 
+Desktop pulls whatever the most recent automated run produced — no manual file 
+copying or syncing required. The dashboard's "Data Extracted On" and salary-
+coverage figures are themselves computed live via DAX, so they update 
+automatically alongside everything else.
+
+**The one manual step left** is opening Power BI Desktop and clicking Refresh. 
+Fully scheduled, hands-off dashboard refresh would require Power BI Service, 
+which wasn't reachable due to a sign-in/licensing issue hit during this project 
+(see *Dashboard Preview* above) — everything up to that final click is automated.
+
 *(Full findings and caveats for every insight are documented inline in this README 
 and in the notebooks themselves.)*
 
@@ -133,11 +163,14 @@ Power BI Desktop reads live from GitHub — a single Refresh always reflects
 the most recent automated run, with no manual file syncing required.
 ```
 
-**Why SQL and Python do the heavy lifting, not Power BI:** cleaning, skill 
-extraction, and currency normalization all happen before the data reaches Power 
+**Why SQL and Python do the heavy lifting, not Power BI:** 
+Cleaning, skill extraction, and currency normalization all happen before the data reaches Power 
 BI. Power BI's role is deliberately scoped to relational modeling, DAX-driven 
 aggregation, and visualization/storytelling — mirroring how this kind of pipeline 
 is typically split in practice.
+
+**Why the pipeline is automated end-to-end except the final dashboard refresh:**
+GitHub Actions can freely run and commit on a schedule, but pushing a refreshed dataset into a live Power BI report requires Power BI Service (cloud-hosted scheduled refresh) — which requires a signed-in Power BI account. A sign-in/ licensing issue during this project meant that final link couldn't be completed, so a manual Refresh click in Power BI Desktop remains the one non-automated step.
 
 ## 🛠️ Tech Stack
 
@@ -156,51 +189,38 @@ is typically split in practice.
 
 ```text
 ├── README.md
-│
-├── scripts/
-│   ├── 01_fetch_jobs.py
-│   │   └── Adzuna API extraction
-│   │
-│   ├── 02_clean_data.py
-│   │   └── Skill extraction and data cleaning
-│   │
-│   └── 03_load_to_db.py
-│       └── SQLite load and schema creation
-│
+├── .github/
+│   └── workflows/
+│       └── refresh_data.yml            → automated weekly data refresh pipeline
+├── scripts/                             → pipeline scripts, in run order
+│   ├── 01_fetch_jobs.py                 → Adzuna API extraction
+│   ├── 02_clean_data.py                 → skill extraction, cleaning
+│   ├── 03_load_to_db.py                 → SQLite load, schema creation
+│   └── 04_export_for_dashboard.py       → currency normalization, enrichment,
+│                                           dashboard CSV export (also run by
+│                                           the automated workflow above)
 ├── notebooks/
-│   ├── 01_sql_queries.ipynb
-│   │   └── SQL analysis (joins, CTEs, window functions)
-│   │
-│   └── 02_eda.ipynb
-│       └── Python EDA, currency normalization,
-│           and skill co-occurrence analysis
-│
+│   ├── 01_sql_queries.ipynb             → SQL analysis (joins, CTEs, window fns)
+│   └── 02_eda.ipynb                     → Python EDA, currency normalization,
+│                                           co-occurrence analysis (source for
+│                                           the logic in 04_export_for_dashboard.py)
 ├── db/
-│   └── jobs.db
-│       └── SQLite database
-│
+│   └── jobs.db                          → SQLite database
 ├── data/
 │   └── processed/
 │       └── jobs_clean.csv
-│
+├── docs/
+│   └── project_summary.md               → full chronological build log
 └── dashboard/
-    ├── dashboard.pbix
-    │   └── Full interactive Power BI report
-    │
-    ├── jobs.csv
-    │   └── Power BI data source
-    │
-    ├── jobs_skills.csv
-    │   └── Power BI data source
-    │
-    ├── skill_gap_theme.json
-    │   └── Custom Power BI theme
-    │
-    ├── screenshots/
-    │   └── Dashboard page captures
-    │
-    └── images/
-        └── KPI card icons
+    ├── dashboard.pbix                   → full interactive report file
+    │                                       (connected to jobs.csv / jobs_skills.csv
+    │                                       via live GitHub raw URLs, not local paths)
+    ├── jobs.csv / jobs_skills.csv       → Power BI data source (auto-refreshed
+    │                                       weekly by the GitHub Actions workflow)
+    ├── skill_gap_theme.json             → custom Power BI theme
+    ├── screenshots/                     → dashboard page captures (point-in-time
+    │                                       snapshot — see Dashboard Preview)
+    └── images/                          → KPI card icons
 ```
 
 
@@ -251,30 +271,6 @@ is typically split in practice.
 - **The three countries were sampled at equal size by design** (150 postings each) 
   — the dashboard's country distribution chart reflects collection method, not 
   real-world market share, and is captioned accordingly.
-
-### Data Pipeline Automation
-
-This project doesn't just analyze a one-time data pull — it **refreshes itself**.
-
-A scheduled **GitHub Actions workflow** (`.github/workflows/refresh_data.yml`) 
-runs the entire pipeline end-to-end every Monday, with zero manual intervention: 
-pulling fresh postings from the Adzuna API, re-extracting skills, rebuilding the 
-SQLite database, and re-exporting the dashboard-ready CSVs — then committing the 
-updated data straight back to this repo. It can also be triggered on demand from 
-the repo's **Actions** tab.
-
-The Power BI dashboard is wired directly to these CSVs via their GitHub raw file 
-URLs, rather than local file paths. This means the dashboard doesn't just sit on 
-a static snapshot — a single **Refresh** in Power BI Desktop pulls whatever the 
-most recent automated run produced, no manual file copying or syncing required. 
-The "Data Extracted On" and salary-coverage figures shown in the dashboard are 
-themselves computed live from this data via DAX, so they update automatically 
-alongside everything else.
-
-**The one manual step left** is opening Power BI Desktop and clicking Refresh. 
-Fully scheduled, hands-off dashboard refresh would require Power BI Service, 
-which wasn't reachable due to a sign-in/licensing issue hit during this project 
-(see *Dashboard Preview* above) — everything up to that final click is automated.
 
 ## 📬 About
 
