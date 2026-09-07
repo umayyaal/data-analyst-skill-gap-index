@@ -273,7 +273,10 @@ GitHub Actions can freely run and commit on a schedule, but pushing a refreshed 
 
 ## 📬 About
 
+## 📬 About
+
 Built as a portfolio project to demonstrate end-to-end data analyst skills — live 
-API data collection, SQL-based analysis, Python EDA and statistical reasoning, and 
-Power BI dashboard design with custom DAX — using real, messy, live data rather 
-than a pre-cleaned dataset.
+API data collection, SQL-based analysis, Python EDA and statistical reasoning, 
+Power BI dashboard design with custom DAX, and a self-refreshing automated 
+pipeline via GitHub Actions — using real, messy, live data rather than a 
+pre-cleaned dataset.
