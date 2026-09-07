@@ -95,7 +95,7 @@ The dashboard is built around one central question, unpacked across two pages:
   this distinction visible at a glance rather than letting a misleading number 
   stand alone.
 
-  ### Data Pipeline Automation
+## ⚙️ Data Pipeline Automation
 
 This project doesn't just analyze a one-time data pull — it **refreshes itself**.
 
