@@ -176,6 +176,8 @@ GitHub Actions can freely run and commit on a schedule, but pushing a refreshed 
 - **Database:** SQLite
 - **Analysis:** Python (`pandas`, `matplotlib`, `seaborn`), SQL
 - **BI/Visualization:** Power BI Desktop (custom DAX, custom JSON theme)
+- **Automation/CI:** GitHub Actions (scheduled + manual workflow triggers, 
+  secrets management, automated commits)
 - **SQL concepts demonstrated:** `GROUP BY` + aggregation, `INNER JOIN`, CTEs, 
   window functions (`DENSE_RANK() OVER (PARTITION BY ...)`)
 - **DAX concepts demonstrated:** `CALCULATE` and context transition, `SUMMARIZE` + 
