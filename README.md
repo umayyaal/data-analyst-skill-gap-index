@@ -118,9 +118,6 @@ Fully scheduled, hands-off dashboard refresh would require Power BI Service,
 which wasn't reachable due to a sign-in/licensing issue hit during this project 
 (see *Dashboard Preview* above) — everything up to that final click is automated.
 
-*(Full findings and caveats for every insight are documented inline in this README 
-and in the notebooks themselves.)*
-
 ## 🏗️ Architecture
 
 ```text
